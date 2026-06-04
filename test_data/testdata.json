@@ -2,10 +2,10 @@
   "FTTP_TC_Acq": {
     "postcode": "RG141SL",
     "housenum": "5, KERSEY CRESCENT, NEWBURY, RG14 1SL",
-    "speed": "150 Mbps",
+    "speed": "500 Mbps",
     "planpicker": "build",
-    "planname": "Full Fibre 150",
-    "plantype": "nonextra"
+    "planname": "Full Fibre 500 Xtra",
+    "plantype": "extra"
   },
 
   "SOGEA_TC": {
