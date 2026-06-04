@@ -1,0 +1,31 @@
+{
+  "landing_page": {
+    "accept_cookies": "button:has-text('Accept all cookies')",
+    "postcode": "[placeholder='e.g. SE1 0BE']",
+    "check_availability": "button[id='check-availability-submit']"
+  },
+  "address_page": {
+    "address_dropdown": "#address",
+    "new_land_radio_btn": "label[for='lineOption-1']",
+    "recently_moved_radio_btn": "label[for='journeyOption-1']",
+    "view_broadband_plans_btn": "button[aria-label='false']"
+  },
+  "plans_page": {
+    "choose_a_plan": "input[value='preBuilt']",
+    "speed_card": "div[class='sc-kUuIQH euVcxp']",
+    "plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD']",
+    "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
+    "broadband_tv": "span[data-title='Broadband + TV']"
+  },
+  "addon_page": {
+    "continue_btn": "#read-and-agreed"
+  },
+  "setup_page": {
+    "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",
+    "bill_payer_checkbox": "#read-and-agreed",
+    "date_dropdown": "#select",
+    "digital_voice_checkbox": "label[id='digital-voice-checkbox-digitalVoice']",
+    "telecare_checkbox": "label[id='digital-voice-checkbox-telecare']",
+    "goto_basket_btn": "button:has-text('Go to basket')"
+  }
+}

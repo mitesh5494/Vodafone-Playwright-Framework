@@ -1,0 +1,28 @@
+{
+  "FTTP_TC_Acq": {
+    "postcode": "RG141SL",
+    "housenum": "5, KERSEY CRESCENT, NEWBURY, RG14 1SL",
+    "speed": "150 Mbps",
+    "planpicker": "build",
+    "planname": "Full Fibre 150",
+    "plantype": "nonextra"
+  },
+
+  "SOGEA_TC": {
+    "postcode": "RG141SL",
+    "houseNum": "10, KERSEY CRESCENT, NEWBURY, RG14 1SL",
+    "speed": "67 Mbps",
+    "planpicker": "switch",
+    "planname": "Superfast 67",
+    "plantype": "extra"
+  },
+
+  "FTTH_TC": {
+    "postcode": "RG141SL",
+    "houseNum": "15, KERSEY CRESCENT, NEWBURY, RG14 1SL",
+    "speed": "100 Mbps",
+    "planpicker": "build",
+    "planname": "Business Fibre 100",
+    "plantype": "nonextra"
+  }
+}

@@ -1,0 +1,41 @@
+import json
+import time
+
+from playwright.sync_api import Page
+
+from pageobject.addon_page import AddonPage
+from pageobject.address_page import AddressPage
+from pageobject.bbsetup_page import BBSetupPage
+from pageobject.landing_page import LandingPage
+from pageobject.plans_page import PlansPage
+
+from utils.test_data_loader import get_test_data
+
+
+def test_new_acq_order(page: Page):
+    # Json reader
+    data = get_test_data("FTTP_TC_Acq")
+
+    # landing page
+    landing = LandingPage(page)
+    landing.accept_cookies()
+    landing.enter_postcode(data["postcode"])
+    landing.click_check_availability()
+
+    # Address page
+    address = AddressPage(page)
+    address.bbl_view_broadband_plans()
+
+    # plans page
+    plan = PlansPage(page)
+    plan.build_a_plan()
+
+    # Add on page
+    addon = AddonPage(page)
+    addon.continue_to_setup_page()
+
+    # Broadband Setup page
+    setup = BBSetupPage(page)
+    setup.continue_to_basket_page()
+
+    time.sleep(2)
