@@ -32,8 +32,9 @@ def test_new_acq_order(page: Page):
 
     # Add on page
     addon = AddonPage(page)
-    addon.continue_to_setup_page()
     addon.select_addon()
+    addon.continue_to_setup_page()
+
 
     # Broadband Setup page
     setup = BBSetupPage(page)

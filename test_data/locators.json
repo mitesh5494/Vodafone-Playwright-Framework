@@ -18,7 +18,8 @@
     "broadband_tv": "span[data-title='Broadband + TV']"
   },
   "addon_page": {
-    "continue_btn": "#read-and-agreed"
+    "continue_btn": "#read-and-agreed",
+    "addons":"div[class='sc-fOOuSg hZjsvN']"
   },
   "setup_page": {
     "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",
