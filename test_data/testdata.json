@@ -4,8 +4,9 @@
     "housenum": "5, KERSEY CRESCENT, NEWBURY, RG14 1SL",
     "speed": "500 Mbps",
     "planpicker": "build",
-    "planname": "Full Fibre 500 Xtra",
-    "plantype": "extra"
+    "planname": "Full Fibre 500",
+    "plantype": "nonextra",
+    "addon": "International 300"
   },
 
   "SOGEA_TC": {
@@ -14,7 +15,8 @@
     "speed": "67 Mbps",
     "planpicker": "switch",
     "planname": "Superfast 67",
-    "plantype": "extra"
+    "plantype": "extra",
+    "addon": "International 300"
   },
 
   "FTTH_TC": {
@@ -23,6 +25,7 @@
     "speed": "100 Mbps",
     "planpicker": "build",
     "planname": "Business Fibre 100",
-    "plantype": "nonextra"
+    "plantype": "nonextra",
+    "addon": "International 300"
   }
 }
