@@ -5,6 +5,7 @@ from playwright.sync_api import Page
 
 from pageobject.addon_page import AddonPage
 from pageobject.address_page import AddressPage
+from pageobject.basket_page import BasketPage
 from pageobject.bbsetup_page import BBSetupPage
 from pageobject.landing_page import LandingPage
 from pageobject.plans_page import PlansPage
@@ -39,5 +40,10 @@ def test_new_acq_order(page: Page):
     # Broadband Setup page
     setup = BBSetupPage(page)
     setup.continue_to_basket_page()
+
+    #Basket page
+    basket = BasketPage(page)
+    basket.plan_validation()
+    basket.hardware_validation()
 
     time.sleep(2)

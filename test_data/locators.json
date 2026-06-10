@@ -28,5 +28,10 @@
     "digital_voice_checkbox": "label[id='digital-voice-checkbox-digitalVoice']",
     "telecare_checkbox": "label[id='digital-voice-checkbox-telecare']",
     "goto_basket_btn": "button:has-text('Go to basket')"
+  },
+  "basket_page": {
+    "expand_plan": "span[class='sc-elDIKY iyjXhZ']",
+    "equipments_list": "div[data-selector='bullets']:nth-child(3) li span"
+
   }
 }
