@@ -1,6 +1,8 @@
 import pytest
 from playwright.sync_api import sync_playwright
 
+from utils.screenshot_manager import ScreenshotManager
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -53,6 +55,7 @@ def page(browser_instance, request):
 
     context.close()
 
+
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
@@ -61,3 +64,13 @@ def pytest_runtest_makereport(item, call):
         page = item.funcargs.get("page")
         if page:
             page.screenshot(path=f"reports/{item.name}.png")
+
+
+@pytest.fixture
+def report():
+    manager = ScreenshotManager()
+
+    yield manager
+
+    if manager.test_case_name and manager.screenshot_paths:
+        manager.create_word_report()
