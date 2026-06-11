@@ -1,3 +1,5 @@
+import time
+
 from playwright.sync_api import Page, expect
 from pytest_playwright.pytest_playwright import page
 
@@ -6,13 +8,14 @@ from utils.test_data_loader import get_test_data
 
 
 class AddonPage:
-    data = get_test_data("FTTP_TC_Acq")
-    def __init__(self,page:Page):
+    def __init__(self, page: Page, data):
         self.page = page
+        self.data = data
 
 
     def continue_to_setup_page(self):
         self.page.get_by_role("button", name="Continue").click()
+        time.sleep(2)
 
     def select_addon(self):
         add_on_cards=self.page.locator(get_locator("addon_page","addons")).filter(has_text=self.data["addon"],)

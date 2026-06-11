@@ -5,13 +5,22 @@ from utils.locator_loader import get_locator
 
 
 class BasketPage:
-    data = get_test_data("FTTP_TC_Acq")
 
-    def __init__(self, page: Page):
+    def __init__(self, page: Page, data):
         self.page = page
+        self.data = data
+
+    def expand_buttons(self):
+        self.page.get_by_role("button").filter(has=self.page.get_by_text(self.data["planname"])).click()
+
+        add_on = self.page.get_by_role("button").filter(has=self.page.get_by_text("Add Ons"))
+        if add_on.count() > 0:
+            add_on.click()
+        self.page.get_by_role("button").filter(has=self.page.get_by_text("Promotional code")).click()
+        self.page.get_by_role("button").filter(has=self.page.get_by_text("Your discount overview")).click()
+        self.page.get_by_role("button").filter(has=self.page.get_by_text("VAT breakdown")).click()
 
     def plan_validation(self):
-        self.page.get_by_role("button").filter(has=self.page.get_by_text(self.data["planname"])).click()
         expect(self.page.locator("h4").filter(has=self.page.get_by_text(self.data["planname"])))
         hardwares = (self.page.locator("ul [data-component-name='ListGroup']").all_text_contents())
         # print(hardwares)
@@ -32,8 +41,11 @@ class BasketPage:
         assert actual == expected
 
     def hardware_validation(self):
-        equipments = self.page.locator(get_locator("basket_page","equipments_list")).all_text_contents()
+        equipments = self.page.locator(get_locator("basket_page", "equipments_list")).all_text_contents()
 
         cleaned = list(dict.fromkeys([text.strip() for text in equipments if text.strip()]))
 
         print(cleaned)
+
+    def go_to_checkout(self):
+        self.page.get_by_role("button").filter(has=self.page.get_by_text("Go to checkout")).last.click()

@@ -5,13 +5,14 @@ from utils.locator_loader import get_locator
 
 class LandingPage:
 
-    def __init__(self, page:Page):
+    def __init__(self, page: Page):
         self.page = page
 
     def accept_cookies(self):
-        btn = self.page.locator("#onetrust-accept-btn-handler")
+        btn = self.page.locator(get_locator(
+            "landing_page", "accept_cookies"))
         if btn.count() > 0:
-           btn.click()
+            btn.click()
 
     def enter_postcode(self, postcode):
         self.page.locator(

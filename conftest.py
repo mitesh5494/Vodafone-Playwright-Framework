@@ -65,6 +65,24 @@ def pytest_runtest_makereport(item, call):
         if page:
             page.screenshot(path=f"reports/{item.name}.png")
 
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+
+    outcome = yield
+    report_result = outcome.get_result()
+
+    if report_result.when == "call" and report_result.failed:
+
+        page = item.funcargs.get("page")
+        report = item.funcargs.get("report")
+
+        if page and report:
+
+            report.capture_failure(
+                page,
+                str(report_result.longrepr)
+            )
+
 
 @pytest.fixture
 def report():

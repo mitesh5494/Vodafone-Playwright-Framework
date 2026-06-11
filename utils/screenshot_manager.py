@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 from docx import Document
 from docx.shared import Inches
@@ -105,3 +106,34 @@ class ScreenshotManager:
             )
 
         doc.save(report_path)
+
+    def capture_failure(self, page, error_message="Test Failed"):
+        """
+        Capture screenshot when test fails.
+        """
+
+        timestamp = datetime.now().strftime("%H%M%S")
+
+        file_name = (
+            f"{self.counter:02d}_FAILED_{timestamp}.png"
+        )
+
+        file_path = os.path.join(
+            self.screenshot_dir,
+            file_name
+        )
+
+        page.screenshot(
+            path=file_path,
+            full_page=True
+        )
+
+        self.screenshot_paths.append(
+            (
+                self.counter,
+                f"FAILED - {error_message}",
+                file_path
+            )
+        )
+
+        self.counter += 1

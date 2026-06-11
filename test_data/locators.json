@@ -1,6 +1,6 @@
 {
   "landing_page": {
-    "accept_cookies": "button:has-text('Accept all cookies')",
+    "accept_cookies": "#onetrust-accept-btn-handler",
     "postcode": "[placeholder='e.g. SE1 0BE']",
     "check_availability": "button[id='check-availability-submit']"
   },
@@ -19,7 +19,7 @@
   },
   "addon_page": {
     "continue_btn": "#read-and-agreed",
-    "addons":"div[class='sc-fOOuSg hZjsvN']"
+    "addons": "div[class='sc-fOOuSg hZjsvN']"
   },
   "setup_page": {
     "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",
@@ -32,6 +32,14 @@
   "basket_page": {
     "expand_plan": "span[class='sc-elDIKY iyjXhZ']",
     "equipments_list": "div[data-selector='bullets']:nth-child(3) li span"
+  },
+  "checkout_page": {
+    "email": "#email",
+    "firstname": "#firstName",
+    "lastname": "#lastName",
+    "contact_num": "#phoneNumber",
 
+
+    "continue_to_add_detail": "button[aria-label='Continue to Address details panel']"
   }
 }

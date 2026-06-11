@@ -5,10 +5,9 @@ from utils.test_data_loader import get_test_data
 
 
 class PlansPage:
-    data = get_test_data("FTTP_TC_Acq")
-
-    def __init__(self, page: Page):
+    def __init__(self, page: Page, data):
         self.page = page
+        self.data = data
 
     def prebuilt_plans(self):
         if self.data["planpicker"] == "prebuilt":
