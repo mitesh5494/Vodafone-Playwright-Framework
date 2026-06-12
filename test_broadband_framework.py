@@ -65,8 +65,10 @@ def test_fttp_tc_acq(page: Page, report):
     # Checkout page
     checkout = CheckoutPage(page, data)
     checkout.fill_about_you()
-    # report.capture(page, "Checkout Page Customer Details")
     checkout.continue_to_add_detail()
     report.capture(page, "Checkout Page Customer Details")
+    checkout.address_detail()
+    checkout.continue_to_broadband()
+    report.capture(page, "Checkout Page Address Details")
 
     time.sleep(2)

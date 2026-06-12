@@ -57,3 +57,20 @@ class CheckoutPage:
         continue_to_add_detail = self.page.locator(get_locator("checkout_page", "continue_to_add_detail"))
         expect(continue_to_add_detail).to_be_enabled(timeout=10000)
         continue_to_add_detail.click()
+
+    def address_detail(self):
+        self.page.get_by_label(get_locator("checkout_page", "postcode")).fill(self.data["checkout_postcode"])
+        search_postcode=self.page.get_by_text(get_locator("checkout_page", "search_add_btn"))
+        expect(search_postcode).to_be_enabled(timeout=10000)
+        search_postcode.click()
+        self.page.get_by_role("combobox", name="Addresses found").select_option(self.data["checkout_address"])
+        self.page.get_by_role("combobox", name="Residential status").select_option(self.data["Residential_status"])
+        self.page.get_by_placeholder("MM").fill(self.data["Date_you_move_in_dd"])
+        self.page.get_by_placeholder("YYYY").fill(self.data["Date_you_move_in_yyyy"])
+
+    def continue_to_broadband(self):
+        continue_btn = self.page.get_by_text(get_locator("checkout_page", "add_continue_btn"))
+        expect(continue_btn).to_be_enabled(timeout=10000)
+        continue_btn.click()
+
+

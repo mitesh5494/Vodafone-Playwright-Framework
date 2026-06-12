@@ -20,7 +20,7 @@
   "addon_page": {
     "continue_btn": "#read-and-agreed",
     "addons": "div[class='sc-fOOuSg hZjsvN']",
-    "addon_plan": ".sc-iIvHqT.eTiIgX"
+    "addon_plan": "p.sc-iIvHqT.eTiIgX"
   },
   "setup_page": {
     "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",
@@ -39,6 +39,9 @@
     "firstname": "#firstName",
     "lastname": "#lastName",
     "contact_num": "#phoneNumber",
+    "postcode": "Postcode",
+    "search_add_btn": "Search address",
+    "add_continue_btn": "Continue",
 
 
     "continue_to_add_detail": "button[aria-label='Continue to Address details panel']"

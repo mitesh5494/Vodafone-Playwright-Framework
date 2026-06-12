@@ -19,6 +19,7 @@ class AddonPage:
 
 
 
+
     def select_addon(self):
         add_on_cards = self.page.locator(get_locator("addon_page", "addons")).filter(has_text=self.data["addon"], )
         add_on_cards.get_by_role("button", name="Add").click()
