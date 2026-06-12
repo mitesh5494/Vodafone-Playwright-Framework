@@ -28,16 +28,22 @@ class ScreenshotManager:
 
     def capture(self, page, step_name):
         """
-        Capture screenshot and store path.
+        Capture screenshot and store path with timestamp.
         """
         if not self.screenshot_dir:
             raise Exception(
                 "start_test() must be called before capture()."
             )
 
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp_for_file = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
         safe_step_name = step_name.replace(" ", "_")
 
-        file_name = f"{self.counter:02d}_{safe_step_name}.png"
+        file_name = (
+            f"{self.counter:02d}_{safe_step_name}_"
+            f"{timestamp_for_file}.png"
+        )
 
         file_path = os.path.join(
             self.screenshot_dir,
@@ -53,6 +59,7 @@ class ScreenshotManager:
             (
                 self.counter,
                 step_name,
+                timestamp,
                 file_path
             )
         )
@@ -61,7 +68,7 @@ class ScreenshotManager:
 
     def create_word_report(self, test_case_name=None):
         """
-        Create Word report with all screenshots.
+        Create Word report with all screenshots and timestamps.
         """
         if test_case_name:
             self.test_case_name = test_case_name
@@ -90,7 +97,7 @@ class ScreenshotManager:
             level=1
         )
 
-        for step_no, step_name, image_path in self.screenshot_paths:
+        for step_no, step_name, timestamp, image_path in self.screenshot_paths:
 
             if not os.path.exists(image_path):
                 continue
@@ -100,6 +107,10 @@ class ScreenshotManager:
                 level=2
             )
 
+            doc.add_paragraph(
+                f"Timestamp: {timestamp}"
+            )
+
             doc.add_picture(
                 image_path,
                 width=Inches(5.5)
@@ -107,15 +118,23 @@ class ScreenshotManager:
 
         doc.save(report_path)
 
+        print(f"Word report generated: {report_path}")
+
     def capture_failure(self, page, error_message="Test Failed"):
         """
         Capture screenshot when test fails.
         """
+        if not self.screenshot_dir:
+            raise Exception(
+                "start_test() must be called before capture_failure()."
+            )
 
-        timestamp = datetime.now().strftime("%H%M%S")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp_for_file = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
         file_name = (
-            f"{self.counter:02d}_FAILED_{timestamp}.png"
+            f"{self.counter:02d}_FAILED_"
+            f"{timestamp_for_file}.png"
         )
 
         file_path = os.path.join(
@@ -132,6 +151,7 @@ class ScreenshotManager:
             (
                 self.counter,
                 f"FAILED - {error_message}",
+                timestamp,
                 file_path
             )
         )

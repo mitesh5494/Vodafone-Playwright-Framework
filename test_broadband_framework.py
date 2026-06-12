@@ -35,13 +35,15 @@ def test_fttp_tc_acq(page: Page, report):
 
     # plans page
     plan = PlansPage(page, data)
-
     plan.build_a_plan()
     report.capture(page, "Plans Page")
+
+
 
     # Add on page
     addon = AddonPage(page, data)
     # addon.select_addon()
+    addon.plan_validation()
     report.capture(page, "Addons Page")
     addon.continue_to_setup_page()
 
@@ -60,10 +62,10 @@ def test_fttp_tc_acq(page: Page, report):
     basket.hardware_validation()
     basket.go_to_checkout()
 
-    #Checkout page
-    checkout=CheckoutPage(page,data)
+    # Checkout page
+    checkout = CheckoutPage(page, data)
     checkout.fill_about_you()
-    #report.capture(page, "Checkout Page Customer Details")
+    # report.capture(page, "Checkout Page Customer Details")
     checkout.continue_to_add_detail()
     report.capture(page, "Checkout Page Customer Details")
 

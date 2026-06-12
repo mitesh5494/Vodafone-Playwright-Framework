@@ -34,7 +34,9 @@ def browser_instance(request):
         browser = playwright.webkit.launch(headless=False)
 
     else:
-        raise ValueError(f"Unsupported browser: {browser_name}")
+        raise ValueError(
+            f"Unsupported browser: {browser_name}"
+        )
 
     yield browser
 
@@ -47,6 +49,7 @@ def page(browser_instance, request):
     urlname = request.config.getoption("--url")
 
     context = browser_instance.new_context()
+
     page = context.new_page()
 
     page.goto(urlname)
@@ -56,39 +59,40 @@ def page(browser_instance, request):
     context.close()
 
 
-@pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    outcome = yield
-    report = outcome.get_result()
-    if report.when == "call" and report.failed:
-        page = item.funcargs.get("page")
-        if page:
-            page.screenshot(path=f"reports/{item.name}.png")
-
-@pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-
-    outcome = yield
-    report_result = outcome.get_result()
-
-    if report_result.when == "call" and report_result.failed:
-
-        page = item.funcargs.get("page")
-        report = item.funcargs.get("report")
-
-        if page and report:
-
-            report.capture_failure(
-                page,
-                str(report_result.longrepr)
-            )
-
-
 @pytest.fixture
 def report():
+    """
+    Screenshot manager fixture.
+    Creates Word report automatically after test execution.
+    """
     manager = ScreenshotManager()
 
     yield manager
 
     if manager.test_case_name and manager.screenshot_paths:
         manager.create_word_report()
+
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    """
+    Automatically capture failure screenshot
+    and add it to Word report.
+    """
+
+    outcome = yield
+    report_result = outcome.get_result()
+
+    if (
+            report_result.when == "call"
+            and report_result.failed
+    ):
+
+        page = item.funcargs.get("page")
+        report = item.funcargs.get("report")
+
+        if page and report:
+            report.capture_failure(
+                page,
+                str(report_result.longrepr)
+            )
