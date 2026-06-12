@@ -14,7 +14,9 @@ class AddonPage:
         self.data = data
 
     def plan_validation(self):
-        plan =self.page.locator(get_locator("addon_page","addon_plan"))
+        #plan =self.page.locator(get_locator("addon_page","addon_plan"))
+        #expect(plan).to_have_text(self.data["planname"])
+        plan=self.page.get_by_text(self.data["planname"], exact=True)
         expect(plan).to_have_text(self.data["planname"])
 
 

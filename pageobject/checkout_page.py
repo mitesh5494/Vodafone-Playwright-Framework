@@ -73,4 +73,22 @@ class CheckoutPage:
         expect(continue_btn).to_be_enabled(timeout=10000)
         continue_btn.click()
 
+    def choose_your_delivery_address_and_continue_to_payment(self):
+        if self.data["Checkout_delivery_add"]== "installation":
+            self.page.get_by_role("heading", name="Installation address").check()
+        else:
+            self.page.get_by_role("button", name="Continue to Monthly payment panel").click()
+
+    def bank_acc_details_and_continue(self):
+        self.page.get_by_role("textbox", name="Account holder name").fill(self.data["checkout_account_holder_name"])
+        self.page.get_by_label("Account number", exact=True).fill(self.data["checkout_account_number"])
+        self.page.get_by_label("1 of 3").fill(self.data["checkout_sortcode1"])
+        self.page.get_by_label("2 of 3").fill(self.data["checkout_sortcode2"])
+        self.page.get_by_label("3 of 3").fill(self.data["checkout_sortcode3"])
+        self.page.locator(get_locator("checkout_page","checkout_checkbox_I_agree_to_the_Direct_Debit")).check()
+        continue_to_add_detail= self.page.get_by_role("button", name="Continue to Additional details panel")
+        expect(continue_to_add_detail).to_be_enabled(timeout=10000)
+        continue_to_add_detail.click()
+
+
 
