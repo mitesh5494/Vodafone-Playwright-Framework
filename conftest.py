@@ -1,3 +1,5 @@
+import os
+
 import pytest
 from playwright.sync_api import sync_playwright
 
@@ -24,18 +26,23 @@ def browser_instance(request):
 
     playwright = sync_playwright().start()
 
+    is_ci = os.getenv("CI") == "true"
+
+    headless = True if is_ci else False
+
     if browser_name == "chrom":
-        browser = playwright.chromium.launch(headless=False)
+        browser = playwright.chromium.launch(
+            headless=headless
+        )
 
     elif browser_name == "firefox":
-        browser = playwright.firefox.launch(headless=False)
-
-    elif browser_name == "webkit":
-        browser = playwright.webkit.launch(headless=False)
+        browser = playwright.firefox.launch(
+            headless=headless
+        )
 
     else:
-        raise ValueError(
-            f"Unsupported browser: {browser_name}"
+        browser = playwright.chromium.launch(
+            headless=headless
         )
 
     yield browser
