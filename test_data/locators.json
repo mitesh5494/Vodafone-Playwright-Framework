@@ -13,9 +13,24 @@
   "plans_page": {
     "choose_a_plan": "input[value='preBuilt']",
     "speed_card": "div[class='sc-kUuIQH euVcxp']",
-    "plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD']",
+    "plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD]",
+    "broadband_plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD']",
     "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
-    "broadband_tv": "span[data-title='Broadband + TV']"
+    "broadband_tv": "span[data-title='Broadband + TV']",
+    "simo_plan_card": "div[data-component-name='SingleColumnCard']",
+    "device_card": ""
+  },
+  "device_variants_page": {
+    "new_customer": "",
+    "build_your_plan": "",
+    "contract_24": "",
+    "device_plan_card": "",
+    "continue_without_tradein": "",
+    "continue_btn": ""
+  },
+  "airtime_page": {
+    "airtime_plan": "",
+    "continue_btn": ""
   },
   "addon_page": {
     "continue_btn": "#read-and-agreed",

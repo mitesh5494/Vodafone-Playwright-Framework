@@ -17,7 +17,9 @@ class BasketPage:
         if add_on.count() > 0:
             add_on.click()
         self.page.get_by_role("button").filter(has=self.page.get_by_text("Promotional code")).click()
-        self.page.get_by_role("button").filter(has=self.page.get_by_text("Your discount overview")).click()
+        discount=self.page.get_by_role("button").filter(has=self.page.get_by_text("Your discount overview"))
+        if discount.count() > 0:
+            discount.click()
         self.page.get_by_role("button").filter(has=self.page.get_by_text("VAT breakdown")).click()
 
     def plan_validation(self):

@@ -11,8 +11,9 @@ class LandingPage:
     def accept_cookies(self):
         btn = self.page.locator(get_locator(
             "landing_page", "accept_cookies"))
-        if btn.count() > 0:
-            btn.click()
+        btn.wait_for(state="visible")
+        #if btn.count() > 0:
+        btn.click()
 
     def enter_postcode(self, postcode):
         self.page.locator(

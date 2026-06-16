@@ -52,11 +52,11 @@ class CheckoutPage:
         self.page.get_by_placeholder("YYYY").fill(
             self.data["checkout_yyyy"]
         )
-
-    def continue_to_add_detail(self):
         continue_to_add_detail = self.page.locator(get_locator("checkout_page", "continue_to_add_detail"))
         expect(continue_to_add_detail).to_be_enabled(timeout=10000)
         continue_to_add_detail.click()
+
+
 
     def address_detail(self):
         self.page.get_by_label(get_locator("checkout_page", "postcode")).fill(self.data["checkout_postcode"])
@@ -86,7 +86,7 @@ class CheckoutPage:
         self.page.get_by_label("2 of 3").fill(self.data["checkout_sortcode2"])
         self.page.get_by_label("3 of 3").fill(self.data["checkout_sortcode3"])
         self.page.locator(get_locator("checkout_page","checkout_checkbox_I_agree_to_the_Direct_Debit")).check()
-        continue_to_add_detail= self.page.get_by_role("button", name="Continue to Additional details panel")
+        continue_to_add_detail= self.page.get_by_role("button", name="Continue")
         expect(continue_to_add_detail).to_be_enabled(timeout=10000)
         continue_to_add_detail.click()
 
