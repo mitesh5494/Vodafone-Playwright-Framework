@@ -18,19 +18,28 @@
     "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
     "broadband_tv": "span[data-title='Broadband + TV']",
     "simo_plan_card": "div[data-component-name='SingleColumnCard']",
-    "device_card": ""
+    "device_card": "div[data-component-name='SingleColumnCard']"
   },
   "device_variants_page": {
     "new_customer": "",
-    "build_your_plan": "",
-    "contract_24": "",
-    "device_plan_card": "",
-    "continue_without_tradein": "",
+    "select_colour_dropdown": "#selectedColor",
+    "select_capacity_dropdown": "#selectedCapacity-wrapper",
+    "build_your_plan": "Build your own plan",
+    "contract_24": "24 months",
+    "device_plan_card": "div[data-component-name='CardBuilder']",
+    "continue_without_tradein": "Continue without trade in",
     "continue_btn": ""
   },
-  "airtime_page": {
-    "airtime_plan": "",
-    "continue_btn": ""
+  "phoneplan_page": {
+    "24_contract": "Min 24 months",
+    "tenure_picker": "div[data-selector='tenure-stepper'] div[role='listbox'] h2",
+    "tenure_minus_btn": "minus contract length",
+    "continue_btn": "button[aria-label='Continue']"
+  },
+  "airtimeplan_page": {
+    "airtime_plan_card": "div[data-selector='new-airtime-plans-cards-single-column-card']",
+    "plan_data_filter": "input[data-selector='plans-data-filters-input']"
+
   },
   "addon_page": {
     "continue_btn": "#read-and-agreed",

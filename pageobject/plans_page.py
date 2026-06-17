@@ -111,5 +111,9 @@ class PlansPage:
 
     def select_handset(self):
 
-        device = (self.page.locator(get_locator("plans_page", "device_card")).filter(has_text=self.data["device_name"]))
-        device.click()
+        device = (self.page.locator(get_locator("plans_page", "device_card")).filter(
+            has=self.page.get_by_text(self.data["device_name"], exact=True))
+        )
+        device.wait_for(state="visible")
+
+        device.first.click()

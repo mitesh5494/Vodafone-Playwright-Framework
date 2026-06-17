@@ -35,10 +35,31 @@ class ScreenshotManager:
                 "start_test() must be called before capture()."
             )
 
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        timestamp_for_file = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        # Wait until page is rendered
+        page.wait_for_load_state("domcontentloaded")
 
-        safe_step_name = step_name.replace(" ", "_")
+        try:
+            page.wait_for_load_state(
+                "networkidle",
+                timeout=5000
+            )
+        except Exception:
+            pass
+
+        page.wait_for_timeout(1500)
+
+        timestamp = datetime.now().strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+        timestamp_for_file = datetime.now().strftime(
+            "%Y-%m-%d_%H-%M-%S"
+        )
+
+        safe_step_name = step_name.replace(
+            " ",
+            "_"
+        )
 
         file_name = (
             f"{self.counter:02d}_{safe_step_name}_"
@@ -83,7 +104,10 @@ class ScreenshotManager:
             self.test_case_name
         )
 
-        os.makedirs(report_dir, exist_ok=True)
+        os.makedirs(
+            report_dir,
+            exist_ok=True
+        )
 
         report_path = os.path.join(
             report_dir,
@@ -97,9 +121,16 @@ class ScreenshotManager:
             level=1
         )
 
-        for step_no, step_name, timestamp, image_path in self.screenshot_paths:
+        for (
+            step_no,
+            step_name,
+            timestamp,
+            image_path
+        ) in self.screenshot_paths:
 
-            if not os.path.exists(image_path):
+            if not os.path.exists(
+                image_path
+            ):
                 continue
 
             doc.add_heading(
@@ -116,11 +147,19 @@ class ScreenshotManager:
                 width=Inches(5.5)
             )
 
-        doc.save(report_path)
+        doc.save(
+            report_path
+        )
 
-        print(f"Word report generated: {report_path}")
+        print(
+            f"Word report generated: {report_path}"
+        )
 
-    def capture_failure(self, page, error_message="Test Failed"):
+    def capture_failure(
+        self,
+        page,
+        error_message="Test Failed"
+    ):
         """
         Capture screenshot when test fails.
         """
@@ -129,8 +168,21 @@ class ScreenshotManager:
                 "start_test() must be called before capture_failure()."
             )
 
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        timestamp_for_file = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        page.wait_for_load_state(
+            "domcontentloaded"
+        )
+
+        page.wait_for_timeout(
+            1000
+        )
+
+        timestamp = datetime.now().strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+        timestamp_for_file = datetime.now().strftime(
+            "%Y-%m-%d_%H-%M-%S"
+        )
 
         file_name = (
             f"{self.counter:02d}_FAILED_"

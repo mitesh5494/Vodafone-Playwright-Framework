@@ -119,15 +119,16 @@
     "checkout_sortcode2": "00",
     "checkout_sortcode3": "00"
   },
-  "handset_tc_acq": {
+  "handsetpaym_tc_acq": {
     "product": "handset",
     "postcode": "SW1A1AA",
-    "device_name": "iPhone 18",
-    "planpicker": "prebuilt",
-    "colour": "Black",
-    "capacity": "256GB",
-    "contract": "24",
-    "planname": "Unlimited Plus",
+    "device_name": "Apple iPhone 17",
+    "planpicker": "build",
+    "colour": "",
+    "capacity": "512GB",
+    "contract": "25",
+    "deviceplandata": "30GB",
+    "deviceplan": "30GB Premier",
     "checkout_customer_type": "Myself or my family",
     "checkout_email": "mitesh5494@gmail.com",
     "checkout_customer_title": "Mr.",
