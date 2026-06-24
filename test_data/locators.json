@@ -6,7 +6,7 @@
   },
   "address_page": {
     "address_dropdown": "#address",
-    "new_land_radio_btn": "label[for='lineOption-1']",
+      "new_land_radio_btn": "label[for='lineOption-1']",
     "recently_moved_radio_btn": "label[for='journeyOption-1']",
     "view_broadband_plans_btn": "button[aria-label='false']"
   },

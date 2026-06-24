@@ -22,7 +22,7 @@ class AddonPage:
 
 
 
-    def select_addon(self):
+    def select_hbb_addon(self):
         add_on_cards = self.page.locator(get_locator("addon_page", "addons")).filter(has_text=self.data["addon"], )
         add_on_cards.get_by_role("button", name="Add").click()
         expect(
@@ -32,3 +32,9 @@ class AddonPage:
     def continue_to_setup_page(self):
         self.page.locator(".sc-iIvHqT.eTiIgX").text_content()
         self.page.get_by_role("button", name="Continue").click()
+
+
+    def select_handset_addon(self):
+        print("select_handset_addon")
+
+

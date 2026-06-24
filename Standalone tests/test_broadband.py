@@ -44,4 +44,6 @@ def test_new_acq_order(page: Page):
     page.locator("label[id='digital-voice-checkbox-telecare'] p[class='sc-iIvHqT czvOrG']").check()
     page.get_by_role("button", name="Go to basket").click()
 
+
+
     time.sleep(2)
