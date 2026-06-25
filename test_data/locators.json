@@ -39,12 +39,17 @@
   "airtimeplan_page": {
     "airtime_plan_card": "div[data-selector='new-airtime-plans-cards-single-column-card']",
     "plan_data_filter": "input[data-selector='plans-data-filters-input']"
-
   },
   "addon_page": {
     "continue_btn": "#read-and-agreed",
     "addons": "div[class='sc-fOOuSg hZjsvN']",
-    "addon_plan": "p.sc-iIvHqT.eTiIgX"
+    "addon_plan": "p.sc-iIvHqT.eTiIgX",
+    "handset_addon_acce_watch_card": ".sc-nuIvE.boJemr",
+    "addon_popup": "div[aria-live='off']"
+  },
+  "sticky_basket": {
+    "basket_summary_continue_btn": "button[data-selector='basket-summary-template-continue-button-button']"
+
   },
   "setup_page": {
     "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",

@@ -9,7 +9,7 @@ from pageobject.plans_page import PlansPage
 from utils.test_data_loader import get_test_data
 
 
-def test_simo_tc_acq(page:Page, report):
+def test_simo_tc_acq(page: Page, report):
     # json reader and report
     test_case_name = "simo_tc_acq"
     report.start_test(test_case_name)
@@ -25,22 +25,14 @@ def test_simo_tc_acq(page:Page, report):
 
     # Basket page
     basket = BasketPage(page, data)
-    basket.expand_buttons()
+    basket.basket_expand_arrows()
     report.capture(page, "Basket Page")
-    basket.plan_validation()
-    basket.hardware_validation()
+    basket.basket_validation()
     basket.go_to_checkout()
 
     # Checkout page
     checkout = CheckoutPage(page, data)
-    checkout.fill_about_you()
-    report.capture(page, "Checkout Page Customer Details")
-    checkout.address_detail()
-    checkout.continue_to_broadband()
-    report.capture(page, "Checkout Page Address Details")
-    checkout.choose_your_delivery_address_and_continue_to_payment()
-    report.capture(page, "Checkout Page Delivery Details")
-    checkout.bank_acc_details_and_continue()
-    report.capture(page, "Checkout Page Bank Details")
+    checkout.checkout()
+    report.capture(page, "Checkout Page")
 
     time.sleep(2)

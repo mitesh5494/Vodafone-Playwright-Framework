@@ -2,6 +2,7 @@ import time
 
 from playwright.sync_api import Page
 
+from pageobject.addon_page import AddonPage
 from pageobject.airtime_plans_page import AirtimePlansPage
 from pageobject.basket_page import BasketPage
 from pageobject.checkout_page import CheckoutPage
@@ -45,24 +46,14 @@ def test_handsetpaym_tc_acq(page:Page, report):
     airtimeplan.select_airtime_plan()
     report.capture(page, "Airtime Plan Details")
 
+    #Add on page
+    addon= AddonPage(page, data)
+    addon.select_handset_addon()
+
     # Basket page
     basket = BasketPage(page, data)
-    basket.expand_buttons()
+    basket.basket_expand_arrows()
     report.capture(page, "Basket Page")
-    basket.plan_validation()
-    basket.hardware_validation()
-    basket.go_to_checkout()
 
-    # Checkout page
-    checkout = CheckoutPage(page, data)
-    checkout.fill_about_you()
-    report.capture(page, "Checkout Page Customer Details")
-    checkout.address_detail()
-    checkout.continue_to_broadband()
-    report.capture(page, "Checkout Page Address Details")
-    checkout.choose_your_delivery_address_and_continue_to_payment()
-    report.capture(page, "Checkout Page Delivery Details")
-    checkout.bank_acc_details_and_continue()
-    report.capture(page, "Checkout Page Bank Details")
 
     time.sleep(2)

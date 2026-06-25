@@ -10,37 +10,40 @@ class BasketPage:
         self.page = page
         self.data = data
 
-    def expand_buttons(self):
-        self.page.get_by_role("button").filter(has=self.page.get_by_text(self.data["planname"])).click()
+    def basket_expand_arrows(self):
+        selector = "#basket-fed-module-styles-container .sc-tOkKi.jMzKTg svg"
 
-        add_on = self.page.get_by_role("button").filter(has=self.page.get_by_text("Add Ons"))
-        if add_on.count() > 0:
-            add_on.click()
-        self.page.get_by_role("button").filter(has=self.page.get_by_text("Promotional code")).click()
-        discount=self.page.get_by_role("button").filter(has=self.page.get_by_text("Your discount overview"))
-        if discount.count() > 0:
-            discount.click()
-        self.page.get_by_role("button").filter(has=self.page.get_by_text("VAT breakdown")).click()
+        self.page.wait_for_selector(selector)
+
+        while True:
+
+            arrows = self.page.locator(selector)
+
+            count = arrows.count()
+
+            if count == 0:
+                break
+
+            arrows.last.click(force=True)
+
+            self.page.wait_for_timeout(1000)
+
+    def basket_validation(self):
+        if self.data["product"] == "broadband":
+            self.plan_validation()
+            self.hardware_validation()
+
+
+        elif self.data["product"] == "simo":
+            self.plan_validation()
+
+        elif self.data["product"] == "handset":
+            self.plan_validation()
 
     def plan_validation(self):
         expect(self.page.locator("h4").filter(has=self.page.get_by_text(self.data["planname"])))
         hardwares = (self.page.locator("ul [data-component-name='ListGroup']").all_text_contents())
         # print(hardwares)
-
-    def image_validation(self):
-        expected = [
-            "Ultra Hub with WiFi 7",
-            "Super WiFi 7",
-            "4G Broadband Back-up"
-        ]
-
-        actual = self.page.locator(
-            "div[data-selector='package-body'] picture img[alt]"
-        ).evaluate_all(
-            "(els) => [...new Set(els.map(e => e.alt))]"
-        )
-
-        assert actual == expected
 
     def hardware_validation(self):
         equipments = self.page.locator(get_locator("basket_page", "equipments_list")).all_text_contents()

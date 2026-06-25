@@ -1,3 +1,5 @@
+from itertools import product
+
 from playwright.sync_api import Page, expect
 
 from utils.locator_loader import get_locator
@@ -8,6 +10,26 @@ class CheckoutPage:
     def __init__(self, page: Page, data):
         self.page = page
         self.data = data
+
+    def checkout(self):
+        self.fill_about_you()
+        if self.data["product"]=="broadband":
+            self.address_detail()
+            self.continue_btn()
+            self.choose_your_delivery_address_and_continue_to_payment()
+            self.bank_acc_details_and_continue()
+
+        elif self.data["product"]=="simo":
+            self.address_detail()
+            self.continue_btn()
+            self.choose_your_delivery_address_and_continue_to_payment()
+            self.bank_acc_details_and_continue()
+
+        elif self.data["product"]=="handset":
+
+            self.bank_acc_details_and_continue()
+
+
 
     def fill_about_you(self):
         self.page.get_by_role(
@@ -68,7 +90,7 @@ class CheckoutPage:
         self.page.get_by_placeholder("MM").fill(self.data["Date_you_move_in_dd"])
         self.page.get_by_placeholder("YYYY").fill(self.data["Date_you_move_in_yyyy"])
 
-    def continue_to_broadband(self):
+    def continue_btn(self):
         continue_btn = self.page.get_by_text(get_locator("checkout_page", "add_continue_btn"))
         expect(continue_btn).to_be_enabled(timeout=10000)
         continue_btn.click()
