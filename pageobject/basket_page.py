@@ -30,22 +30,22 @@ class BasketPage:
 
     def basket_validation(self):
         if self.data["product"] == "broadband":
-            self.plan_validation()
-            self.hardware_validation()
+            self.__plan_validation()
+            self.__hardware_validation()
 
 
         elif self.data["product"] == "simo":
-            self.plan_validation()
+            self.__plan_validation()
 
         elif self.data["product"] == "handset":
-            self.plan_validation()
+            self.__plan_validation()
 
-    def plan_validation(self):
+    def __plan_validation(self):
         expect(self.page.locator("h4").filter(has=self.page.get_by_text(self.data["planname"])))
         hardwares = (self.page.locator("ul [data-component-name='ListGroup']").all_text_contents())
         # print(hardwares)
 
-    def hardware_validation(self):
+    def __hardware_validation(self):
         equipments = self.page.locator(get_locator("basket_page", "equipments_list")).all_text_contents()
 
         cleaned = list(dict.fromkeys([text.strip() for text in equipments if text.strip()]))

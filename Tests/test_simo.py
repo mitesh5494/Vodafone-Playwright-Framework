@@ -30,9 +30,11 @@ def test_simo_tc_acq(page: Page, report):
     basket.basket_validation()
     basket.go_to_checkout()
 
+
     # Checkout page
     checkout = CheckoutPage(page, data)
     checkout.checkout()
     report.capture(page, "Checkout Page")
+
 
     time.sleep(2)

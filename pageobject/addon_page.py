@@ -13,13 +13,14 @@ class AddonPage:
         self.page = page
         self.data = data
 
-    def plan_validation(self):
+    def __plan_validation(self):
         # plan =self.page.locator(get_locator("addon_page","addon_plan"))
         # expect(plan).to_have_text(self.data["planname"])
         plan = self.page.get_by_text(self.data["planname"], exact=True)
         expect(plan).to_have_text(self.data["planname"])
 
     def select_hbb_addon(self):
+        self.__plan_validation()
         add_on_cards = self.page.locator(get_locator("addon_page", "addons")).filter(has_text=self.data["addon"], )
         add_on_cards.get_by_role("button", name="Add").click()
         expect(

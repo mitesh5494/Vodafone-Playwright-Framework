@@ -12,26 +12,24 @@ class CheckoutPage:
         self.data = data
 
     def checkout(self):
-        self.fill_about_you()
-        if self.data["product"]=="broadband":
-            self.address_detail()
+        self.__fill_about_you()
+        if self.data["product"] == "broadband":
+            self.__address_detail()
             self.continue_btn()
-            self.choose_your_delivery_address_and_continue_to_payment()
-            self.bank_acc_details_and_continue()
+            self.__choose_your_delivery_address_and_continue_to_payment()
+            self.__bank_acc_details_and_continue()
 
-        elif self.data["product"]=="simo":
-            self.address_detail()
+        elif self.data["product"] == "simo":
+            self.__address_detail()
             self.continue_btn()
-            self.choose_your_delivery_address_and_continue_to_payment()
-            self.bank_acc_details_and_continue()
+            self.__choose_your_delivery_address_and_continue_to_payment()
+            self.__bank_acc_details_and_continue()
 
-        elif self.data["product"]=="handset":
+        elif self.data["product"] == "handset":
 
-            self.bank_acc_details_and_continue()
+            self.__bank_acc_details_and_continue()
 
-
-
-    def fill_about_you(self):
+    def __fill_about_you(self):
         self.page.get_by_role(
             "combobox",
             name="Who are you buying for today?"
@@ -78,11 +76,9 @@ class CheckoutPage:
         expect(continue_to_add_detail).to_be_enabled(timeout=10000)
         continue_to_add_detail.click()
 
-
-
-    def address_detail(self):
+    def __address_detail(self):
         self.page.get_by_label(get_locator("checkout_page", "postcode")).fill(self.data["checkout_postcode"])
-        search_postcode=self.page.get_by_text(get_locator("checkout_page", "search_add_btn"))
+        search_postcode = self.page.get_by_text(get_locator("checkout_page", "search_add_btn"))
         expect(search_postcode).to_be_enabled(timeout=10000)
         search_postcode.click()
         self.page.get_by_role("combobox", name="Addresses found").select_option(self.data["checkout_address"])
@@ -95,22 +91,19 @@ class CheckoutPage:
         expect(continue_btn).to_be_enabled(timeout=10000)
         continue_btn.click()
 
-    def choose_your_delivery_address_and_continue_to_payment(self):
-        if self.data["Checkout_delivery_add"]== "installation":
+    def __choose_your_delivery_address_and_continue_to_payment(self):
+        if self.data["Checkout_delivery_add"] == "installation":
             self.page.get_by_role("heading", name="Installation address").check()
         else:
             self.page.get_by_role("button", name="Continue to Monthly payment panel").click()
 
-    def bank_acc_details_and_continue(self):
+    def __bank_acc_details_and_continue(self):
         self.page.get_by_role("textbox", name="Account holder name").fill(self.data["checkout_account_holder_name"])
         self.page.get_by_label("Account number", exact=True).fill(self.data["checkout_account_number"])
         self.page.get_by_label("1 of 3").fill(self.data["checkout_sortcode1"])
         self.page.get_by_label("2 of 3").fill(self.data["checkout_sortcode2"])
         self.page.get_by_label("3 of 3").fill(self.data["checkout_sortcode3"])
-        self.page.locator(get_locator("checkout_page","checkout_checkbox_I_agree_to_the_Direct_Debit")).check()
-        continue_to_add_detail= self.page.get_by_role("button", name="Continue")
+        self.page.locator(get_locator("checkout_page", "checkout_checkbox_I_agree_to_the_Direct_Debit")).check()
+        continue_to_add_detail = self.page.get_by_role("button", name="Continue")
         expect(continue_to_add_detail).to_be_enabled(timeout=10000)
         continue_to_add_detail.click()
-
-
-

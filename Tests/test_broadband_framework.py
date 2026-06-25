@@ -40,7 +40,7 @@ def test_fttp_tc_acq(page: Page, report):
     # Add on page
     addon = AddonPage(page, data)
     addon.select_hbb_addon()
-    addon.plan_validation()
+
     report.capture(page, "Addons Page")
     addon.continue_to_setup_page()
 
@@ -92,7 +92,7 @@ def test_ftth_tc_acq(page: Page, report):
     # Add on page
     addon = AddonPage(page, data)
     # addon.select_addon()
-    addon.plan_validation()
+    addon.__plan_validation()
     report.capture(page, "Addons Page")
     addon.continue_to_setup_page()
 
@@ -106,7 +106,7 @@ def test_ftth_tc_acq(page: Page, report):
     basket = BasketPage(page, data)
     basket.basket_expand_arrows()
     report.capture(page, "Basket Page")
-    basket.basket_validation()
+    basket.__basket_validation()
     basket.go_to_checkout()
 
     # Checkout page
@@ -144,7 +144,7 @@ def test_sogea_tc_acq(page: Page, report):
     # Add on page
     addon = AddonPage(page, data)
     # addon.select_addon()
-    addon.plan_validation()
+    addon.__plan_validation()
     report.capture(page, "Addons Page")
     addon.continue_to_setup_page()
 
@@ -158,7 +158,7 @@ def test_sogea_tc_acq(page: Page, report):
     basket = BasketPage(page, data)
     basket.basket_expand_arrows()
     report.capture(page, "Basket Page")
-    basket.basket_validation()
+    basket.__basket_validation()
     basket.go_to_checkout()
 
     # Checkout page

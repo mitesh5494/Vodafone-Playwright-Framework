@@ -9,11 +9,7 @@ class AddressPage:
         self.page = page
         self.data = data
 
-
-
     def bbl_view_broadband_plans(self):
-       # self.page.locator(
-            #get_locator("address_page", "address_dropdown")).select_option(self.data["housenum"])
         self.page.get_by_role("combobox").select_option(self.data["housenum"])
 
         self.page.locator(get_locator("address_page", "new_land_radio_btn")).click()
