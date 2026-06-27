@@ -20,9 +20,9 @@ def test_fttp_tc_acq(page: Page, report):
     data = get_test_data(test_case_name)
 
     # landing page
-    landing = LandingPage(page)
+    landing = LandingPage(page,data)
     landing.accept_cookies()
-    landing.enter_postcode(data["postcode"])
+    landing.enter_postcode()
     report.capture(page, "Landing Page")
     landing.click_check_availability()
 

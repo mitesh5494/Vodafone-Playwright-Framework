@@ -1,26 +1,38 @@
 from playwright.sync_api import Page
 
-from utils.locator_loader import get_locator
+from pageobject.base_page import BasePage
 
 
-class LandingPage:
+class LandingPage(BasePage):
 
-    def __init__(self, page: Page):
-        self.page = page
+    PAGE = "landing_page"
+
+    def __init__(
+            self,
+            page: Page,
+            data
+    ):
+
+        super().__init__(page)
+
+        self.data = data
 
     def accept_cookies(self):
-        btn = self.page.locator(get_locator(
-            "landing_page", "accept_cookies"))
-        btn.wait_for(state="visible")
-        #if btn.count() > 0:
-        btn.click()
 
-    def enter_postcode(self, postcode):
-        self.page.locator(
-            get_locator("landing_page", "postcode")
-        ).fill(postcode)
+        self.locator("accept_cookies").wait_for(state="visible")
+
+        self.click("accept_cookies")
+
+    def enter_postcode(self):
+
+        self.fill(
+            "postcode",
+            self.data["postcode"]
+        )
 
     def click_check_availability(self):
-        self.page.locator(
-            get_locator("landing_page", "check_availability")
+
+
+        self.locator(
+            "check_availability"
         ).first.click()
