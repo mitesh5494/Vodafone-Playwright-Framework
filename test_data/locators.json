@@ -60,7 +60,7 @@
     "goto_basket_btn": "button:has-text('Go to basket')"
   },
   "basket_page": {
-    "expand_plan": "span[class='sc-elDIKY iyjXhZ']",
+    "expand": "#basket-fed-module-styles-container .sc-tOkKi.jMzKTg svg",
     "equipments_list": "div[data-selector='bullets']:nth-child(3) li span"
   },
   "checkout_page": {

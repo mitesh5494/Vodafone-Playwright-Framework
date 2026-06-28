@@ -1,15 +1,27 @@
-from utils.locator_loader import get_locator
+from playwright.sync_api import Page
+
+from pageobject.base_page import BasePage
 
 
-class BBSetupPage:
-    def __init__(self, page):
-        self.page = page
+class BBSetupPage(BasePage):
+    PAGE = "setup_page"
+
+    def __init__(self, page: Page, report=None):
+        super().__init__(page, report)
 
     def continue_to_basket_page(self):
+        print(self.nth("line_info", 0).text_content())
 
-        print(self.page.locator(get_locator("setup_page","line_info")).nth(0).text_content())
-        self.page.locator(get_locator("setup_page","bill_payer_checkbox")).check()
-        self.page.locator(get_locator("setup_page","date_dropdown")).select_option(index=1)
-        self.page.locator(get_locator("setup_page","digital_voice_checkbox")).check()
-        self.page.locator(get_locator("setup_page","telecare_checkbox")).check()
+        self.check_and_capture("bill_payer_checkbox", "bill_payer_checked")
+
+        self.select_and_capture("date_dropdown", "installation_date_selected", index=1)
+
+        self.check_and_capture("digital_voice_checkbox", "digital_voice_checked")
+
+        self.check_and_capture("telecare_checkbox", "telecare_checked")
+
         self.page.get_by_role("button", name="Go to basket").click()
+
+        self.wait()
+
+        self.capture("go_to_basket")

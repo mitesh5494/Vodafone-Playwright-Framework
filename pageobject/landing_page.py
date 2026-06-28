@@ -4,35 +4,22 @@ from pageobject.base_page import BasePage
 
 
 class LandingPage(BasePage):
-
     PAGE = "landing_page"
 
-    def __init__(
-            self,
-            page: Page,
-            data
-    ):
-
-        super().__init__(page)
+    def __init__(self, page: Page, data, report=None):
+        super().__init__(page, report)
 
         self.data = data
 
     def accept_cookies(self):
-
         self.locator("accept_cookies").wait_for(state="visible")
 
         self.click("accept_cookies")
 
-    def enter_postcode(self):
+    def __enter_postcode(self):
+        self.fill_and_capture("postcode", self.data["postcode"], "postcode_entered")
 
-        self.fill(
-            "postcode",
-            self.data["postcode"]
-        )
+    def check_availability(self):
+        self.__enter_postcode()
 
-    def click_check_availability(self):
-
-
-        self.locator(
-            "check_availability"
-        ).first.click()
+        self.click_first_and_capture("check_availability", "availability_clicked")

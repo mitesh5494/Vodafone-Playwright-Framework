@@ -1,56 +1,71 @@
 from playwright.sync_api import Page, expect
 
-from utils.test_data_loader import get_test_data
-from utils.locator_loader import get_locator
+from pageobject.base_page import BasePage
 
 
-class BasketPage:
+class BasketPage(BasePage):
+    PAGE = "basket_page"
 
-    def __init__(self, page: Page, data):
-        self.page = page
+    def __init__(self, page: Page, data, report=None):
+
+        super().__init__(page, report)
+
         self.data = data
 
     def basket_expand_arrows(self):
-        selector = "#basket-fed-module-styles-container .sc-tOkKi.jMzKTg svg"
 
-        self.page.wait_for_selector(selector)
+        expand_btn = self.locator("expand")
+
+        expect(expand_btn.first).to_be_visible(timeout=10000)
 
         while True:
 
-            arrows = self.page.locator(selector)
-
-            count = arrows.count()
+            count = expand_btn.count()
 
             if count == 0:
                 break
 
-            arrows.last.click(force=True)
+            expand_btn.last.click(force=True)
 
             self.page.wait_for_timeout(1000)
 
+            if expand_btn.count() == count:
+                break
+
+        self.capture("basket_expanded")
+
     def basket_validation(self):
+
         if self.data["product"] == "broadband":
+
             self.__plan_validation()
+
             self.__hardware_validation()
 
+        elif self.data["product"] in ["simo", "handset"]:
 
-        elif self.data["product"] == "simo":
             self.__plan_validation()
 
-        elif self.data["product"] == "handset":
-            self.__plan_validation()
+        self.capture("basket_validated")
 
     def __plan_validation(self):
-        expect(self.page.locator("h4").filter(has=self.page.get_by_text(self.data["planname"])))
-        hardwares = (self.page.locator("ul [data-component-name='ListGroup']").all_text_contents())
-        # print(hardwares)
+
+        plan = (self.page.locator("h4").filter(has=self.page.get_by_text(self.data["planname"])))
+
+        expect(plan).to_be_visible()
 
     def __hardware_validation(self):
-        equipments = self.page.locator(get_locator("basket_page", "equipments_list")).all_text_contents()
+
+        equipments = (self.locator("equipments_list").all_text_contents())
 
         cleaned = list(dict.fromkeys([text.strip() for text in equipments if text.strip()]))
 
         print(cleaned)
 
     def go_to_checkout(self):
-        self.page.get_by_role("button").filter(has=self.page.get_by_text("Go to checkout")).last.click()
+
+        (self.page.get_by_role("button").filter(has=self.page.get_by_text("Go to checkout")).last.click())
+
+        self.wait()
+
+        self.capture("go_to_checkout")
