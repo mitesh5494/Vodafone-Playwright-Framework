@@ -12,11 +12,11 @@ class BBSetupPage(BasePage):
     def continue_to_basket_page(self):
         print(self.nth("line_info", 0).text_content())
 
-        self.check_and_capture("bill_payer_checkbox", "bill_payer_checked")
+        self.check("bill_payer_checkbox")
 
-        self.select_and_capture("date_dropdown", "installation_date_selected", index=1)
+        self.select("date_dropdown", index=1)
 
-        self.check_and_capture("digital_voice_checkbox", "digital_voice_checked")
+        self.check("digital_voice_checkbox")
 
         self.check_and_capture("telecare_checkbox", "telecare_checked")
 

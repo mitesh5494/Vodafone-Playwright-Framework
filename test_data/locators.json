@@ -45,7 +45,8 @@
     "addons": "div[class='sc-fOOuSg hZjsvN']",
     "addon_plan": "p.sc-iIvHqT.eTiIgX",
     "handset_addon_acce_watch_card": ".sc-nuIvE.boJemr",
-    "addon_popup": "div[aria-live='off']"
+    "addon_popup": "div[aria-live='off']",
+    "bb_plan_name": ".sc-iIvHqT.eTiIgX"
   },
   "sticky_basket": {
     "basket_summary_continue_btn": "button[data-selector='basket-summary-template-continue-button-button']"

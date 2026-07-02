@@ -1,6 +1,7 @@
 from playwright.sync_api import Page, expect
 
 from pageobject.base_page import BasePage
+from utils.locator_loader import get_locator
 
 
 class AddonPage(BasePage):
@@ -28,7 +29,9 @@ class AddonPage(BasePage):
         self.capture("addon_selected")
 
     def continue_to_setup_page(self):
-        self.page.locator(".sc-iIvHqT.eTiIgX").text_content()
+
+        bb_plan_name=self.text_content("bb_plan_name")
+        assert bb_plan_name == self.data["planname"]
 
         self.page.get_by_role("button", name="Continue").click()
 

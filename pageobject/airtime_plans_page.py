@@ -16,6 +16,7 @@ class AirtimePlansPage(BasePage):
 
         plan_data_filter.click()
 
+
         self.capture("plan_data_filter_selected")
 
         plan = (self.locator("airtime_plan_card").filter(has=self.page.get_by_text(self.data["deviceplan"], exact=True)))

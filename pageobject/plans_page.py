@@ -54,7 +54,7 @@ class PlansPage(BasePage):
 
     def select_simo(self):
 
-        selected_plan = (self.locator("simo_plan_card").filter(has=self.page.get_by_text(self.data["planname"], exact=True)).first)
+        selected_plan = self.locator("simo_plan_card").filter(has=self.page.get_by_text(self.data["planname"], exact=True)).first
 
         selected_plan.wait_for(state="visible")
 

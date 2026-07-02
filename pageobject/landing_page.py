@@ -17,7 +17,7 @@ class LandingPage(BasePage):
         self.click("accept_cookies")
 
     def __enter_postcode(self):
-        self.fill_and_capture("postcode", self.data["postcode"], "postcode_entered")
+        self.fill("postcode", self.data["postcode"])
 
     def check_availability(self):
         self.__enter_postcode()

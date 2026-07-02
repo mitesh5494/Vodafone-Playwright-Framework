@@ -14,7 +14,7 @@ class AddressPage(BasePage):
     def bbl_view_broadband_plans(self):
         self.page.get_by_role("combobox").select_option(self.data["housenum"])
 
-        self.capture("address_selected")
+
 
         self.click("new_land_radio_btn")
 
