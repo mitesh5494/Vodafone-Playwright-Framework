@@ -71,9 +71,12 @@
     "contact_num": "#phoneNumber",
     "postcode": "Postcode",
     "search_add_btn": "Search address",
-    "add_continue_btn": "Continue",
-    "continue_to_add_detail": "button[aria-label='Continue to Address details panel']",
+    "add_continue_btn": "//button[normalize-space()='Continue']",
+    "continue_to_add_detail": "//button[normalize-space()='Continue']",
     "checkout_checkbox_I_agree_to_the_Direct_Debit": "#termsAndConditions-0",
-    "additonal_detail_continue_btn": ""
+    "additonal_detail_continue_btn": "",
+    "affordability_checkbox": "#affordabilityFields-0"
+
+
   }
 }

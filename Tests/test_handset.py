@@ -20,7 +20,7 @@ def test_handsetpaym_tc_acq(page:Page, report):
     data = get_test_data(test_case_name)
 
     # landing page
-    landing = LandingPage(page)
+    landing = LandingPage(page,data)
     landing.accept_cookies()
     report.capture(page, "Landing Page")
 
@@ -53,7 +53,13 @@ def test_handsetpaym_tc_acq(page:Page, report):
     # Basket page
     basket = BasketPage(page, data)
     basket.basket_expand_arrows()
+    basket.go_to_checkout()
+
     report.capture(page, "Basket Page")
+
+    # CheckOut page
+    checkout = CheckoutPage(page, data)
+    checkout.checkout()
 
 
     time.sleep(2)

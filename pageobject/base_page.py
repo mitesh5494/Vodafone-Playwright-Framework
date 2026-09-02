@@ -114,3 +114,13 @@ class BasePage:
 
     def text_content(self, locator_name):
         return self.locator(locator_name).text_content()
+
+    def scroll_until_visible(self, locator, max_scrolls=10, distance=700):
+        for _ in range(max_scrolls):
+            if locator.count() > 0 and locator.first.is_visible():
+                return
+
+            self.page.mouse.wheel(0, distance)
+            self.page.wait_for_timeout(500)
+
+        locator.wait_for(state="visible", timeout=5000)

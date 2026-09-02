@@ -18,35 +18,37 @@ class PhonePlanPage(BasePage):
             self.select_custom_contract()
 
     def select_custom_contract(self):
+        if self.data.get("contract"):
+            target_contract = int(self.data.get("contract"))
 
-        target_contract = int(self.data.get("contract"))
+            if target_contract == 24:
 
-        if target_contract == 24:
+                self.page.get_by_label("Min 24 months", exact=True).click()
 
-            self.page.get_by_label("Min 24 months", exact=True).click()
+                self.capture("contract_24_selected")
 
-            self.capture("contract_24_selected")
+            elif 24 < target_contract < 36:
 
-        elif 24 < target_contract < 36:
+                tenure_minus_btn = (self.page.get_by_role("button", name=self.locator_value("tenure_minus_btn")))
 
-            tenure_minus_btn = (self.page.get_by_role("button", name=self.locator_value("tenure_minus_btn")))
+                tenure_locator = (self.page.locator(self.locator_value("tenure_picker")))
 
-            tenure_locator = (self.page.locator(self.locator_value("tenure_picker")))
+                while True:
 
-            while True:
+                    current_tenure = (tenure_locator.text_content().strip())
 
-                current_tenure = (tenure_locator.text_content().strip())
+                    current_value = int(current_tenure.split()[0])
 
-                current_value = int(current_tenure.split()[0])
+                    if current_value == target_contract:
+                        break
 
-                if current_value == target_contract:
-                    break
+                    tenure_minus_btn.click()
 
-                tenure_minus_btn.click()
+                    self.page.wait_for_timeout(300)
 
-                self.page.wait_for_timeout(300)
+                self.capture(f"contract_{target_contract}_selected")
 
-            self.capture(f"contract_{target_contract}_selected")
+
 
         continue_btn = (self.page.locator(self.locator_value("continue_btn")))
 

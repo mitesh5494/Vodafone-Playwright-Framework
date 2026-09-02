@@ -28,6 +28,8 @@ class CheckoutPage(BasePage):
 
         elif self.data["product"] == "handset":
 
+            self.__affordability()
+
             self.__address_detail()
 
             self.continue_btn()
@@ -55,6 +57,8 @@ class CheckoutPage(BasePage):
         self.page.get_by_placeholder("MM").fill(self.data["checkout_mm"])
 
         self.page.get_by_placeholder("YYYY").fill(self.data["checkout_yyyy"])
+
+        self.page.get_by_role("combobox", name="Nationality").select_option("British")
 
         self.capture("about_you_completed")
 
@@ -88,7 +92,7 @@ class CheckoutPage(BasePage):
 
     def continue_btn(self):
 
-        continue_btn = self.page.get_by_text(self.locator_value("add_continue_btn"))
+        continue_btn = self.locator("add_continue_btn")
 
         expect(continue_btn).to_be_enabled(timeout=10000)
 
@@ -137,3 +141,7 @@ class CheckoutPage(BasePage):
         self.wait()
 
         self.capture("checkout_completed")
+
+    def __affordability(self):
+        self.locator("affordability_checkbox").check()
+        self.page.get_by_text("Agree & continue", exact=True).click()

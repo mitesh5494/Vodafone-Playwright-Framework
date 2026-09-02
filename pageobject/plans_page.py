@@ -68,10 +68,9 @@ class PlansPage(BasePage):
 
         device = (self.locator("device_card").filter(has=self.page.get_by_text(self.data["device_name"], exact=True)))
 
-        device.wait_for(state="visible")
+        self.scroll_until_visible(device)
 
-        device.first.click()
-
-        self.wait()
+        device.click()
 
         self.capture("device_selected")
+

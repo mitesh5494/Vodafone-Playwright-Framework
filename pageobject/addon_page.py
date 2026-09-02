@@ -46,16 +46,13 @@ class AddonPage(BasePage):
             handset_addon.get_by_role("button", name="Add to Basket").click()
 
             self.capture("handset_addon_selected")
-
-        btn = (self.locator("addon_popup").get_by_role("button", name="Add to Basket"))
-
-        btn.wait_for(state="visible")
-
-        btn.click()
-
-        self.capture("addon_popup_confirmed")
+            self.capture("addon_popup_confirmed")
 
         self.basket_summary_continue_btn()
+
+
+
+
 
     def basket_summary_continue_btn(self):
         btn = (self.page.locator(self.locator_value("basket_summary_continue_btn", page="sticky_basket")))
