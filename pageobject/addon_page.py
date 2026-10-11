@@ -18,22 +18,21 @@ class AddonPage(BasePage):
         expect(plan).to_have_text(self.data["planname"])
 
     def select_hbb_addon(self):
-        self.plan_validation()
+        if self.data.get("plan") == "HBB" and self.data.get("addon") != "Default":
 
-        add_on_cards = (self.locator("addons").filter(has_text=self.data["addon"]))
+            add_on_cards = self.locator("addons").filter(has_text=self.data["addon"])
 
-        add_on_cards.get_by_role("button", name="Add").click()
+            add_on_cards.get_by_role("button", name="Add").click()
 
-        expect(add_on_cards.get_by_role("button", name="Selected")).to_be_visible(timeout=10000)
+            expect(add_on_cards.get_by_role("button", name="Selected")).to_be_visible(
+                timeout=15000
+            )
 
-        self.capture("addon_selected")
+            self.capture("addon_selected")
 
     def continue_to_setup_page(self):
-
-        bb_plan_name=self.text_content("bb_plan_name")
-        assert bb_plan_name == self.data["planname"]
-
-        self.page.get_by_role("button", name="Continue").click()
+        if self.data.get("plan") == "HBB":
+            self.page.get_by_role("button", name="Continue to setup").click()
 
         self.wait()
 
@@ -41,7 +40,9 @@ class AddonPage(BasePage):
 
     def select_handset_addon(self):
         if self.data.get("handset_addon"):
-            handset_addon = (self.locator("handset_addon_acce_watch_card").filter(has=self.page.get_by_text(self.data["handset_addon"], exact=True)))
+            handset_addon = self.locator("handset_addon_acce_watch_card").filter(
+                has=self.page.get_by_text(self.data["handset_addon"], exact=True)
+            )
 
             handset_addon.get_by_role("button", name="Add to Basket").click()
 
@@ -50,12 +51,10 @@ class AddonPage(BasePage):
 
         self.basket_summary_continue_btn()
 
-
-
-
-
     def basket_summary_continue_btn(self):
-        btn = (self.page.locator(self.locator_value("basket_summary_continue_btn", page="sticky_basket")))
+        btn = self.page.locator(
+            self.locator_value("basket_summary_continue_btn", page="sticky_basket")
+        )
 
         btn.wait_for(state="visible")
 

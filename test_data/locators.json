@@ -6,7 +6,8 @@
   },
   "address_page": {
     "address_dropdown": "#address",
-      "new_land_radio_btn": "label[for='lineOption-1']",
+    "new_land_radio_btn": "label[for='lineOption-1']",
+    "NBB_radio_btn": "label[for='lineOption-0']",
     "recently_moved_radio_btn": "label[for='journeyOption-1']",
     "view_broadband_plans_btn": "button[aria-label='false']"
   },
@@ -14,7 +15,8 @@
     "choose_a_plan": "input[value='preBuilt']",
     "speed_card": "div[class='sc-kUuIQH euVcxp']",
     "plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD]",
-    "broadband_plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD']",
+    "broadband_plan_card": "//button[@aria-label='Choose Plan']/ancestor::div[@data-component-name='SingleColumnCard']",
+    "TV_plan_card": "//button[@aria-label='Choose TV package']/ancestor::div[@data-component-name='SingleColumnCard']",
     "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
     "broadband_tv": "span[data-title='Broadband + TV']",
     "simo_plan_card": "div[data-component-name='SingleColumnCard']",
@@ -50,7 +52,6 @@
   },
   "sticky_basket": {
     "basket_summary_continue_btn": "button[data-selector='basket-summary-template-continue-button-button']"
-
   },
   "setup_page": {
     "line_info": "div[class='sc-dMmcxd ZrFkH'] div[class='sc-dFVmKS haRLPe']",
@@ -61,7 +62,7 @@
     "goto_basket_btn": "button:has-text('Go to basket')"
   },
   "basket_page": {
-    "expand": "#basket-fed-module-styles-container .sc-tOkKi.jMzKTg svg",
+    "expand": "#basket-fed-module-styles-container .sc-hBhkkI.hRakpf svg  ",
     "equipments_list": "div[data-selector='bullets']:nth-child(3) li span"
   },
   "checkout_page": {
@@ -76,7 +77,5 @@
     "checkout_checkbox_I_agree_to_the_Direct_Debit": "#termsAndConditions-0",
     "additonal_detail_continue_btn": "",
     "affordability_checkbox": "#affordabilityFields-0"
-
-
   }
 }

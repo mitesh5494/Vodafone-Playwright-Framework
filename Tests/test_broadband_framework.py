@@ -32,11 +32,11 @@ def test_fttp_tc_acq(page: Page, report):
     plan.select_plan()
 
     addon = AddonPage(page, data, report)
-
     addon.select_hbb_addon()
+
     addon.continue_to_setup_page()
 
-    setup = BBSetupPage(page, report)
+    setup = BBSetupPage(page, data, report)
 
     setup.continue_to_basket_page()
 

@@ -1,2 +1,21 @@
-.venv/ .idea/ __pycache__/ .pytest_cache/ playwright-report/ screenshots/
-.venv-vscode
+```gitignore
+# Python virtual environments
+.venv/
+.venv-vscode/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# Playwright reports and artifacts
+playwright-report/
+screenshots/
+reports/
+```

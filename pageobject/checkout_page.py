@@ -58,7 +58,7 @@ class CheckoutPage(BasePage):
 
         self.page.get_by_placeholder("YYYY").fill(self.data["checkout_yyyy"])
 
-        self.page.get_by_role("combobox", name="Nationality").select_option("British")
+        # self.page.get_by_role("combobox", name="Nationality").select_option("British")
 
         self.capture("about_you_completed")
 

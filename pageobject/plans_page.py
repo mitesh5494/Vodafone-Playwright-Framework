@@ -1,4 +1,4 @@
-from playwright.sync_api import Page
+from playwright.sync_api import Page, expect
 
 from pageobject.base_page import BasePage
 
@@ -14,9 +14,13 @@ class PlansPage(BasePage):
 
     def select_plan(self):
 
-        product = (self.data["product"].lower())
+        product = self.data["product"].lower()
 
-        actions = {"broadband": self.select_broadband, "simo": self.select_simo, "handset": self.select_handset}
+        actions = {
+            "broadband": self.select_broadband,
+            "simo": self.select_simo,
+            "handset": self.select_handset,
+        }
 
         actions[product]()
 
@@ -25,36 +29,64 @@ class PlansPage(BasePage):
         if self.data["planpicker"] == "prebuilt":
             self.click_and_capture("choose_a_plan", "choose_a_plan", wait=False)
 
-            selected_plan_card = (self.locator("prebuilt_plan_card").filter(has=self.page.get_by_text(self.data["planname"], exact=True)))
+            selected_plan_card = self.locator("prebuilt_plan_card").filter(
+                has=self.page.get_by_text(self.data["planname"], exact=True)
+            )
 
             selected_plan_card.get_by_role("button", name="Choose Plan").click()
 
-            self.wait()
+            # self.wait()
 
             self.capture("prebuilt_plan_selected")
 
             return
 
-        selected_speed_card = (self.locator("speed_card").filter(has_text=self.data["speed"]))
+        selected_speed_card = self.locator("speed_card").filter(
+            has_text=self.data["speed"]
+        )
 
         selected_speed_card.get_by_role("button", name="Select").click()
 
         self.capture("speed_selected")
 
-        if self.data.get("plantype") == "extra":
-            self.click_and_capture("broadband_tv", "tv_selected", wait=False)
-
-        selected_plan_card = (self.locator("broadband_plan_card").filter(has=self.page.get_by_text(self.data["planname"], exact=True)))
+        selected_plan_card = self.locator("broadband_plan_card").filter(
+            has=self.page.get_by_text(self.data["planname"], exact=True)
+        )
 
         selected_plan_card.get_by_role("button", name="Choose Plan").click()
+        expect(
+            self.page.get_by_role("button", name="Continue with this plan")
+        ).to_be_visible(timeout=15000)
 
-        self.wait()
+        if self.data.get("TV_plan") != "Default":
+
+            selected_tv_plan_card = self.locator("TV_plan_card").filter(
+                has=self.page.get_by_text(self.data["TV_plan"], exact=True)
+            )
+
+            selected_tv_plan_card.get_by_role(
+                "button", name="Choose TV package"
+            ).click()
+            expect(
+                self.page.get_by_role("button", name="Continue with this TV package")
+            ).to_be_enabled(timeout=15000)
+
+        if self.data.get("plan") == "HBB":
+
+            self.page.get_by_role("button", name="Continue to add-ons").click()
+
+        else:
+            self.page.get_by_role("button", name="Continue to setup").click()
 
         self.capture("broadband_plan_selected")
 
     def select_simo(self):
 
-        selected_plan = self.locator("simo_plan_card").filter(has=self.page.get_by_text(self.data["planname"], exact=True)).first
+        selected_plan = (
+            self.locator("simo_plan_card")
+            .filter(has=self.page.get_by_text(self.data["planname"], exact=True))
+            .first
+        )
 
         selected_plan.wait_for(state="visible")
 
@@ -66,11 +98,12 @@ class PlansPage(BasePage):
 
     def select_handset(self):
 
-        device = (self.locator("device_card").filter(has=self.page.get_by_text(self.data["device_name"], exact=True)))
+        device = self.locator("device_card").filter(
+            has=self.page.get_by_text(self.data["device_name"], exact=True)
+        )
 
         self.scroll_until_visible(device)
 
         device.click()
 
         self.capture("device_selected")
-

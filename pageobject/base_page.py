@@ -56,7 +56,13 @@ class BasePage:
     # Wrapper Methods
     # ==========================
 
-    def click_and_capture(self, locator_name, screenshot_name=None, wait=True, wait_state="domcontentloaded"):
+    def click_and_capture(
+        self,
+        locator_name,
+        screenshot_name=None,
+        wait=True,
+        wait_state="domcontentloaded",
+    ):
 
         self.click(locator_name)
 
@@ -65,7 +71,13 @@ class BasePage:
 
         self.capture(screenshot_name or locator_name)
 
-    def click_first_and_capture(self, locator_name, screenshot_name=None, wait=True, wait_state="domcontentloaded"):
+    def click_first_and_capture(
+        self,
+        locator_name,
+        screenshot_name=None,
+        wait=True,
+        wait_state="domcontentloaded",
+    ):
 
         self.click_first(locator_name)
 
