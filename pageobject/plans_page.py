@@ -94,6 +94,19 @@ class PlansPage(BasePage):
 
         self.wait()
 
+        if self.data.get("TV_plan") != "Default":
+
+            selected_tv_plan_card = self.locator("simo_tv_plan_card").filter(
+                has=self.page.get_by_text(self.data["TV_plan"], exact=True)
+            )
+
+            selected_tv_plan_card.get_by_role("button", name="Add to plan").click()
+
+        else:
+            self.page.get_by_role(
+                "button", name="Continue without entertainment"
+            ).click()
+
         self.capture("simo_plan_selected")
 
     def select_handset(self):

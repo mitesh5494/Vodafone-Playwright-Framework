@@ -20,6 +20,7 @@
     "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
     "broadband_tv": "span[data-title='Broadband + TV']",
     "simo_plan_card": "div[data-component-name='SingleColumnCard']",
+    "simo_tv_plan_card": "div[data-component-name='SingleColumnCard']",
     "device_card": "div[data-component-name='SingleColumnCard']"
   },
   "device_variants_page": {
