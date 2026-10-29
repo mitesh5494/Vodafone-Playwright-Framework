@@ -1,0 +1,731 @@
+- generic [active] [ref=f108e1]:
+  - link [aria-hidden] [ref=f108e2] [cursor=pointer]:
+    - /url: "#"
+    - text: ___
+  - generic [ref=f108e5]:
+    - link "Skip to main content" [ref=f108e6] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f108e7]:
+      - generic [ref=f108e9]:
+        - list [ref=f108e10]:
+          - listitem [ref=f108e11] [cursor=pointer]:
+            - link "Personal" [ref=f108e12]:
+              - /url: https://www.vodafone.co.uk/?icmp=CBU_Header_Personal
+          - listitem [ref=f108e20] [cursor=pointer]:
+            - link "Business" [ref=f108e21]:
+              - /url: https://www.vodafone.co.uk/business?icmp=CBU_Header_Business
+        - list [ref=f108e29]:
+          - listitem [ref=f108e30] [cursor=pointer]:
+            - link "Find a store" [ref=f108e31]:
+              - /url: https://stores.vodafone.co.uk/search
+          - listitem [ref=f108e39] [cursor=pointer]:
+            - link "Network Status Checker" [ref=f108e40]:
+              - /url: https://www.vodafone.co.uk/network/status-checker
+      - generic [ref=f108e50]:
+        - link "Navigates to https://vodafone.co.uk" [ref=f108e51] [cursor=pointer]:
+          - /url: https://vodafone.co.uk
+        - list [ref=f108e56]:
+          - listitem [ref=f108e57]:
+            - button "Phones and devices" [ref=f108e58]
+          - listitem [ref=f108e61]:
+            - button "SIM Only" [ref=f108e62]
+          - listitem [ref=f108e65]:
+            - button "Broadband" [ref=f108e66]
+          - listitem [ref=f108e69]:
+            - button "TV" [ref=f108e70]
+          - listitem [ref=f108e73]:
+            - button "Why Vodafone" [ref=f108e74]
+          - listitem [ref=f108e77]:
+            - button "Support" [ref=f108e78]
+          - listitem [ref=f108e81]:
+            - button "New - Apple" [ref=f108e82]
+        - list [ref=f108e85]:
+          - listitem [ref=f108e86]:
+            - button "Basket" [ref=f108e88] [cursor=pointer]
+          - listitem [ref=f108e94]:
+            - button "Search" [ref=f108e96] [cursor=pointer]
+          - listitem [ref=f108e102]:
+            - button "Your account options" [ref=f108e103]
+    - generic [ref=f108e113]:
+      - generic [ref=f108e114]:
+        - generic [ref=f108e116]:
+          - navigation [ref=f108e119]:
+            - menu [ref=f108e120]:
+              - menuitem [ref=f108e121]:
+                - link "Home" [ref=f108e122] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/
+              - menuitem [ref=f108e128]:
+                - link "Mobile Phones" [ref=f108e129] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/
+              - menuitem [ref=f108e135]:
+                - link "Pay Monthly Phones" [ref=f108e136] [cursor=pointer]:
+                  - /url: /mobile/pay-monthly-contracts
+              - menuitem [ref=f108e142]:
+                - link "Apple" [ref=f108e143] [cursor=pointer]:
+                  - /url: /mobile/pay-monthly-contracts/apple
+              - menuitem "Apple iPhone 17" [ref=f108e149]
+          - group [ref=f108e157]:
+            - list [ref=f108e159]:
+              - listitem [ref=f108e160]:
+                - generic [ref=f108e161]:
+                  - generic [ref=f108e162] [cursor=pointer]: Buying as a business?
+                  - checkbox "Buying as a business?" [ref=f108e172] [cursor=pointer]
+        - generic [ref=f108e177]:
+          - generic [ref=f108e179]:
+            - paragraph [ref=f108e180]: Great value deals when you connect your family
+            - link "Login" [ref=f108e182] [cursor=pointer]:
+              - /url: /web-shop/login?ACR_Value=journeyType:SIMO_HANDSET&successReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17&errorReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17
+          - button [ref=f108e184] [cursor=pointer]
+        - generic [ref=f108e190]:
+          - button [ref=f108e197] [cursor=pointer]:
+            - paragraph [ref=f108e207]: Vodafone Together discounts activated. Continue to redeem.
+          - generic [ref=f108e215]:
+            - generic [ref=f108e217]:
+              - generic [ref=f108e218]: Vodafone Xchange
+              - generic [ref=f108e225]:
+                - heading "Apple iPhone 17" [level=1] [ref=f108e226]:
+                  - generic [ref=f108e227]: Apple
+                  - text: iPhone 17
+                - button "5G+ phone" [ref=f108e237] [cursor=pointer]
+              - generic [ref=f108e238]:
+                - button [ref=f108e239] [cursor=pointer]:
+                  - img "Apple iPhone 17" [ref=f108e240]
+                - button "Product Information Sheet" [ref=f108e241] [cursor=pointer]
+              - generic "Phone images" [ref=f108e243]:
+                - generic [ref=f108e244]:
+                  - button "Move to previous slide" [ref=f108e246] [cursor=pointer]
+                  - list [ref=f108e253]:
+                    - listitem [ref=f108e254] [cursor=pointer]:
+                      - img "Lavender front" [ref=f108e257]
+                  - button "Move to next slide" [ref=f108e259] [cursor=pointer]
+                - generic [ref=f108e266]:
+                  - generic [ref=f108e268] [cursor=pointer]
+                  - generic [ref=f108e272] [cursor=pointer]
+                  - generic [ref=f108e276] [cursor=pointer]
+                  - generic [ref=f108e280] [cursor=pointer]
+                  - generic [ref=f108e284] [cursor=pointer]
+              - paragraph [ref=f108e288]: More delightful and durable, the iPhone 17 has a 6.3-inch ProMotion display, a 48MP Dual Fusion camera system, and A19 chip.
+              - link "Device overview" [ref=f108e291] [cursor=pointer]:
+                - /url: "#features"
+            - generic [ref=f108e299]:
+              - generic [ref=f108e301]:
+                - generic [ref=f108e304]:
+                  - generic [ref=f108e305]: Select colour
+                  - generic [ref=f108e309]:
+                    - button "Lavender" [ref=f108e310] [cursor=pointer]
+                    - listbox "#E6D5F1"
+                - generic [ref=f108e317]:
+                  - generic [ref=f108e318]: Select capacity
+                  - generic [ref=f108e322]:
+                    - button "256GB" [ref=f108e323] [cursor=pointer]
+                    - listbox "Select capacity"
+              - generic [ref=f108e326]:
+                - generic [ref=f108e327]: In stock
+                - generic [ref=f108e340]:
+                  - paragraph [ref=f108e341]: Free home delivery. Order before 10:00pm tomorrow and get it on 20 October. Premium delivery slots available. Exclusions apply
+                  - paragraph [ref=f108e342]:
+                    - text: Or
+                    - link "click and collect" [ref=f108e343] [cursor=pointer]:
+                      - /url: "#delivery"
+                    - text: in store
+              - generic [ref=f108e346]:
+                - heading "Deals & offers" [level=3] [ref=f108e347]
+                - button "Get a new phone a year early with Vodafone Xchange." [ref=f108e351] [cursor=pointer]
+                - button "£19 Mobile Multi-line Unlimited Discount" [ref=f108e368] [cursor=pointer]:
+                  - generic [ref=f108e376]:
+                    - generic [ref=f108e377]: £19
+                    - text: Mobile Multi-line Unlimited Discount
+                - 'button "Our Lifetime Service Promise: Lifetime Warranty and Battery Refresh - only on Vodafone EVO" [ref=f108e386] [cursor=pointer]':
+                  - paragraph [ref=f108e395]:
+                    - text: "Our Lifetime Service Promise: Lifetime Warranty and Battery Refresh - only on"
+                    - generic [ref=f108e396]: Vodafone EVO
+                - button "Save up to £542 today when you trade in an eligible iPhone." [ref=f108e405] [cursor=pointer]
+                - button "On the UK's Biggest Network, The Nation's Network." [ref=f108e422] [cursor=pointer]
+              - paragraph [ref=f108e436]: "Total device cost: £966"
+              - button "Pay for your phone in one go" [ref=f108e439] [cursor=pointer]
+        - generic [ref=f108e441]:
+          - generic [ref=f108e442]:
+            - separator [aria-hidden] [ref=f108e443]
+            - generic [ref=f108e452]:
+              - heading "Get up to 4x faster speeds, on our new 5G+ FastTrack" [level=4] [ref=f108e453]
+              - button [ref=f108e454] [cursor=pointer]:
+                - paragraph [ref=f108e455]: Discover Vodafone SuperMobile™
+            - heading "Choose your plans, or build your own" [level=2] [ref=f108e457]
+            - button "Build your own plan" [ref=f108e460] [cursor=pointer]
+          - generic [ref=f108e462]:
+            - heading "Choose your contract length" [level=5] [ref=f108e463]
+            - generic [ref=f108e464]:
+              - paragraph [ref=f108e465]: Select your Phone Plan length. Your Airtime Plan will stay at 24 months.
+              - paragraph [ref=f108e466]:
+                - text: Unlimited plans are subject to our
+                - link "Acceptable Use Policy" [ref=f108e467] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/terms-and-conditions/mobile
+                - text: .
+            - group [ref=f108e469]:
+              - generic [ref=f108e471]:
+                - generic [ref=f108e474] [cursor=pointer]:
+                  - radio "24 months" [ref=f108e475]
+                  - generic [ref=f108e476]: 24 months
+                - generic [ref=f108e480] [cursor=pointer]:
+                  - radio "36 months" [checked] [ref=f108e481]
+                  - generic [ref=f108e482]: 36 months
+            - generic [ref=f108e484]:
+              - generic [ref=f108e493]:
+                - generic [ref=f108e508]:
+                  - paragraph [ref=f108e510]: Vodafone Mobile
+                  - heading "30GB" [level=2] [ref=f108e511]
+                  - 'button "Speed: Maximum download of 100 Mbps" [ref=f108e512] [cursor=pointer]'
+                - button [ref=f108e519] [cursor=pointer]:
+                  - heading "Includes" [level=2] [ref=f108e525]
+                - generic [ref=f108e533]:
+                  - generic [ref=f108e534]:
+                    - generic [ref=f108e536]:
+                      - generic [ref=f108e537]:
+                        - generic [ref=f108e538]: £
+                        - generic [ref=f108e539]: "52"
+                      - generic [ref=f108e540]: per month
+                    - generic [ref=f108e542]:
+                      - generic [ref=f108e543]:
+                        - generic [ref=f108e544]: £
+                        - generic [ref=f108e545]: "30"
+                      - generic [ref=f108e546]: upfront
+                  - generic [ref=f108e547]:
+                    - generic [ref=f108e548]:
+                      - paragraph [ref=f108e549]: £54.50 on 1 April 2027
+                      - paragraph [ref=f108e550]: £57 on 1 April 2028
+                    - separator [aria-hidden] [ref=f108e551]
+                - button [ref=f108e554] [cursor=pointer]:
+                  - paragraph [ref=f108e561]: Get a new phone a year early with Vodafone Xchange.
+                - generic [ref=f108e573]:
+                  - button "See price breakdown" [ref=f108e574] [cursor=pointer]
+                  - generic [ref=f108e585]:
+                    - generic [ref=f108e595]:
+                      - heading "Phone Plan 36 months" [level=3] [ref=f108e597]
+                      - paragraph [ref=f108e598]:
+                        - strong [ref=f108e599]: £26 per month
+                        - text: for 36 months +
+                        - strong [ref=f108e600]: £30
+                        - text: upfront
+                      - paragraph [ref=f108e602]:
+                        - text: Total device cost
+                        - generic [ref=f108e603]: £966
+                    - separator [aria-hidden] [ref=f108e604]
+                    - generic [ref=f108e615]:
+                      - heading "Airtime Plan 24 months 30GB" [level=3] [ref=f108e617]
+                      - paragraph [ref=f108e618]:
+                        - strong [ref=f108e619]: £26 per month
+                        - text: for
+                        - strong [ref=f108e620]: 24 months
+                        - text: with 30GB data,
+                      - generic [ref=f108e622]:
+                        - paragraph [ref=f108e623]: £28.50 on 1 April 2027
+                        - paragraph [ref=f108e624]: £31 on 1 April 2028
+                    - separator [aria-hidden] [ref=f108e625]
+                    - button "What happens to my Airtime Plan after 24 months?" [ref=f108e628] [cursor=pointer]
+                    - paragraph [ref=f108e630]:
+                      - text: You will have two contracts -
+                      - button "Find out why" [ref=f108e631] [cursor=pointer]
+                - button "Choose these plans" [ref=f108e634] [cursor=pointer]
+                - button "See plan details" [ref=f108e638] [cursor=pointer]
+              - generic [ref=f108e655]:
+                - generic [ref=f108e675]:
+                  - paragraph [ref=f108e677]: Vodafone SuperMobile™
+                  - heading "120GB" [level=2] [ref=f108e678]
+                - button [ref=f108e685] [cursor=pointer]:
+                  - heading "Includes" [level=2] [ref=f108e691]
+                - generic [ref=f108e699]:
+                  - generic [ref=f108e700]:
+                    - generic [ref=f108e702]:
+                      - generic [ref=f108e703]:
+                        - generic [ref=f108e704]: £
+                        - generic [ref=f108e705]: "60"
+                      - generic [ref=f108e706]: per month
+                    - generic [ref=f108e708]:
+                      - generic [ref=f108e709]:
+                        - generic [ref=f108e710]: £
+                        - generic [ref=f108e711]: "30"
+                      - generic [ref=f108e712]: upfront
+                  - generic [ref=f108e713]:
+                    - generic [ref=f108e714]:
+                      - paragraph [ref=f108e715]: £62.50 on 1 April 2027
+                      - paragraph [ref=f108e716]: £65 on 1 April 2028
+                    - separator [aria-hidden] [ref=f108e717]
+                - button [ref=f108e720] [cursor=pointer]:
+                  - paragraph [ref=f108e727]: Get a new phone a year early with Vodafone Xchange.
+                - generic [ref=f108e739]:
+                  - button "See price breakdown" [ref=f108e740] [cursor=pointer]
+                  - generic [ref=f108e751]:
+                    - generic [ref=f108e761]:
+                      - heading "Phone Plan 36 months" [level=3] [ref=f108e763]
+                      - paragraph [ref=f108e764]:
+                        - strong [ref=f108e765]: £26 per month
+                        - text: for 36 months +
+                        - strong [ref=f108e766]: £30
+                        - text: upfront
+                      - paragraph [ref=f108e768]:
+                        - text: Total device cost
+                        - generic [ref=f108e769]: £966
+                    - separator [aria-hidden] [ref=f108e770]
+                    - generic [ref=f108e781]:
+                      - heading "Airtime Plan 24 months 120GB SuperMobile Xtra" [level=3] [ref=f108e783]
+                      - paragraph [ref=f108e784]:
+                        - strong [ref=f108e785]: £34 per month
+                        - text: for
+                        - strong [ref=f108e786]: 24 months
+                        - text: with 120GB data,
+                      - generic [ref=f108e788]:
+                        - paragraph [ref=f108e789]: £36.50 on 1 April 2027
+                        - paragraph [ref=f108e790]: £39 on 1 April 2028
+                    - separator [aria-hidden] [ref=f108e791]
+                    - button "What happens to my Airtime Plan after 24 months?" [ref=f108e794] [cursor=pointer]
+                    - paragraph [ref=f108e796]:
+                      - text: You will have two contracts -
+                      - button "Find out why" [ref=f108e797] [cursor=pointer]
+                - button "Choose these plans" [ref=f108e800] [cursor=pointer]
+                - button "See plan details" [ref=f108e804] [cursor=pointer]
+              - generic [ref=f108e816]:
+                - generic [ref=f108e817]: Savings applied
+                - generic [ref=f108e824]:
+                  - paragraph [ref=f108e829]: £19 Mobile Multi-line Unlimited Discount
+                  - generic [ref=f108e850]:
+                    - paragraph [ref=f108e852]: Vodafone Mobile
+                    - heading "Unlimited data" [level=2] [ref=f108e853]
+                    - 'button "Speed: Maximum download of 100 Mbps" [ref=f108e854] [cursor=pointer]'
+                  - button [ref=f108e861] [cursor=pointer]:
+                    - heading "Includes" [level=2] [ref=f108e867]
+                  - generic [ref=f108e875]:
+                    - generic [ref=f108e876]:
+                      - generic [ref=f108e877]:
+                        - generic [ref=f108e878]:
+                          - generic [ref=f108e879]:
+                            - generic [ref=f108e880]: £
+                            - generic [ref=f108e881]: "46"
+                          - generic [ref=f108e882]: per month
+                        - generic [ref=f108e883]: £19 saving applied
+                      - generic [ref=f108e885]:
+                        - generic [ref=f108e886]:
+                          - generic [ref=f108e887]: £
+                          - generic [ref=f108e888]: "30"
+                        - generic [ref=f108e889]: upfront
+                    - generic [ref=f108e890]:
+                      - generic [ref=f108e891]:
+                        - paragraph [ref=f108e892]: £48.50 on 1 April 2027
+                        - paragraph [ref=f108e893]: £51 on 1 April 2028
+                      - separator [aria-hidden] [ref=f108e894]
+                  - button [ref=f108e897] [cursor=pointer]:
+                    - paragraph [ref=f108e904]: Get a new phone a year early with Vodafone Xchange.
+                  - button "See what you're saving" [ref=f108e914] [cursor=pointer]
+                  - generic [ref=f108e924]:
+                    - button "See price breakdown" [ref=f108e925] [cursor=pointer]
+                    - generic [ref=f108e936]:
+                      - generic [ref=f108e946]:
+                        - heading "Phone Plan 36 months" [level=3] [ref=f108e948]
+                        - paragraph [ref=f108e949]:
+                          - strong [ref=f108e950]: £26 per month
+                          - text: for 36 months +
+                          - strong [ref=f108e951]: £30
+                          - text: upfront
+                        - paragraph [ref=f108e953]:
+                          - text: Total device cost
+                          - generic [ref=f108e954]: £966
+                      - separator [aria-hidden] [ref=f108e955]
+                      - generic [ref=f108e966]:
+                        - heading "Airtime Plan 24 months Unlimited" [level=3] [ref=f108e968]
+                        - paragraph [ref=f108e969]:
+                          - strong [ref=f108e970]: £20 per month
+                          - text: for
+                          - strong [ref=f108e971]: 24 months
+                          - text: with Unlimited data,
+                        - generic [ref=f108e973]:
+                          - paragraph [ref=f108e974]: £22.50 on 1 April 2027
+                          - paragraph [ref=f108e975]: £25 on 1 April 2028
+                      - separator [aria-hidden] [ref=f108e976]
+                      - button "What happens to my Airtime Plan after 24 months?" [ref=f108e979] [cursor=pointer]
+                      - paragraph [ref=f108e981]:
+                        - text: You will have two contracts -
+                        - button "Find out why" [ref=f108e982] [cursor=pointer]
+                  - button "Choose these plans" [ref=f108e985] [cursor=pointer]
+                  - button "See plan details" [ref=f108e989] [cursor=pointer]
+          - separator [aria-hidden] [ref=f108e999]
+          - generic [ref=f108e1000]:
+            - heading "Key features" [level=2] [ref=f108e1001]
+            - generic [ref=f108e1004]:
+              - generic [ref=f108e1008]:
+                - heading "Camera megapixel" [level=2] [ref=f108e1009]
+                - paragraph [ref=f108e1010]: 48MP + 48MP + 18MP
+              - generic [ref=f108e1014]:
+                - heading "Dimensions" [level=2] [ref=f108e1015]
+                - paragraph [ref=f108e1016]: 149.6 x 71.5 x 7.95mm
+              - generic [ref=f108e1020]:
+                - heading "Display size" [level=2] [ref=f108e1021]
+                - paragraph [ref=f108e1022]: 6.3inch
+              - generic [ref=f108e1026]:
+                - heading "Weight" [level=2] [ref=f108e1027]
+                - paragraph [ref=f108e1028]: 177g
+              - generic [ref=f108e1032]:
+                - heading "WIFI calling" [level=2] [ref=f108e1033]
+                - paragraph [ref=f108e1034]: Available
+              - generic [ref=f108e1038]:
+                - heading "eSIM" [level=2] [ref=f108e1039]
+                - paragraph [ref=f108e1040]: Available
+          - generic [ref=f108e1043]:
+            - generic [ref=f108e1048]:
+              - link:
+                - /url: https://www.vodafone.co.uk/mobile/vodafone-evo
+              - generic [ref=f108e1049]:
+                - generic [ref=f108e1050]:
+                  - heading "0% APR Phone Plans" [level=2] [ref=f108e1051]
+                  - paragraph [ref=f108e1052]: Get 0% APR across all our Phone Plans and choose your upfront cost.
+                - link "See Vodafone EVO" [ref=f108e1053] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/vodafone-evo
+            - generic [ref=f108e1065]:
+              - link "What's in the Box. iPhone 17 Pro and USB-C Charge Cable":
+                - /url: https://accessories.vodafone.co.uk
+                - generic:
+                  - img "What's in the Box. iPhone 17 Pro and USB-C Charge Cable"
+              - generic [ref=f108e1066]:
+                - generic [ref=f108e1067]:
+                  - heading "What's in the box?" [level=2] [ref=f108e1068]
+                  - paragraph [ref=f108e1069]: Your iPhone 17 comes with a one-metre USB-C charging cable. Need a new fast-charge plug? Explore our range at Vodafone Accessories.
+                - link "Shop accessories" [ref=f108e1070] [cursor=pointer]:
+                  - /url: https://accessories.vodafone.co.uk
+            - generic [ref=f108e1082]:
+              - link "Apple Watch Series 12, Apple Watch Ultra 4 and Apple Watch SE 3":
+                - /url: https://www.vodafone.co.uk/smart-watches-and-wearables/apple
+                - generic:
+                  - img "Apple Watch Series 12, Apple Watch Ultra 4 and Apple Watch SE 3"
+              - generic [ref=f108e1083]:
+                - generic [ref=f108e1084]:
+                  - heading "Apple Watch" [level=2] [ref=f108e1085]
+                  - paragraph [ref=f108e1086]: Discover the incredible range of Apple Watch at Vodafone. There’s an Apple Watch for everybody.
+                - link "Explore Apple Watch" [ref=f108e1087] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/smart-watches-and-wearables/apple
+          - generic [ref=f108e1098]:
+            - button "Overview" [ref=f108e1099] [cursor=pointer]
+            - generic:        
+          - button "Specifications" [ref=f108e1111] [cursor=pointer]
+          - button "Delivery & returns" [ref=f108e1123] [cursor=pointer]
+          - button "Reviews" [ref=f108e1135] [cursor=pointer]
+          - generic [ref=f108e1144]:
+            - heading "You might also like" [level=2] [ref=f108e1145]
+            - generic [ref=f108e1151]:
+              - generic [ref=f108e1161]:
+                - img "IMG-Apple-iPhone-Air-product-front-300" [ref=f108e1166]
+                - generic [ref=f108e1170]:
+                  - paragraph [ref=f108e1172]: Apple
+                  - heading "iPhone Air" [level=2] [ref=f108e1173]
+                - link "iPhone Air" [ref=f108e1176] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+              - generic [ref=f108e1186]:
+                - img "IMG-Apple-iPhone-17-Pro-product-front-300" [ref=f108e1191]
+                - generic [ref=f108e1195]:
+                  - paragraph [ref=f108e1197]: Apple
+                  - heading "iPhone 17 Pro" [level=2] [ref=f108e1198]
+                - link "iPhone 17 Pro" [ref=f108e1201] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-17-pro
+              - generic [ref=f108e1211]:
+                - img "IMG-Apple-iPhone-17-Pro-Max-product-front-300" [ref=f108e1216]
+                - generic [ref=f108e1220]:
+                  - paragraph [ref=f108e1222]: Apple
+                  - heading "iPhone 17 Pro Max" [level=2] [ref=f108e1223]
+                - link "iPhone 17 Pro Max" [ref=f108e1226] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-17-pro-max
+          - separator [aria-hidden] [ref=f108e1228]
+          - heading "Frequently asked questions" [level=4] [ref=f108e1229]
+          - generic [ref=f108e1233]:
+            - generic [ref=f108e1236]:
+              - button "What was the Apple iPhone 17 release date?" [ref=f108e1237] [cursor=pointer]
+              - generic [ref=f108e1247]:
+                - separator [ref=f108e1248]
+                - paragraph [ref=f108e1250]: The iPhone 17 was announced on Tuesday 9 September 2025, made available to pre-order on Friday 12 September 2025, and then available to buy from Friday 19 September 2025.
+            - generic [ref=f108e1253]:
+              - button "What type of charger does the iPhone 17 use?" [ref=f108e1254] [cursor=pointer]
+              - generic [ref=f108e1264]:
+                - separator [ref=f108e1265]
+                - generic [ref=f108e1266]:
+                  - paragraph [ref=f108e1267]: The iPhone 17 has a USB-C charging port, since the Lightning cable was phased out with the discontinuation of the iPhone 14 models in 2025. With all iPhone purchases, an Apple-certified charging cable is included in the box, but not a wall plug. This is to help Apple reach carbon neutrality by 2030.
+                  - paragraph [ref=f108e1268]:
+                    - text: You can also use a Magsafe wireless charger to power your iPhone 17, but you’ll need to buy one separately. Check out our range of
+                    - link "wireless chargers" [ref=f108e1269] [cursor=pointer]:
+                      - /url: https://accessories.vodafone.co.uk/collections/wireless-charging
+            - generic [ref=f108e1272]:
+              - button "Does the iPhone 17 support eSIM?" [ref=f108e1273] [cursor=pointer]
+              - generic [ref=f108e1283]:
+                - separator [ref=f108e1284]
+                - generic [ref=f108e1285]:
+                  - paragraph [ref=f108e1286]: Yes, the iPhone 17 is compatible with eSIM functionality. Using an eSIM allows you to have a digital, built-in version of your SIM card, which is beneficial for a few reasons. These include the reduction of plastic waste, and the fact that there’s no chance of losing your SIM.
+                  - paragraph [ref=f108e1287]: The iPhone 17’s dual SIM capabilities mean that you can have two eSIMs active in the same phone. This is great for accessing different SIM plans while travelling abroad, for example.
+            - generic [ref=f108e1290]:
+              - button "Can I use a physical SIM for the iPhone 17?" [ref=f108e1291] [cursor=pointer]
+              - generic [ref=f108e1301]:
+                - separator [ref=f108e1302]
+                - generic [ref=f108e1303]:
+                  - paragraph [ref=f108e1304]: Yes, the iPhone 17 does have a physical SIM card slot (for nano-SIM) as well as built-in eSIM functionality. The iPhone Air, which was released alongside the iPhone 17, was the first eSIM-only iPhone.
+                  - paragraph [ref=f108e1305]: All iPhone 17 models have dual SIM capabilities, meaning you can have two active SIMs, one physical and one eSIM, in the phone. This allows you to easily switch between profiles, which is ideal when travelling abroad or needing to access a different data package.
+            - generic [ref=f108e1308]:
+              - button "What chip does the iPhone 17 have?" [ref=f108e1309] [cursor=pointer]
+              - generic [ref=f108e1319]:
+                - separator [ref=f108e1320]
+                - paragraph [ref=f108e1322]: Apple iPhone 17 includes the A19 chip with 5-core GPU, which is an upgrade on the iPhone 16’s A18 chip, with improved performance for demanding tasks and gaming, superior on-device AI capabilities, and improved battery life, setting new standards for mobile processing and energy efficiency.
+            - generic [ref=f108e1325]:
+              - button "What’s the display of the Apple iPhone 17 like?" [ref=f108e1326] [cursor=pointer]
+              - generic [ref=f108e1336]:
+                - separator [ref=f108e1337]
+                - paragraph [ref=f108e1339]: The iPhone 17 has a 6.3-inch Super Retina XDR display. It’s also an Always-On display with ProMotion technology, offering adaptive refresh rates up to 120Hz. It’s an HDR display and has haptic touch.
+            - generic [ref=f108e1342]:
+              - button "What’s the camera quality of the iPhone 17?" [ref=f108e1343] [cursor=pointer]
+              - generic [ref=f108e1353]:
+                - separator [ref=f108e1354]
+                - paragraph [ref=f108e1356]: iPhone 17 benefits from an advanced dual-camera system, including a 48MP Dual Fusion camera and a 12MP Fusion Ultra Wide camera. It also has an 18MP Center Stage front camera. Plus, it can shoot video in 4K 60fps.
+            - generic [ref=f108e1359]:
+              - button "What is the battery life of the iPhone 17 like?" [ref=f108e1360] [cursor=pointer]
+              - generic [ref=f108e1370]:
+                - separator [ref=f108e1371]
+                - paragraph [ref=f108e1373]: With the iPhone 17 you can enjoy up to 30 hours of video playback (up to 27 when streaming video), which is comparatively longer than the battery life of the iPhone Air, iPhone 16 Plus and the iPhone 16 Pro. Please be aware that battery life varies by use and configuration – see Apple’s battery page for more information.
+            - generic [ref=f108e1376]:
+              - button "Is the Apple iPhone 17 waterproof?" [ref=f108e1377] [cursor=pointer]
+              - generic [ref=f108e1387]:
+                - separator [ref=f108e1388]
+                - paragraph [ref=f108e1390]: Like most modern smartphones, the iPhone 17 is splash and water resistant. It is rated IP68 under the IEC standard 60529, which means the phone can safely withstand being at a maximum depth of six metres below water for up to 30 minutes.
+            - generic [ref=f108e1393]:
+              - button "What AI features does the iPhone 17 have?" [ref=f108e1394] [cursor=pointer]
+              - generic [ref=f108e1404]:
+                - separator [ref=f108e1405]
+                - paragraph [ref=f108e1407]: The iPhone 17 has Apple Intelligence built-in, featuring helpful tools that make getting things done and expressing yourself easier than ever. These include Live Translation for real-time voice or text translations, Visual Intelligence camera search, Clean Up for photos, Genmoji emoji creation and Writing Tools for structuring messages and emails.
+            - generic [ref=f108e1410]:
+              - button "What colours does the iPhone 17 come in?" [ref=f108e1411] [cursor=pointer]
+              - generic [ref=f108e1421]:
+                - separator [ref=f108e1422]
+                - paragraph [ref=f108e1424]: The iPhone 17 is available in five vibrant colours that are exclusive to this model. The colourways of the iPhone 17 are black, white, mist blue, sage, and lavender.
+            - generic [ref=f108e1427]:
+              - button "How much storage does the iPhone 17 have?" [ref=f108e1428] [cursor=pointer]
+              - generic [ref=f108e1438]:
+                - separator [ref=f108e1439]
+                - paragraph [ref=f108e1441]: The iPhone 17 has two storage options, which are 256GB and 512GB.
+            - generic [ref=f108e1444]:
+              - button "Does the iPhone 17 have the same buttons as other iPhones?" [ref=f108e1445] [cursor=pointer]
+              - generic [ref=f108e1455]:
+                - separator [ref=f108e1456]
+                - paragraph [ref=f108e1458]: The iPhone 17’s design does not include any new buttons. This model still features the Action button, which was originally introduced to the iPhone 15 models in 2023, and the Camera Control button that was a new feature of the iPhone 16 models, launched in 2024.
+      - button "Get in touch" [ref=f108e1459] [cursor=pointer]
+    - generic [ref=f108e1466]:
+      - list [ref=f108e1471]:
+        - listitem [ref=f108e1472]:
+          - link "Vodafone UK on Facebook" [ref=f108e1473] [cursor=pointer]:
+            - /url: https://www.facebook.com/vodafoneUK
+        - listitem [ref=f108e1479]:
+          - link "Vodafone UK on Instagram" [ref=f108e1480] [cursor=pointer]:
+            - /url: https://www.instagram.com/VodafoneUK/
+        - listitem [ref=f108e1486]:
+          - link "Vodafone UK on YouTube" [ref=f108e1487] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/VODAFONEUK
+        - listitem [ref=f108e1493]:
+          - link "Vodafone UK on X (formerly Twitter)" [ref=f108e1494] [cursor=pointer]:
+            - /url: https://x.com/vodafoneuk
+        - listitem [ref=f108e1500]:
+          - link "Vodafone on LinkedIn" [ref=f108e1501] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/vodafone/
+        - listitem [ref=f108e1507]:
+          - link "Vodafone UK on TikTok" [ref=f108e1508] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@vodafoneuk
+      - separator [aria-hidden] [ref=f108e1515]
+      - generic [ref=f108e1516]:
+        - generic [ref=f108e1518]:
+          - heading "Buying online" [level=2] [ref=f108e1519]
+          - list [ref=f108e1520]:
+            - listitem [ref=f108e1521]:
+              - link "Pay monthly deals" [ref=f108e1522] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts
+            - listitem [ref=f108e1523]:
+              - link "Pay as you go deals" [ref=f108e1524] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-as-you-go
+            - listitem [ref=f108e1525]:
+              - link "SIM only deals" [ref=f108e1526] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sim-only/best-sim-only-deals
+            - listitem [ref=f108e1527]:
+              - link "iPad" [ref=f108e1528] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/ipad
+            - listitem [ref=f108e1529]:
+              - link "Tablets" [ref=f108e1530] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/ipads-and-tablets
+            - listitem [ref=f108e1531]:
+              - link "Mobile Broadband" [ref=f108e1532] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile-broadband
+            - listitem [ref=f108e1533]:
+              - link "Home Broadband" [ref=f108e1534] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband
+            - listitem [ref=f108e1535]:
+              - link "Laptops" [ref=f108e1536] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/laptops
+            - listitem [ref=f108e1537]:
+              - link "Vodafone TV" [ref=f108e1538] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/tv
+            - listitem [ref=f108e1539]:
+              - link "Compare phones" [ref=f108e1540] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/compare
+            - listitem [ref=f108e1541]:
+              - link "Deals and offers" [ref=f108e1542] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/deals-and-offers
+            - listitem [ref=f108e1543]:
+              - link "Vodafone SuperMobile™" [ref=f108e1544] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/vodafone-supermobile
+            - listitem [ref=f108e1545]:
+              - link "Vodafone Xchange" [ref=f108e1546] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/xchange
+        - generic [ref=f108e1548]:
+          - heading "Latest phones" [level=2] [ref=f108e1549]
+          - list [ref=f108e1550]:
+            - listitem [ref=f108e1551]:
+              - link "iPhone 18 Pro Max" [ref=f108e1552] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro-max
+            - listitem [ref=f108e1553]:
+              - link "iPhone 18 Pro" [ref=f108e1554] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro
+            - listitem [ref=f108e1555]:
+              - link "iPhone Duo" [ref=f108e1556] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-duo
+            - listitem [ref=f108e1557]:
+              - link "iPhone Air" [ref=f108e1558] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+            - listitem [ref=f108e1559]:
+              - link "Samsung Galaxy S26 Ultra" [ref=f108e1560] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-ultra
+            - listitem [ref=f108e1561]:
+              - link "Samsung Galaxy S26" [ref=f108e1562] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26
+            - listitem [ref=f108e1563]:
+              - link "Samsung Galaxy S26+" [ref=f108e1564] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-plus
+            - listitem [ref=f108e1565]:
+              - link "Samsung Galaxy Z Fold8" [ref=f108e1566] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-z-fold8
+            - listitem [ref=f108e1567]:
+              - link "Google Pixel 11 Pro Fold" [ref=f108e1568] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-fold
+            - listitem [ref=f108e1569]:
+              - link "Google Pixel 11 Pro" [ref=f108e1570] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro
+            - listitem [ref=f108e1571]:
+              - link "Google Pixel 11" [ref=f108e1572] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11
+            - listitem [ref=f108e1573]:
+              - link "Google Pixel 11 Pro XL" [ref=f108e1574] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-xl
+            - listitem [ref=f108e1575]:
+              - link "New phones" [ref=f108e1576] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/new-phones
+        - generic [ref=f108e1578]:
+          - heading "Help and support" [level=2] [ref=f108e1579]
+          - list [ref=f108e1580]:
+            - listitem [ref=f108e1581]:
+              - link "All help topics" [ref=f108e1582] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help
+            - listitem [ref=f108e1583]:
+              - link "Help with your device" [ref=f108e1584] [cursor=pointer]:
+                - /url: https://deviceguides.vodafone.co.uk/
+            - listitem [ref=f108e1585]:
+              - link "Lost or stolen devices" [ref=f108e1586] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/mobile/lost-and-stolen
+            - listitem [ref=f108e1587]:
+              - link "Find a store" [ref=f108e1588] [cursor=pointer]:
+                - /url: https://stores.vodafone.co.uk/search
+            - listitem [ref=f108e1589]:
+              - link "Contact us" [ref=f108e1590] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us
+            - listitem [ref=f108e1591]:
+              - link "Make a complaint" [ref=f108e1592] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/how-to-complain
+            - listitem [ref=f108e1593]:
+              - link "Help and advice on fraud" [ref=f108e1594] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy/protecting-you
+            - listitem [ref=f108e1595]:
+              - link "Return a product" [ref=f108e1596] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/orders/returns
+            - listitem [ref=f108e1597]:
+              - link "TOBi" [ref=f108e1598] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us#p2pchat
+            - listitem [ref=f108e1599]:
+              - link "UK Charge Checker" [ref=f108e1600] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/billing/charge-checker
+            - listitem [ref=f108e1601]:
+              - link "Social broadband" [ref=f108e1602] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+            - listitem [ref=f108e1603]:
+              - link "Broadband speed test" [ref=f108e1604] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/speed-test
+            - listitem [ref=f108e1605]:
+              - link "Accessibility" [ref=f108e1606] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/accessibility
+        - generic [ref=f108e1608]:
+          - heading "Vodafone UK" [level=2] [ref=f108e1609]
+          - list [ref=f108e1610]:
+            - listitem [ref=f108e1611]:
+              - link "About us" [ref=f108e1612] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/about-us
+            - listitem [ref=f108e1613]:
+              - link "For investors" [ref=f108e1614] [cursor=pointer]:
+                - /url: https://www.vodafone.com/investors
+            - listitem [ref=f108e1615]:
+              - link "Blog" [ref=f108e1616] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/blog
+            - listitem [ref=f108e1617]:
+              - link "News Centre" [ref=f108e1618] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/newscentre/
+            - listitem [ref=f108e1619]:
+              - link "Modern Slavery Statement" [ref=f108e1620] [cursor=pointer]:
+                - /url: https://www.vodafone.com/our-impact/esg-reporting-centre?section=slavery-and-human-trafficking-statement
+            - listitem [ref=f108e1621]:
+              - link "Careers" [ref=f108e1622] [cursor=pointer]:
+                - /url: https://careers.vodafone.com/uk/
+            - listitem [ref=f108e1623]:
+              - link "Switch to Vodafone" [ref=f108e1624] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1
+            - listitem [ref=f108e1625]:
+              - link "Our partnerships" [ref=f108e1626] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/partnerships
+            - listitem [ref=f108e1627]:
+              - link "VOXI" [ref=f108e1628] [cursor=pointer]:
+                - /url: https://www.voxi.co.uk/
+            - listitem [ref=f108e1629]:
+              - link "Talkmobile" [ref=f108e1630] [cursor=pointer]:
+                - /url: https://talkmobile.co.uk/
+            - listitem [ref=f108e1631]:
+              - link "VodafoneThree" [ref=f108e1632] [cursor=pointer]:
+                - /url: https://www.vodafonethree.com/
+            - listitem [ref=f108e1633]:
+              - link "Three UK" [ref=f108e1634] [cursor=pointer]:
+                - /url: https://www.three.co.uk/
+            - listitem [ref=f108e1635]:
+              - link "SMARTY" [ref=f108e1636] [cursor=pointer]:
+                - /url: https://smarty.co.uk/
+      - list [ref=f108e1637]:
+        - listitem [ref=f108e1638]:
+          - list [ref=f108e1639]:
+            - listitem [ref=f108e1640]:
+              - link "Terms and conditions" [ref=f108e1641] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/terms-and-conditions
+              - separator [aria-hidden] [ref=f108e1642]
+            - listitem [ref=f108e1643]:
+              - link "Site map" [ref=f108e1644] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sitemap
+              - separator [aria-hidden] [ref=f108e1645]
+            - listitem [ref=f108e1646]:
+              - link "Privacy policy" [ref=f108e1647] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy
+              - separator [aria-hidden] [ref=f108e1648]
+            - listitem [ref=f108e1649]:
+              - link "Cookie policy" [ref=f108e1650] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy?tabDeepLinkId=cookie-policy#policies
+              - separator [aria-hidden] [ref=f108e1651]
+            - listitem [ref=f108e1652]:
+              - link "PSTI Act" [ref=f108e1653] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security
+              - separator [aria-hidden] [ref=f108e1654]
+            - listitem [ref=f108e1655]:
+              - link "Device security support" [ref=f108e1656] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+      - generic [ref=f108e1657]:
+        - paragraph [ref=f108e1658]: "Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN."
+        - paragraph [ref=f108e1659]: "*Annual Price Increase: The monthly cost will increase each year on 1 April by £2.50 for Pay monthly plans with Airtime/Data, and £3.50 for Home Broadband plans. This doesn't affect Device Plans. More information: vodafone.co.uk/pricechanges"
+        - paragraph [ref=f108e1660]: © 2026 Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)
+  - button "Find a phone & plan" [ref=f108e1661] [cursor=pointer]

@@ -1,0 +1,29 @@
+- generic [ref=f36e3]:
+  - link "Skip to main content" [ref=f36e4] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f36e5]:
+    - generic:
+      - generic:
+        - list
+        - list
+    - generic [ref=f36e8]:
+      - link "Navigates to https://vodafone.co.uk" [ref=f36e9] [cursor=pointer]:
+        - /url: https://vodafone.co.uk
+      - list
+      - list [ref=f36e14]:
+        - listitem [ref=f36e15]:
+          - button "Basket" [ref=f36e17] [cursor=pointer]
+        - listitem [ref=f36e23]:
+          - button "Search" [ref=f36e25] [cursor=pointer]
+        - listitem [ref=f36e31]:
+          - button "Your account options" [ref=f36e32]
+  - generic [ref=f36e47]:
+    - button "Get in touch" [ref=f36e49] [cursor=pointer]
+    - heading "Your items" [level=2] [ref=f36e63]
+  - generic [ref=f36e70]:
+    - generic [ref=f36e71]:
+      - list
+    - separator [aria-hidden] [ref=f36e76]
+    - list
+    - generic:
+      - paragraph

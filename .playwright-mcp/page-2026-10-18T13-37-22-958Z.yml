@@ -1,0 +1,1585 @@
+- generic [ref=f42e3]:
+  - link "Skip to main content" [ref=f42e4] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f42e5]:
+    - generic [ref=f42e7]:
+      - list [ref=f42e8]:
+        - listitem [ref=f42e9] [cursor=pointer]:
+          - link "Personal" [ref=f42e10]:
+            - /url: https://www.vodafone.co.uk/?icmp=CBU_Header_Personal
+        - listitem [ref=f42e18] [cursor=pointer]:
+          - link "Business" [ref=f42e19]:
+            - /url: https://www.vodafone.co.uk/business?icmp=CBU_Header_Business
+      - list [ref=f42e27]:
+        - listitem [ref=f42e28] [cursor=pointer]:
+          - link "Find a store" [ref=f42e29]:
+            - /url: https://stores.vodafone.co.uk/search
+        - listitem [ref=f42e37] [cursor=pointer]:
+          - link "Network Status Checker" [ref=f42e38]:
+            - /url: https://www.vodafone.co.uk/network/status-checker
+    - generic [ref=f42e48]:
+      - link "Navigates to https://www.vodafone.co.uk" [ref=f42e49] [cursor=pointer]:
+        - /url: https://www.vodafone.co.uk
+      - list [ref=f42e54]:
+        - listitem [ref=f42e55]:
+          - button "Phones and devices" [ref=f42e56]
+        - listitem [ref=f42e59]:
+          - button "SIM Only" [ref=f42e60]
+        - listitem [ref=f42e63]:
+          - button "Broadband" [ref=f42e64]
+        - listitem [ref=f42e67]:
+          - button "TV" [ref=f42e68]
+        - listitem [ref=f42e71]:
+          - button "Why Vodafone" [ref=f42e72]
+        - listitem [ref=f42e75]:
+          - button "Support" [ref=f42e76]
+        - listitem [ref=f42e79]:
+          - button "New - Apple" [ref=f42e80]
+      - list [ref=f42e83]:
+        - listitem [ref=f42e84]:
+          - button "Basket" [ref=f42e86] [cursor=pointer]
+        - listitem [ref=f42e92]:
+          - button "Search" [ref=f42e94] [cursor=pointer]
+        - listitem [ref=f42e100]:
+          - button "Your account options" [ref=f42e101]
+  - generic [ref=f42e113]:
+    - generic [ref=f42e117]:
+      - navigation [ref=f42e118]:
+        - menu [ref=f42e119]:
+          - menuitem [ref=f42e120]:
+            - link "Home" [ref=f42e121] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk
+          - menuitem [ref=f42e127]:
+            - link "SIM only" [ref=f42e128] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/sim-only
+          - menuitem "Our best Sim Only deals" [ref=f42e134]
+      - generic [ref=f42e138]:
+        - generic [ref=f42e139] [cursor=pointer]: Buying as a business?
+        - checkbox "Buying as a business?" [ref=f42e150] [cursor=pointer]
+    - generic [ref=f42e155]:
+      - generic [ref=f42e157]:
+        - paragraph [ref=f42e158]: Great value deals when you connect your family
+        - link "Log in" [ref=f42e160] [cursor=pointer]:
+          - /url: /web-shop/login?ACR_Value=journeyType:SIMO_HANDSET&successReturnUrl=/sim-only/best-sim-only-deals&errorReturnUrl=/sim-only/best-sim-only-deals
+      - button "Close Login Banner" [ref=f42e162] [cursor=pointer]
+    - generic "Gridlist page banner" [ref=f42e168]:
+      - list [ref=f42e171]:
+        - listitem [ref=f42e172]:
+          - generic [ref=f42e178]:
+            - heading "Unlimited data and EU roaming – just £26 a month" [level=2] [ref=f42e180]
+            - paragraph [ref=f42e182]: Save £312 with a 24-month plan. Increases to £28.50 on 1 April 2027 and £31 on 1 April 2028.
+            - link "Buy Unlimited plan" [ref=f42e184] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/basket?planSkuId=127121
+      - separator [aria-hidden] [ref=f42e187]
+      - generic [ref=f42e188]:
+        - button "Prev" [ref=f42e189] [cursor=pointer]
+        - list [ref=f42e197]:
+          - listitem [ref=f42e198]:
+            - button "Unlimited data and EU roaming – just £26 a month" [ref=f42e199] [cursor=pointer]:
+              - paragraph [ref=f42e201]: Unlimited data and EU roaming – just £26 a month
+          - listitem [ref=f42e202]:
+            - button [ref=f42e203] [cursor=pointer]:
+              - paragraph [ref=f42e205]: New Vodafone SuperMobile™
+          - listitem [ref=f42e206]:
+            - button [ref=f42e207] [cursor=pointer]:
+              - paragraph [ref=f42e209]: Get additional unlimited data plans from £16 a month
+          - listitem [ref=f42e210]:
+            - button [ref=f42e211] [cursor=pointer]:
+              - paragraph [ref=f42e213]: New Vodafone TV
+        - button "Next" [ref=f42e214] [cursor=pointer]
+    - generic [ref=f42e223]:
+      - generic [ref=f42e228]:
+        - generic [ref=f42e229]:
+          - heading "Our best SIM only deals, with unlimited options" [level=1] [ref=f42e231]
+          - heading [level=2] [ref=f42e234]:
+            - text: Unlimited plans are subject to our
+            - link "Acceptable Use Policy" [ref=f42e235] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/terms-and-conditions/mobile
+        - generic [ref=f42e236]:
+          - generic [ref=f42e238]:
+            - generic: Sort by
+            - generic [ref=f42e242]:
+              - 'button "Sort by: Recommended" [ref=f42e243] [cursor=pointer]':
+                - text: "Sort by:"
+                - generic [ref=f42e244]: Recommended
+              - listbox "recommended"
+          - generic [ref=f42e247]:
+            - text: Showing
+            - strong [ref=f42e248]: "34"
+            - text: plans
+      - generic [ref=f42e251]:
+        - generic [ref=f42e258]:
+          - generic [ref=f42e259]:
+            - generic [ref=f42e260]:
+              - heading "Choose a plan type" [level=2] [ref=f42e261]
+              - button "choose a plan type" [ref=f42e262] [cursor=pointer]
+            - group "Choose a plan type" [ref=f42e268]:
+              - generic [ref=f42e270]:
+                - generic [ref=f42e273] [cursor=pointer]:
+                  - checkbox "Vodafone SuperMobile™ Up to 4x faster speeds, a guaranteed connection, plus online security." [ref=f42e274]
+                  - generic [ref=f42e284]:
+                    - generic [ref=f42e285]: Vodafone SuperMobile™
+                    - generic [ref=f42e286]: Up to 4x faster speeds, a guaranteed connection, plus online security.
+                - generic [ref=f42e291] [cursor=pointer]:
+                  - checkbox "Vodafone Mobile Reliable 5G speeds at a great price." [ref=f42e292]
+                  - generic [ref=f42e300]:
+                    - generic [ref=f42e301]: Vodafone Mobile
+                    - generic [ref=f42e302]: Reliable 5G speeds at a great price.
+          - button "Find out more about Vodafone SuperMobile™" [ref=f42e306] [cursor=pointer]
+          - generic [ref=f42e314]:
+            - generic [ref=f42e315]:
+              - heading "Select contract length" [level=2] [ref=f42e316]
+              - group "Select contract length" [ref=f42e318]:
+                - generic [ref=f42e320] [cursor=pointer]:
+                  - radio "24 Months" [checked] [ref=f42e321]
+                  - paragraph [ref=f42e322]: 24 Months
+                - generic [ref=f42e323] [cursor=pointer]:
+                  - radio "12 Months" [ref=f42e324]
+                  - paragraph [ref=f42e325]: 12 Months
+                - generic [ref=f42e326] [cursor=pointer]:
+                  - radio "30 Days" [ref=f42e327]
+                  - paragraph [ref=f42e328]: 30 Days
+            - generic [ref=f42e329]:
+              - heading "Select data allowance" [level=2] [ref=f42e330]
+              - group "Select data allowance" [ref=f42e332]:
+                - generic [ref=f42e334] [cursor=pointer]:
+                  - checkbox "Unlimited" [ref=f42e335]
+                  - paragraph [ref=f42e336]: Unlimited
+                - generic [ref=f42e337] [cursor=pointer]:
+                  - checkbox "150GB" [ref=f42e338]
+                  - paragraph [ref=f42e339]: 150GB
+                - generic [ref=f42e340] [cursor=pointer]:
+                  - checkbox "120GB" [ref=f42e341]
+                  - paragraph [ref=f42e342]: 120GB
+                - generic [ref=f42e343] [cursor=pointer]:
+                  - checkbox "100GB" [ref=f42e344]
+                  - paragraph [ref=f42e345]: 100GB
+                - generic [ref=f42e346] [cursor=pointer]:
+                  - checkbox "50GB" [ref=f42e347]
+                  - paragraph [ref=f42e348]: 50GB
+                - generic [ref=f42e349] [cursor=pointer]:
+                  - checkbox "30GB" [ref=f42e350]
+                  - paragraph [ref=f42e351]: 30GB
+                - generic [ref=f42e352] [cursor=pointer]:
+                  - checkbox "5GB" [ref=f42e353]
+                  - paragraph [ref=f42e354]: 5GB
+                - generic [ref=f42e355] [cursor=pointer]:
+                  - checkbox "1GB" [ref=f42e356]
+                  - paragraph [ref=f42e357]: 1GB
+        - generic [ref=f42e361]:
+          - generic [ref=f42e365]:
+            - generic [ref=f42e366]: Great Low Price
+            - generic [ref=f42e373]:
+              - generic [ref=f42e374]: 52 roaming destinations
+              - generic [ref=f42e388]:
+                - paragraph [ref=f42e390]: Vodafone Mobile
+                - heading "Unlimited Plus" [level=2] [ref=f42e391]
+                - generic [ref=f42e392]: "Speed: Maximum download of 100 Mbps"
+              - generic [ref=f42e397]:
+                - generic [ref=f42e398]:
+                  - generic [ref=f42e401]:
+                    - generic [ref=f42e402]: Data
+                    - generic [ref=f42e403]: Unlimited
+                  - generic [ref=f42e408]:
+                    - generic [ref=f42e409]: Minutes & Texts
+                    - generic [ref=f42e410]: Unlimited
+                - paragraph
+              - generic [ref=f42e416]:
+                - generic [ref=f42e417]:
+                  - generic [ref=f42e420]:
+                    - generic [ref=f42e421]: Monthly
+                    - generic [ref=f42e423]:
+                      - generic [ref=f42e424]: £
+                      - generic [ref=f42e425]: "26"
+                  - generic [ref=f42e429]:
+                    - paragraph [ref=f42e430]: £28.50 on 1 April 2027
+                    - paragraph [ref=f42e431]: £31 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e436] [cursor=pointer]
+              - generic [ref=f42e438]:
+                - separator [aria-hidden] [ref=f42e439]
+                - paragraph [ref=f42e451] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+              - button "See full plan details" [ref=f42e456] [cursor=pointer]
+          - generic [ref=f42e467]:
+            - generic [ref=f42e468]: Great Low Price
+            - generic [ref=f42e475]:
+              - generic [ref=f42e476]: 84 roaming destinations
+              - generic [ref=f42e490]:
+                - paragraph [ref=f42e492]: Vodafone Mobile
+                - heading "Unlimited Premier" [level=2] [ref=f42e493]
+                - generic [ref=f42e494]: "Speed: Maximum download of 100 Mbps"
+              - generic [ref=f42e499]:
+                - generic [ref=f42e500]:
+                  - generic [ref=f42e503]:
+                    - generic [ref=f42e504]: Data
+                    - generic [ref=f42e505]: Unlimited
+                  - generic [ref=f42e510]:
+                    - generic [ref=f42e511]: Minutes & Texts
+                    - generic [ref=f42e512]: Unlimited
+                - paragraph
+              - generic [ref=f42e518]:
+                - generic [ref=f42e519]:
+                  - generic [ref=f42e522]:
+                    - generic [ref=f42e523]: Monthly
+                    - generic [ref=f42e525]:
+                      - generic [ref=f42e526]: £
+                      - generic [ref=f42e527]: "31"
+                  - generic [ref=f42e531]:
+                    - paragraph [ref=f42e532]: £33.50 on 1 April 2027
+                    - paragraph [ref=f42e533]: £36 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e538] [cursor=pointer]
+              - generic [ref=f42e540]:
+                - separator [aria-hidden] [ref=f42e541]
+                - generic [ref=f42e543]:
+                  - paragraph [ref=f42e553] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                  - paragraph [ref=f42e563] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+              - button "See full plan details" [ref=f42e568] [cursor=pointer]
+          - generic [ref=f42e584]:
+            - generic [ref=f42e599]:
+              - paragraph [ref=f42e601]: Vodafone Mobile
+              - heading "50GB Red" [level=2] [ref=f42e602]
+            - generic [ref=f42e605]:
+              - generic [ref=f42e606]:
+                - generic [ref=f42e609]:
+                  - generic [ref=f42e610]: Data
+                  - generic [ref=f42e611]: 50GB
+                - generic [ref=f42e616]:
+                  - generic [ref=f42e617]: Minutes & Texts
+                  - generic [ref=f42e618]: Unlimited
+              - paragraph
+            - generic [ref=f42e624]:
+              - generic [ref=f42e625]:
+                - generic [ref=f42e628]:
+                  - generic [ref=f42e629]: Monthly
+                  - generic [ref=f42e631]:
+                    - generic [ref=f42e632]: £
+                    - generic [ref=f42e633]: "21"
+                - generic [ref=f42e637]:
+                  - paragraph [ref=f42e638]: £23.50 on 1 April 2027
+                  - paragraph [ref=f42e639]: £26 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e644] [cursor=pointer]
+            - button "See full plan details" [ref=f42e651] [cursor=pointer]
+          - generic [ref=f42e667]:
+            - generic [ref=f42e682]:
+              - paragraph [ref=f42e684]: Vodafone Mobile
+              - heading "150GB Red" [level=2] [ref=f42e685]
+            - generic [ref=f42e688]:
+              - generic [ref=f42e689]:
+                - generic [ref=f42e692]:
+                  - generic [ref=f42e693]: Data
+                  - generic [ref=f42e694]: 150GB
+                - generic [ref=f42e699]:
+                  - generic [ref=f42e700]: Minutes & Texts
+                  - generic [ref=f42e701]: Unlimited
+              - paragraph
+            - generic [ref=f42e707]:
+              - generic [ref=f42e708]:
+                - generic [ref=f42e711]:
+                  - generic [ref=f42e712]: Monthly
+                  - generic [ref=f42e714]:
+                    - generic [ref=f42e715]: £
+                    - generic [ref=f42e716]: "25"
+                - generic [ref=f42e720]:
+                  - paragraph [ref=f42e721]: £27.50 on 1 April 2027
+                  - paragraph [ref=f42e722]: £30 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e727] [cursor=pointer]
+            - button "See full plan details" [ref=f42e734] [cursor=pointer]
+          - generic [ref=f42e746]:
+            - heading "Vodafone Together" [level=2] [ref=f42e748]
+            - generic [ref=f42e762]: New
+            - heading "Save on multiple plans" [level=3] [ref=f42e769]
+            - list [ref=f42e771]:
+              - listitem [ref=f42e772]:
+                - paragraph [ref=f42e780]: Buy unlimited data plans from £16 a month
+              - listitem [ref=f42e781]:
+                - paragraph [ref=f42e789]: Buy full fibre broadband from £22 a month
+            - button "Learn more" [ref=f42e791] [cursor=pointer]
+            - paragraph [ref=f42e794]: Terms and conditions apply.
+          - generic [ref=f42e803]:
+            - generic [ref=f42e817]:
+              - paragraph [ref=f42e819]: Vodafone Mobile
+              - heading "Unlimited" [level=2] [ref=f42e820]
+              - generic [ref=f42e821]: "Speed: Maximum download of 100 Mbps"
+            - generic [ref=f42e826]:
+              - generic [ref=f42e827]:
+                - generic [ref=f42e830]:
+                  - generic [ref=f42e831]: Data
+                  - generic [ref=f42e832]: Unlimited
+                - generic [ref=f42e837]:
+                  - generic [ref=f42e838]: Minutes & Texts
+                  - generic [ref=f42e839]: Unlimited
+              - paragraph
+            - generic [ref=f42e845]:
+              - generic [ref=f42e846]:
+                - generic [ref=f42e849]:
+                  - generic [ref=f42e850]: Monthly
+                  - generic [ref=f42e852]:
+                    - generic [ref=f42e853]: £
+                    - generic [ref=f42e854]: "35"
+                - generic [ref=f42e858]:
+                  - paragraph [ref=f42e859]: £37.50 on 1 April 2027
+                  - paragraph [ref=f42e860]: £40 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e865] [cursor=pointer]
+            - button "See full plan details" [ref=f42e872] [cursor=pointer]
+          - generic [ref=f42e888]:
+            - generic [ref=f42e907]:
+              - paragraph [ref=f42e909]: Vodafone SuperMobile™
+              - heading "Unlimited SuperMobile Xtra" [level=2] [ref=f42e910]
+              - generic [ref=f42e911]: Uncapped speeds
+            - generic [ref=f42e916]:
+              - generic [ref=f42e917]:
+                - generic [ref=f42e920]:
+                  - generic [ref=f42e921]: Data
+                  - generic [ref=f42e922]: Unlimited
+                - generic [ref=f42e927]:
+                  - generic [ref=f42e928]: Minutes & Texts
+                  - generic [ref=f42e929]: Unlimited
+              - paragraph
+            - generic [ref=f42e935]:
+              - generic [ref=f42e936]:
+                - generic [ref=f42e939]:
+                  - generic [ref=f42e940]: Monthly
+                  - generic [ref=f42e942]:
+                    - generic [ref=f42e943]: £
+                    - generic [ref=f42e944]: "43"
+                - generic [ref=f42e948]:
+                  - paragraph [ref=f42e949]: £45.50 on 1 April 2027
+                  - paragraph [ref=f42e950]: £48 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e955] [cursor=pointer]
+            - generic [ref=f42e957]:
+              - separator [aria-hidden] [ref=f42e958]
+              - generic [ref=f42e960]:
+                - paragraph [ref=f42e970] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e980] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e990] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e995] [cursor=pointer]
+          - generic [ref=f42e1011]:
+            - generic [ref=f42e1025]:
+              - paragraph [ref=f42e1027]: Vodafone Mobile
+              - heading "120GB" [level=2] [ref=f42e1028]
+              - generic [ref=f42e1029]: "Speed: Maximum download of 100 Mbps"
+            - generic [ref=f42e1034]:
+              - generic [ref=f42e1035]:
+                - generic [ref=f42e1038]:
+                  - generic [ref=f42e1039]: Data
+                  - generic [ref=f42e1040]: 120GB
+                - generic [ref=f42e1045]:
+                  - generic [ref=f42e1046]: Minutes & Texts
+                  - generic [ref=f42e1047]: Unlimited
+              - paragraph
+            - generic [ref=f42e1053]:
+              - generic [ref=f42e1054]:
+                - generic [ref=f42e1057]:
+                  - generic [ref=f42e1058]: Monthly
+                  - generic [ref=f42e1060]:
+                    - generic [ref=f42e1061]: £
+                    - generic [ref=f42e1062]: "26"
+                - generic [ref=f42e1066]:
+                  - paragraph [ref=f42e1067]: £28.50 on 1 April 2027
+                  - paragraph [ref=f42e1068]: £31 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1073] [cursor=pointer]
+            - button "See full plan details" [ref=f42e1080] [cursor=pointer]
+          - generic [ref=f42e1091]:
+            - generic [ref=f42e1092]: Yours for a great price
+            - generic [ref=f42e1099]:
+              - generic [ref=f42e1113]:
+                - paragraph [ref=f42e1115]: Vodafone Mobile
+                - heading "100GB" [level=2] [ref=f42e1116]
+                - generic [ref=f42e1117]: "Speed: Maximum download of 100 Mbps"
+              - generic [ref=f42e1122]:
+                - generic [ref=f42e1123]:
+                  - generic [ref=f42e1126]:
+                    - generic [ref=f42e1127]: Data
+                    - generic [ref=f42e1128]: 100GB
+                  - generic [ref=f42e1133]:
+                    - generic [ref=f42e1134]: Minutes & Texts
+                    - generic [ref=f42e1135]: Unlimited
+                - paragraph
+              - generic [ref=f42e1141]:
+                - generic [ref=f42e1142]:
+                  - generic [ref=f42e1145]:
+                    - generic [ref=f42e1146]: Monthly
+                    - generic [ref=f42e1148]:
+                      - generic [ref=f42e1149]: £
+                      - generic [ref=f42e1150]: "24"
+                  - generic [ref=f42e1154]:
+                    - paragraph [ref=f42e1155]: £26.50 on 1 April 2027
+                    - paragraph [ref=f42e1156]: £29 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e1161] [cursor=pointer]
+              - button "See full plan details" [ref=f42e1168] [cursor=pointer]
+          - generic [ref=f42e1184]:
+            - generic [ref=f42e1185]: 52 roaming destinations
+            - generic [ref=f42e1200]:
+              - paragraph [ref=f42e1202]: Vodafone Mobile
+              - heading "120GB Plus" [level=2] [ref=f42e1203]
+              - generic [ref=f42e1204]: Uncapped speeds
+            - generic [ref=f42e1209]:
+              - generic [ref=f42e1210]:
+                - generic [ref=f42e1213]:
+                  - generic [ref=f42e1214]: Data
+                  - generic [ref=f42e1215]: 120GB
+                - generic [ref=f42e1220]:
+                  - generic [ref=f42e1221]: Minutes & Texts
+                  - generic [ref=f42e1222]: Unlimited
+              - paragraph
+            - generic [ref=f42e1228]:
+              - generic [ref=f42e1229]:
+                - generic [ref=f42e1232]:
+                  - generic [ref=f42e1233]: Monthly
+                  - generic [ref=f42e1235]:
+                    - generic [ref=f42e1236]: £
+                    - generic [ref=f42e1237]: "35"
+                - generic [ref=f42e1241]:
+                  - paragraph [ref=f42e1242]: £37.50 on 1 April 2027
+                  - paragraph [ref=f42e1243]: £40 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1248] [cursor=pointer]
+            - generic [ref=f42e1250]:
+              - separator [aria-hidden] [ref=f42e1251]
+              - paragraph [ref=f42e1263] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+            - button "See full plan details" [ref=f42e1268] [cursor=pointer]
+          - generic [ref=f42e1284]:
+            - generic [ref=f42e1285]: 84 roaming destinations
+            - generic [ref=f42e1304]:
+              - paragraph [ref=f42e1306]: Vodafone SuperMobile™
+              - heading "30GB SuperMobile Premier" [level=2] [ref=f42e1307]
+              - generic [ref=f42e1308]: Uncapped speeds
+            - generic [ref=f42e1313]:
+              - generic [ref=f42e1314]:
+                - generic [ref=f42e1317]:
+                  - generic [ref=f42e1318]: Data
+                  - generic [ref=f42e1319]: 30GB
+                - generic [ref=f42e1324]:
+                  - generic [ref=f42e1325]: Minutes & Texts
+                  - generic [ref=f42e1326]: Unlimited
+              - paragraph
+            - generic [ref=f42e1332]:
+              - generic [ref=f42e1333]:
+                - generic [ref=f42e1336]:
+                  - generic [ref=f42e1337]: Monthly
+                  - generic [ref=f42e1339]:
+                    - generic [ref=f42e1340]: £
+                    - generic [ref=f42e1341]: "38"
+                - generic [ref=f42e1345]:
+                  - paragraph [ref=f42e1346]: £40.50 on 1 April 2027
+                  - paragraph [ref=f42e1347]: £43 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1352] [cursor=pointer]
+            - generic [ref=f42e1354]:
+              - separator [aria-hidden] [ref=f42e1355]
+              - generic [ref=f42e1357]:
+                - paragraph [ref=f42e1367] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e1377] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e1387] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                - paragraph [ref=f42e1397] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+                - paragraph [ref=f42e1407] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e1412] [cursor=pointer]
+          - generic [ref=f42e1428]:
+            - generic [ref=f42e1442]:
+              - paragraph [ref=f42e1444]: Vodafone Mobile
+              - heading "1GB" [level=2] [ref=f42e1445]
+              - generic [ref=f42e1446]: "Speed: Maximum download of 100 Mbps"
+            - generic [ref=f42e1451]:
+              - generic [ref=f42e1452]:
+                - generic [ref=f42e1455]:
+                  - generic [ref=f42e1456]: Data
+                  - generic [ref=f42e1457]: 1GB
+                - generic [ref=f42e1462]:
+                  - generic [ref=f42e1463]: Minutes & Texts
+                  - generic [ref=f42e1464]: Unlimited
+              - paragraph
+            - generic [ref=f42e1470]:
+              - generic [ref=f42e1471]:
+                - generic [ref=f42e1474]:
+                  - generic [ref=f42e1475]: Monthly
+                  - generic [ref=f42e1477]:
+                    - generic [ref=f42e1478]: £
+                    - generic [ref=f42e1479]: "16"
+                - generic [ref=f42e1483]:
+                  - paragraph [ref=f42e1484]: £18.50 on 1 April 2027
+                  - paragraph [ref=f42e1485]: £21 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1490] [cursor=pointer]
+            - button "See full plan details" [ref=f42e1497] [cursor=pointer]
+          - generic [ref=f42e1513]:
+            - generic [ref=f42e1527]:
+              - paragraph [ref=f42e1529]: Vodafone Mobile
+              - heading "5GB" [level=2] [ref=f42e1530]
+              - generic [ref=f42e1531]: "Speed: Maximum download of 100 Mbps"
+            - generic [ref=f42e1536]:
+              - generic [ref=f42e1537]:
+                - generic [ref=f42e1540]:
+                  - generic [ref=f42e1541]: Data
+                  - generic [ref=f42e1542]: 5GB
+                - generic [ref=f42e1547]:
+                  - generic [ref=f42e1548]: Minutes & Texts
+                  - generic [ref=f42e1549]: Unlimited
+              - paragraph
+            - generic [ref=f42e1555]:
+              - generic [ref=f42e1556]:
+                - generic [ref=f42e1559]:
+                  - generic [ref=f42e1560]: Monthly
+                  - generic [ref=f42e1562]:
+                    - generic [ref=f42e1563]: £
+                    - generic [ref=f42e1564]: "19"
+                - generic [ref=f42e1568]:
+                  - paragraph [ref=f42e1569]: £21.50 on 1 April 2027
+                  - paragraph [ref=f42e1570]: £24 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1575] [cursor=pointer]
+            - button "See full plan details" [ref=f42e1582] [cursor=pointer]
+          - generic [ref=f42e1598]:
+            - generic [ref=f42e1612]:
+              - paragraph [ref=f42e1614]: Vodafone Mobile
+              - heading "30GB" [level=2] [ref=f42e1615]
+              - generic [ref=f42e1616]: "Speed: Maximum download of 100 Mbps"
+            - generic [ref=f42e1621]:
+              - generic [ref=f42e1622]:
+                - generic [ref=f42e1625]:
+                  - generic [ref=f42e1626]: Data
+                  - generic [ref=f42e1627]: 30GB
+                - generic [ref=f42e1632]:
+                  - generic [ref=f42e1633]: Minutes & Texts
+                  - generic [ref=f42e1634]: Unlimited
+              - paragraph
+            - generic [ref=f42e1640]:
+              - generic [ref=f42e1641]:
+                - generic [ref=f42e1644]:
+                  - generic [ref=f42e1645]: Monthly
+                  - generic [ref=f42e1647]:
+                    - generic [ref=f42e1648]: £
+                    - generic [ref=f42e1649]: "22"
+                - generic [ref=f42e1653]:
+                  - paragraph [ref=f42e1654]: £24.50 on 1 April 2027
+                  - paragraph [ref=f42e1655]: £27 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1660] [cursor=pointer]
+            - button "See full plan details" [ref=f42e1667] [cursor=pointer]
+          - generic [ref=f42e1678]:
+            - generic [ref=f42e1679]: Yours for a great price
+            - generic [ref=f42e1686]:
+              - generic [ref=f42e1687]: 52 roaming destinations
+              - generic [ref=f42e1702]:
+                - paragraph [ref=f42e1704]: Vodafone Mobile
+                - heading "100GB Plus" [level=2] [ref=f42e1705]
+                - generic [ref=f42e1706]: Uncapped speeds
+              - generic [ref=f42e1711]:
+                - generic [ref=f42e1712]:
+                  - generic [ref=f42e1715]:
+                    - generic [ref=f42e1716]: Data
+                    - generic [ref=f42e1717]: 100GB
+                  - generic [ref=f42e1722]:
+                    - generic [ref=f42e1723]: Minutes & Texts
+                    - generic [ref=f42e1724]: Unlimited
+                - paragraph
+              - generic [ref=f42e1730]:
+                - generic [ref=f42e1731]:
+                  - generic [ref=f42e1734]:
+                    - generic [ref=f42e1735]: Monthly
+                    - generic [ref=f42e1737]:
+                      - generic [ref=f42e1738]: £
+                      - generic [ref=f42e1739]: "33"
+                  - generic [ref=f42e1743]:
+                    - paragraph [ref=f42e1744]: £35.50 on 1 April 2027
+                    - paragraph [ref=f42e1745]: £38 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e1750] [cursor=pointer]
+              - generic [ref=f42e1752]:
+                - separator [aria-hidden] [ref=f42e1753]
+                - paragraph [ref=f42e1765] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+              - button "See full plan details" [ref=f42e1770] [cursor=pointer]
+          - generic [ref=f42e1786]:
+            - generic [ref=f42e1787]: 52 roaming destinations
+            - generic [ref=f42e1802]:
+              - paragraph [ref=f42e1804]: Vodafone Mobile
+              - heading "Unlimited Plus" [level=2] [ref=f42e1805]
+              - generic [ref=f42e1806]: Uncapped speeds
+            - generic [ref=f42e1811]:
+              - generic [ref=f42e1812]:
+                - generic [ref=f42e1815]:
+                  - generic [ref=f42e1816]: Data
+                  - generic [ref=f42e1817]: Unlimited
+                - generic [ref=f42e1822]:
+                  - generic [ref=f42e1823]: Minutes & Texts
+                  - generic [ref=f42e1824]: Unlimited
+              - paragraph
+            - generic [ref=f42e1830]:
+              - generic [ref=f42e1831]:
+                - generic [ref=f42e1834]:
+                  - generic [ref=f42e1835]: Monthly
+                  - generic [ref=f42e1837]:
+                    - generic [ref=f42e1838]: £
+                    - generic [ref=f42e1839]: "44"
+                - generic [ref=f42e1843]:
+                  - paragraph [ref=f42e1844]: £46.50 on 1 April 2027
+                  - paragraph [ref=f42e1845]: £49 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1850] [cursor=pointer]
+            - generic [ref=f42e1852]:
+              - separator [aria-hidden] [ref=f42e1853]
+              - paragraph [ref=f42e1865] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+            - button "See full plan details" [ref=f42e1870] [cursor=pointer]
+          - generic [ref=f42e1886]:
+            - generic [ref=f42e1905]:
+              - paragraph [ref=f42e1907]: Vodafone SuperMobile™
+              - heading "30GB SuperMobile Xtra" [level=2] [ref=f42e1908]
+            - generic [ref=f42e1911]:
+              - generic [ref=f42e1912]:
+                - generic [ref=f42e1915]:
+                  - generic [ref=f42e1916]: Data
+                  - generic [ref=f42e1917]: 30GB
+                - generic [ref=f42e1922]:
+                  - generic [ref=f42e1923]: Minutes & Texts
+                  - generic [ref=f42e1924]: Unlimited
+              - paragraph
+            - generic [ref=f42e1930]:
+              - generic [ref=f42e1931]:
+                - generic [ref=f42e1934]:
+                  - generic [ref=f42e1935]: Monthly
+                  - generic [ref=f42e1937]:
+                    - generic [ref=f42e1938]: £
+                    - generic [ref=f42e1939]: "30"
+                - generic [ref=f42e1943]:
+                  - paragraph [ref=f42e1944]: £32.50 on 1 April 2027
+                  - paragraph [ref=f42e1945]: £35 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e1950] [cursor=pointer]
+            - generic [ref=f42e1952]:
+              - separator [aria-hidden] [ref=f42e1953]
+              - generic [ref=f42e1955]:
+                - paragraph [ref=f42e1965] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e1975] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e1985] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e1990] [cursor=pointer]
+          - generic [ref=f42e2006]:
+            - generic [ref=f42e2007]: 84 roaming destinations
+            - generic [ref=f42e2022]:
+              - paragraph [ref=f42e2024]: Vodafone Mobile
+              - heading "Unlimited Premier" [level=2] [ref=f42e2025]
+              - generic [ref=f42e2026]: Uncapped speeds
+            - generic [ref=f42e2031]:
+              - generic [ref=f42e2032]:
+                - generic [ref=f42e2035]:
+                  - generic [ref=f42e2036]: Data
+                  - generic [ref=f42e2037]: Unlimited
+                - generic [ref=f42e2042]:
+                  - generic [ref=f42e2043]: Minutes & Texts
+                  - generic [ref=f42e2044]: Unlimited
+              - paragraph
+            - generic [ref=f42e2050]:
+              - generic [ref=f42e2051]:
+                - generic [ref=f42e2054]:
+                  - generic [ref=f42e2055]: Monthly
+                  - generic [ref=f42e2057]:
+                    - generic [ref=f42e2058]: £
+                    - generic [ref=f42e2059]: "48"
+                - generic [ref=f42e2063]:
+                  - paragraph [ref=f42e2064]: £50.50 on 1 April 2027
+                  - paragraph [ref=f42e2065]: £53 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2070] [cursor=pointer]
+            - generic [ref=f42e2072]:
+              - separator [aria-hidden] [ref=f42e2073]
+              - generic [ref=f42e2075]:
+                - paragraph [ref=f42e2085] [cursor=pointer]: "Speed Boost: Up to 2x speeds"
+                - paragraph [ref=f42e2095] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+            - button "See full plan details" [ref=f42e2100] [cursor=pointer]
+          - generic [ref=f42e2116]:
+            - generic [ref=f42e2117]: 52 roaming destinations
+            - generic [ref=f42e2136]:
+              - paragraph [ref=f42e2138]: Vodafone SuperMobile™
+              - heading "120GB SuperMobile Plus" [level=2] [ref=f42e2139]
+              - generic [ref=f42e2140]: Uncapped speeds
+            - generic [ref=f42e2145]:
+              - generic [ref=f42e2146]:
+                - generic [ref=f42e2149]:
+                  - generic [ref=f42e2150]: Data
+                  - generic [ref=f42e2151]: 120GB
+                - generic [ref=f42e2156]:
+                  - generic [ref=f42e2157]: Minutes & Texts
+                  - generic [ref=f42e2158]: Unlimited
+              - paragraph
+            - generic [ref=f42e2164]:
+              - generic [ref=f42e2165]:
+                - generic [ref=f42e2168]:
+                  - generic [ref=f42e2169]: Monthly
+                  - generic [ref=f42e2171]:
+                    - generic [ref=f42e2172]: £
+                    - generic [ref=f42e2173]: "38"
+                - generic [ref=f42e2177]:
+                  - paragraph [ref=f42e2178]: £40.50 on 1 April 2027
+                  - paragraph [ref=f42e2179]: £43 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2184] [cursor=pointer]
+            - generic [ref=f42e2186]:
+              - separator [aria-hidden] [ref=f42e2187]
+              - generic [ref=f42e2189]:
+                - paragraph [ref=f42e2199] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e2209] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e2219] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+                - paragraph [ref=f42e2229] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e2234] [cursor=pointer]
+          - generic [ref=f42e2250]:
+            - generic [ref=f42e2251]: 52 roaming destinations
+            - generic [ref=f42e2270]:
+              - paragraph [ref=f42e2272]: Vodafone SuperMobile™
+              - heading "100GB SuperMobile Plus" [level=2] [ref=f42e2273]
+              - generic [ref=f42e2274]: Uncapped speeds
+            - generic [ref=f42e2279]:
+              - generic [ref=f42e2280]:
+                - generic [ref=f42e2283]:
+                  - generic [ref=f42e2284]: Data
+                  - generic [ref=f42e2285]: 100GB
+                - generic [ref=f42e2290]:
+                  - generic [ref=f42e2291]: Minutes & Texts
+                  - generic [ref=f42e2292]: Unlimited
+              - paragraph
+            - generic [ref=f42e2298]:
+              - generic [ref=f42e2299]:
+                - generic [ref=f42e2302]:
+                  - generic [ref=f42e2303]: Monthly
+                  - generic [ref=f42e2305]:
+                    - generic [ref=f42e2306]: £
+                    - generic [ref=f42e2307]: "36"
+                - generic [ref=f42e2311]:
+                  - paragraph [ref=f42e2312]: £38.50 on 1 April 2027
+                  - paragraph [ref=f42e2313]: £41 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2318] [cursor=pointer]
+            - generic [ref=f42e2320]:
+              - separator [aria-hidden] [ref=f42e2321]
+              - generic [ref=f42e2323]:
+                - paragraph [ref=f42e2333] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e2343] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e2353] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+                - paragraph [ref=f42e2363] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e2368] [cursor=pointer]
+          - generic [ref=f42e2384]:
+            - generic [ref=f42e2385]: 52 roaming destinations
+            - generic [ref=f42e2404]:
+              - paragraph [ref=f42e2406]: Vodafone SuperMobile™
+              - heading "Unlimited SuperMobile Plus" [level=2] [ref=f42e2407]
+              - generic [ref=f42e2408]: Uncapped speeds
+            - generic [ref=f42e2413]:
+              - generic [ref=f42e2414]:
+                - generic [ref=f42e2417]:
+                  - generic [ref=f42e2418]: Data
+                  - generic [ref=f42e2419]: Unlimited
+                - generic [ref=f42e2424]:
+                  - generic [ref=f42e2425]: Minutes & Texts
+                  - generic [ref=f42e2426]: Unlimited
+              - paragraph
+            - generic [ref=f42e2432]:
+              - generic [ref=f42e2433]:
+                - generic [ref=f42e2436]:
+                  - generic [ref=f42e2437]: Monthly
+                  - generic [ref=f42e2439]:
+                    - generic [ref=f42e2440]: £
+                    - generic [ref=f42e2441]: "47"
+                - generic [ref=f42e2445]:
+                  - paragraph [ref=f42e2446]: £49.50 on 1 April 2027
+                  - paragraph [ref=f42e2447]: £52 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2452] [cursor=pointer]
+            - generic [ref=f42e2454]:
+              - separator [aria-hidden] [ref=f42e2455]
+              - generic [ref=f42e2457]:
+                - paragraph [ref=f42e2467] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e2477] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e2487] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+                - paragraph [ref=f42e2497] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e2502] [cursor=pointer]
+          - generic [ref=f42e2518]:
+            - generic [ref=f42e2519]: 84 roaming destinations
+            - generic [ref=f42e2538]:
+              - paragraph [ref=f42e2540]: Vodafone SuperMobile™
+              - heading "100GB SuperMobile Premier" [level=2] [ref=f42e2541]
+              - generic [ref=f42e2542]: Uncapped speeds
+            - generic [ref=f42e2547]:
+              - generic [ref=f42e2548]:
+                - generic [ref=f42e2551]:
+                  - generic [ref=f42e2552]: Data
+                  - generic [ref=f42e2553]: 100GB
+                - generic [ref=f42e2558]:
+                  - generic [ref=f42e2559]: Minutes & Texts
+                  - generic [ref=f42e2560]: Unlimited
+              - paragraph
+            - generic [ref=f42e2566]:
+              - generic [ref=f42e2567]:
+                - generic [ref=f42e2570]:
+                  - generic [ref=f42e2571]: Monthly
+                  - generic [ref=f42e2573]:
+                    - generic [ref=f42e2574]: £
+                    - generic [ref=f42e2575]: "40"
+                - generic [ref=f42e2579]:
+                  - paragraph [ref=f42e2580]: £42.50 on 1 April 2027
+                  - paragraph [ref=f42e2581]: £45 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2586] [cursor=pointer]
+            - generic [ref=f42e2588]:
+              - separator [aria-hidden] [ref=f42e2589]
+              - generic [ref=f42e2591]:
+                - paragraph [ref=f42e2601] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e2611] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e2621] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                - paragraph [ref=f42e2631] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+                - paragraph [ref=f42e2641] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e2646] [cursor=pointer]
+          - generic [ref=f42e2662]:
+            - generic [ref=f42e2663]: 84 roaming destinations
+            - generic [ref=f42e2682]:
+              - paragraph [ref=f42e2684]: Vodafone SuperMobile™
+              - heading "Unlimited SuperMobile Premier" [level=2] [ref=f42e2685]
+              - generic [ref=f42e2686]: Uncapped speeds
+            - generic [ref=f42e2691]:
+              - generic [ref=f42e2692]:
+                - generic [ref=f42e2695]:
+                  - generic [ref=f42e2696]: Data
+                  - generic [ref=f42e2697]: Unlimited
+                - generic [ref=f42e2702]:
+                  - generic [ref=f42e2703]: Minutes & Texts
+                  - generic [ref=f42e2704]: Unlimited
+              - paragraph
+            - generic [ref=f42e2710]:
+              - generic [ref=f42e2711]:
+                - generic [ref=f42e2714]:
+                  - generic [ref=f42e2715]: Monthly
+                  - generic [ref=f42e2717]:
+                    - generic [ref=f42e2718]: £
+                    - generic [ref=f42e2719]: "51"
+                - generic [ref=f42e2723]:
+                  - paragraph [ref=f42e2724]: £53.50 on 1 April 2027
+                  - paragraph [ref=f42e2725]: £56 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2730] [cursor=pointer]
+            - generic [ref=f42e2732]:
+              - separator [aria-hidden] [ref=f42e2733]
+              - generic [ref=f42e2735]:
+                - paragraph [ref=f42e2745] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e2755] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e2765] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                - paragraph [ref=f42e2775] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+                - paragraph [ref=f42e2785] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e2790] [cursor=pointer]
+          - generic [ref=f42e2801]:
+            - generic [ref=f42e2802]: Yours for a great price
+            - generic [ref=f42e2809]:
+              - generic [ref=f42e2810]: 84 roaming destinations
+              - generic [ref=f42e2825]:
+                - paragraph [ref=f42e2827]: Vodafone Mobile
+                - heading "100GB Premier" [level=2] [ref=f42e2828]
+                - generic [ref=f42e2829]: Uncapped speeds
+              - generic [ref=f42e2834]:
+                - generic [ref=f42e2835]:
+                  - generic [ref=f42e2838]:
+                    - generic [ref=f42e2839]: Data
+                    - generic [ref=f42e2840]: 100GB
+                  - generic [ref=f42e2845]:
+                    - generic [ref=f42e2846]: Minutes & Texts
+                    - generic [ref=f42e2847]: Unlimited
+                - paragraph
+              - generic [ref=f42e2853]:
+                - generic [ref=f42e2854]:
+                  - generic [ref=f42e2857]:
+                    - generic [ref=f42e2858]: Monthly
+                    - generic [ref=f42e2860]:
+                      - generic [ref=f42e2861]: £
+                      - generic [ref=f42e2862]: "37"
+                  - generic [ref=f42e2866]:
+                    - paragraph [ref=f42e2867]: £39.50 on 1 April 2027
+                    - paragraph [ref=f42e2868]: £42 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e2873] [cursor=pointer]
+              - generic [ref=f42e2875]:
+                - separator [aria-hidden] [ref=f42e2876]
+                - generic [ref=f42e2878]:
+                  - paragraph [ref=f42e2888] [cursor=pointer]: "Speed Boost: Up to 2x speeds"
+                  - paragraph [ref=f42e2898] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+              - button "See full plan details" [ref=f42e2903] [cursor=pointer]
+          - generic [ref=f42e2919]:
+            - generic [ref=f42e2938]:
+              - paragraph [ref=f42e2940]: Vodafone SuperMobile™
+              - heading "100GB SuperMobile Xtra" [level=2] [ref=f42e2941]
+            - generic [ref=f42e2944]:
+              - generic [ref=f42e2945]:
+                - generic [ref=f42e2948]:
+                  - generic [ref=f42e2949]: Data
+                  - generic [ref=f42e2950]: 100GB
+                - generic [ref=f42e2955]:
+                  - generic [ref=f42e2956]: Minutes & Texts
+                  - generic [ref=f42e2957]: Unlimited
+              - paragraph
+            - generic [ref=f42e2963]:
+              - generic [ref=f42e2964]:
+                - generic [ref=f42e2967]:
+                  - generic [ref=f42e2968]: Monthly
+                  - generic [ref=f42e2970]:
+                    - generic [ref=f42e2971]: £
+                    - generic [ref=f42e2972]: "32"
+                - generic [ref=f42e2976]:
+                  - paragraph [ref=f42e2977]: £34.50 on 1 April 2027
+                  - paragraph [ref=f42e2978]: £37 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e2983] [cursor=pointer]
+            - generic [ref=f42e2985]:
+              - separator [aria-hidden] [ref=f42e2986]
+              - generic [ref=f42e2988]:
+                - paragraph [ref=f42e2998] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e3008] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e3018] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e3023] [cursor=pointer]
+          - generic [ref=f42e3039]:
+            - generic [ref=f42e3058]:
+              - paragraph [ref=f42e3060]: Vodafone SuperMobile™
+              - heading "120GB SuperMobile Xtra" [level=2] [ref=f42e3061]
+            - generic [ref=f42e3064]:
+              - generic [ref=f42e3065]:
+                - generic [ref=f42e3068]:
+                  - generic [ref=f42e3069]: Data
+                  - generic [ref=f42e3070]: 120GB
+                - generic [ref=f42e3075]:
+                  - generic [ref=f42e3076]: Minutes & Texts
+                  - generic [ref=f42e3077]: Unlimited
+              - paragraph
+            - generic [ref=f42e3083]:
+              - generic [ref=f42e3084]:
+                - generic [ref=f42e3087]:
+                  - generic [ref=f42e3088]: Monthly
+                  - generic [ref=f42e3090]:
+                    - generic [ref=f42e3091]: £
+                    - generic [ref=f42e3092]: "34"
+                - generic [ref=f42e3096]:
+                  - paragraph [ref=f42e3097]: £36.50 on 1 April 2027
+                  - paragraph [ref=f42e3098]: £39 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3103] [cursor=pointer]
+            - generic [ref=f42e3105]:
+              - separator [aria-hidden] [ref=f42e3106]
+              - generic [ref=f42e3108]:
+                - paragraph [ref=f42e3118] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e3128] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e3138] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e3143] [cursor=pointer]
+          - generic [ref=f42e3159]:
+            - generic [ref=f42e3160]: 84 roaming destinations
+            - generic [ref=f42e3179]:
+              - paragraph [ref=f42e3181]: Vodafone SuperMobile™
+              - heading "120GB SuperMobile Premier" [level=2] [ref=f42e3182]
+              - generic [ref=f42e3183]: Uncapped speeds
+            - generic [ref=f42e3188]:
+              - generic [ref=f42e3189]:
+                - generic [ref=f42e3192]:
+                  - generic [ref=f42e3193]: Data
+                  - generic [ref=f42e3194]: 120GB
+                - generic [ref=f42e3199]:
+                  - generic [ref=f42e3200]: Minutes & Texts
+                  - generic [ref=f42e3201]: Unlimited
+              - paragraph
+            - generic [ref=f42e3207]:
+              - generic [ref=f42e3208]:
+                - generic [ref=f42e3211]:
+                  - generic [ref=f42e3212]: Monthly
+                  - generic [ref=f42e3214]:
+                    - generic [ref=f42e3215]: £
+                    - generic [ref=f42e3216]: "42"
+                - generic [ref=f42e3220]:
+                  - paragraph [ref=f42e3221]: £44.50 on 1 April 2027
+                  - paragraph [ref=f42e3222]: £47 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3227] [cursor=pointer]
+            - generic [ref=f42e3229]:
+              - separator [aria-hidden] [ref=f42e3230]
+              - generic [ref=f42e3232]:
+                - paragraph [ref=f42e3242] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e3252] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e3262] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                - paragraph [ref=f42e3272] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+                - paragraph [ref=f42e3282] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e3287] [cursor=pointer]
+          - generic [ref=f42e3303]:
+            - generic [ref=f42e3304]: 52 roaming destinations
+            - generic [ref=f42e3319]:
+              - paragraph [ref=f42e3321]: Vodafone Mobile
+              - heading "30GB Plus" [level=2] [ref=f42e3322]
+              - generic [ref=f42e3323]: Uncapped speeds
+            - generic [ref=f42e3328]:
+              - generic [ref=f42e3329]:
+                - generic [ref=f42e3332]:
+                  - generic [ref=f42e3333]: Data
+                  - generic [ref=f42e3334]: 30GB
+                - generic [ref=f42e3339]:
+                  - generic [ref=f42e3340]: Minutes & Texts
+                  - generic [ref=f42e3341]: Unlimited
+              - paragraph
+            - generic [ref=f42e3347]:
+              - generic [ref=f42e3348]:
+                - generic [ref=f42e3351]:
+                  - generic [ref=f42e3352]: Monthly
+                  - generic [ref=f42e3354]:
+                    - generic [ref=f42e3355]: £
+                    - generic [ref=f42e3356]: "31"
+                - generic [ref=f42e3360]:
+                  - paragraph [ref=f42e3361]: £33.50 on 1 April 2027
+                  - paragraph [ref=f42e3362]: £36 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3367] [cursor=pointer]
+            - generic [ref=f42e3369]:
+              - separator [aria-hidden] [ref=f42e3370]
+              - paragraph [ref=f42e3382] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+            - button "See full plan details" [ref=f42e3387] [cursor=pointer]
+          - generic [ref=f42e3403]:
+            - generic [ref=f42e3404]: 84 roaming destinations
+            - generic [ref=f42e3419]:
+              - paragraph [ref=f42e3421]: Vodafone Mobile
+              - heading "30GB Premier" [level=2] [ref=f42e3422]
+              - generic [ref=f42e3423]: Uncapped speeds
+            - generic [ref=f42e3428]:
+              - generic [ref=f42e3429]:
+                - generic [ref=f42e3432]:
+                  - generic [ref=f42e3433]: Data
+                  - generic [ref=f42e3434]: 30GB
+                - generic [ref=f42e3439]:
+                  - generic [ref=f42e3440]: Minutes & Texts
+                  - generic [ref=f42e3441]: Unlimited
+              - paragraph
+            - generic [ref=f42e3447]:
+              - generic [ref=f42e3448]:
+                - generic [ref=f42e3451]:
+                  - generic [ref=f42e3452]: Monthly
+                  - generic [ref=f42e3454]:
+                    - generic [ref=f42e3455]: £
+                    - generic [ref=f42e3456]: "35"
+                - generic [ref=f42e3460]:
+                  - paragraph [ref=f42e3461]: £37.50 on 1 April 2027
+                  - paragraph [ref=f42e3462]: £40 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3467] [cursor=pointer]
+            - generic [ref=f42e3469]:
+              - separator [aria-hidden] [ref=f42e3470]
+              - generic [ref=f42e3472]:
+                - paragraph [ref=f42e3482] [cursor=pointer]: Inclusive roaming in 84 worldwide destinations (25GB)
+                - paragraph [ref=f42e3492] [cursor=pointer]: Inclusive OneNumber Connectivity Plan
+            - button "See full plan details" [ref=f42e3497] [cursor=pointer]
+          - generic [ref=f42e3513]:
+            - generic [ref=f42e3514]: 52 roaming destinations
+            - generic [ref=f42e3533]:
+              - paragraph [ref=f42e3535]: Vodafone SuperMobile™
+              - heading "30GB SuperMobile Plus" [level=2] [ref=f42e3536]
+              - generic [ref=f42e3537]: Uncapped speeds
+            - generic [ref=f42e3542]:
+              - generic [ref=f42e3543]:
+                - generic [ref=f42e3546]:
+                  - generic [ref=f42e3547]: Data
+                  - generic [ref=f42e3548]: 30GB
+                - generic [ref=f42e3553]:
+                  - generic [ref=f42e3554]: Minutes & Texts
+                  - generic [ref=f42e3555]: Unlimited
+              - paragraph
+            - generic [ref=f42e3561]:
+              - generic [ref=f42e3562]:
+                - generic [ref=f42e3565]:
+                  - generic [ref=f42e3566]: Monthly
+                  - generic [ref=f42e3568]:
+                    - generic [ref=f42e3569]: £
+                    - generic [ref=f42e3570]: "34"
+                - generic [ref=f42e3574]:
+                  - paragraph [ref=f42e3575]: £36.50 on 1 April 2027
+                  - paragraph [ref=f42e3576]: £39 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3581] [cursor=pointer]
+            - generic [ref=f42e3583]:
+              - separator [aria-hidden] [ref=f42e3584]
+              - generic [ref=f42e3586]:
+                - paragraph [ref=f42e3596] [cursor=pointer]: Up to 4x faster speeds on our new 5G+ FastTrack
+                - paragraph [ref=f42e3606] [cursor=pointer]: The UK's only plan with guaranteed minimum speeds
+                - paragraph [ref=f42e3616] [cursor=pointer]: Inclusive roaming in 52 European destinations (25GB)
+                - paragraph [ref=f42e3626] [cursor=pointer]: Security built-in with Secure Net Mobile
+            - button "See full plan details" [ref=f42e3631] [cursor=pointer]
+          - generic [ref=f42e3647]:
+            - generic [ref=f42e3662]:
+              - paragraph [ref=f42e3664]: Vodafone Mobile
+              - heading "1GB Xtra" [level=2] [ref=f42e3665]
+            - generic [ref=f42e3668]:
+              - generic [ref=f42e3669]:
+                - generic [ref=f42e3672]:
+                  - generic [ref=f42e3673]: Data
+                  - generic [ref=f42e3674]: 1GB
+                - generic [ref=f42e3679]:
+                  - generic [ref=f42e3680]: Minutes & Texts
+                  - generic [ref=f42e3681]: Unlimited
+              - paragraph
+            - generic [ref=f42e3687]:
+              - generic [ref=f42e3688]:
+                - generic [ref=f42e3691]:
+                  - generic [ref=f42e3692]: Monthly
+                  - generic [ref=f42e3694]:
+                    - generic [ref=f42e3695]: £
+                    - generic [ref=f42e3696]: "21"
+                - generic [ref=f42e3700]:
+                  - paragraph [ref=f42e3701]: £23.50 on 1 April 2027
+                  - paragraph [ref=f42e3702]: £26 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3707] [cursor=pointer]
+            - button "See full plan details" [ref=f42e3714] [cursor=pointer]
+          - generic [ref=f42e3730]:
+            - generic [ref=f42e3745]:
+              - paragraph [ref=f42e3747]: Vodafone Mobile
+              - heading "5GB Xtra" [level=2] [ref=f42e3748]
+            - generic [ref=f42e3751]:
+              - generic [ref=f42e3752]:
+                - generic [ref=f42e3755]:
+                  - generic [ref=f42e3756]: Data
+                  - generic [ref=f42e3757]: 5GB
+                - generic [ref=f42e3762]:
+                  - generic [ref=f42e3763]: Minutes & Texts
+                  - generic [ref=f42e3764]: Unlimited
+              - paragraph
+            - generic [ref=f42e3770]:
+              - generic [ref=f42e3771]:
+                - generic [ref=f42e3774]:
+                  - generic [ref=f42e3775]: Monthly
+                  - generic [ref=f42e3777]:
+                    - generic [ref=f42e3778]: £
+                    - generic [ref=f42e3779]: "24"
+                - generic [ref=f42e3783]:
+                  - paragraph [ref=f42e3784]: £26.50 on 1 April 2027
+                  - paragraph [ref=f42e3785]: £29 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3790] [cursor=pointer]
+            - button "See full plan details" [ref=f42e3797] [cursor=pointer]
+          - generic [ref=f42e3813]:
+            - generic [ref=f42e3828]:
+              - paragraph [ref=f42e3830]: Vodafone Mobile
+              - heading "30GB Xtra" [level=2] [ref=f42e3831]
+            - generic [ref=f42e3834]:
+              - generic [ref=f42e3835]:
+                - generic [ref=f42e3838]:
+                  - generic [ref=f42e3839]: Data
+                  - generic [ref=f42e3840]: 30GB
+                - generic [ref=f42e3845]:
+                  - generic [ref=f42e3846]: Minutes & Texts
+                  - generic [ref=f42e3847]: Unlimited
+              - paragraph
+            - generic [ref=f42e3853]:
+              - generic [ref=f42e3854]:
+                - generic [ref=f42e3857]:
+                  - generic [ref=f42e3858]: Monthly
+                  - generic [ref=f42e3860]:
+                    - generic [ref=f42e3861]: £
+                    - generic [ref=f42e3862]: "27"
+                - generic [ref=f42e3866]:
+                  - paragraph [ref=f42e3867]: £29.50 on 1 April 2027
+                  - paragraph [ref=f42e3868]: £32 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e3873] [cursor=pointer]
+            - button "See full plan details" [ref=f42e3880] [cursor=pointer]
+          - generic [ref=f42e3891]:
+            - generic [ref=f42e3892]: Yours for a great price
+            - generic [ref=f42e3899]:
+              - generic [ref=f42e3914]:
+                - paragraph [ref=f42e3916]: Vodafone Mobile
+                - heading "100GB Xtra" [level=2] [ref=f42e3917]
+              - generic [ref=f42e3920]:
+                - generic [ref=f42e3921]:
+                  - generic [ref=f42e3924]:
+                    - generic [ref=f42e3925]: Data
+                    - generic [ref=f42e3926]: 100GB
+                  - generic [ref=f42e3931]:
+                    - generic [ref=f42e3932]: Minutes & Texts
+                    - generic [ref=f42e3933]: Unlimited
+                - paragraph
+              - generic [ref=f42e3939]:
+                - generic [ref=f42e3940]:
+                  - generic [ref=f42e3943]:
+                    - generic [ref=f42e3944]: Monthly
+                    - generic [ref=f42e3946]:
+                      - generic [ref=f42e3947]: £
+                      - generic [ref=f42e3948]: "29"
+                  - generic [ref=f42e3952]:
+                    - paragraph [ref=f42e3953]: £31.50 on 1 April 2027
+                    - paragraph [ref=f42e3954]: £34 on 1 April 2028
+                - paragraph
+              - button "Choose plan" [ref=f42e3959] [cursor=pointer]
+              - button "See full plan details" [ref=f42e3966] [cursor=pointer]
+          - generic [ref=f42e3982]:
+            - generic [ref=f42e3997]:
+              - paragraph [ref=f42e3999]: Vodafone Mobile
+              - heading "120GB Xtra" [level=2] [ref=f42e4000]
+            - generic [ref=f42e4003]:
+              - generic [ref=f42e4004]:
+                - generic [ref=f42e4007]:
+                  - generic [ref=f42e4008]: Data
+                  - generic [ref=f42e4009]: 120GB
+                - generic [ref=f42e4014]:
+                  - generic [ref=f42e4015]: Minutes & Texts
+                  - generic [ref=f42e4016]: Unlimited
+              - paragraph
+            - generic [ref=f42e4022]:
+              - generic [ref=f42e4023]:
+                - generic [ref=f42e4026]:
+                  - generic [ref=f42e4027]: Monthly
+                  - generic [ref=f42e4029]:
+                    - generic [ref=f42e4030]: £
+                    - generic [ref=f42e4031]: "31"
+                - generic [ref=f42e4035]:
+                  - paragraph [ref=f42e4036]: £33.50 on 1 April 2027
+                  - paragraph [ref=f42e4037]: £36 on 1 April 2028
+              - paragraph
+            - button "Choose plan" [ref=f42e4042] [cursor=pointer]
+            - button "See full plan details" [ref=f42e4049] [cursor=pointer]
+        - generic [ref=f42e4068]:
+          - heading "We're saying goodbye to 3G and hello to better connections" [level=2] [ref=f42e4069]
+          - paragraph [ref=f42e4071]:
+            - text: Are you 4G or 5G ready?
+            - link "Check if you're compatible and set up for 4G calling" [ref=f42e4072] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/mobile/set-up-4g-calling
+      - generic [ref=f42e4074]:
+        - generic [ref=f42e4079]:
+          - heading "Why choose Vodafone?" [level=2] [ref=f42e4080]
+          - generic [ref=f42e4082]:
+            - generic [ref=f42e4092]:
+              - heading "New Vodafone SuperMobile™ Plans" [level=2] [ref=f42e4093]
+              - paragraph [ref=f42e4094]: Stay connected with up to 4x faster speeds than our standard plans, and feel the difference.
+            - generic [ref=f42e4103]:
+              - heading "The nation's biggest network keeps getting better" [level=2] [ref=f42e4104]
+              - paragraph [ref=f42e4105]: With an £11 billion investment, opportunity awaits. Vodafone on the Nation's Network.
+            - generic [ref=f42e4114]:
+              - heading "Vodafone 5G and 5G+" [level=2] [ref=f42e4115]
+              - paragraph [ref=f42e4116]: Enjoy 5G with amazingly fast speeds, plus get even greater coverage and better battery life with 5G+.
+            - generic [ref=f42e4125]:
+              - heading "Unlimited data plans" [level=2] [ref=f42e4126]
+              - paragraph [ref=f42e4127]: Never run out of data - so you can stream, share, listen and browse without restrictions.
+        - generic [ref=f42e4131]:
+          - heading [level=2]
+          - generic [ref=f42e4133]:
+            - heading "Unlimited data SIMs" [level=3] [ref=f42e4134]
+            - paragraph [ref=f42e4135]: Keep your current device and get access to ultrafast 5G unlimited data, including calls and texts. Just choose one of our Unlimited plans, so you don't need to worry about using all your data.
+            - paragraph [ref=f42e4136]: Choose an Unlimited Xtra, Unlimited Plus, or Unlimited Premier plan for unlimited data with no speed restrictions. On these plans you'll always experience the fastest download speeds available. On Unlimited plans, your speed will be capped at 100Mbps.
+        - generic [ref=f42e4140]:
+          - heading [level=2]
+          - generic [ref=f42e4142]:
+            - heading "SIMs with roaming" [level=3] [ref=f42e4143]
+            - paragraph [ref=f42e4144]:
+              - text: We have a range of SIMs that include roaming packages. Choose a plan with European roaming for 52 destinations within Europe, or global roaming for 84 worldwide destinations - perfect for if you travel a lot. You can see which countries are included on our
+              - link "roaming abroad page" [ref=f42e4145] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/global-roaming
+            - paragraph [ref=f42e4146]:
+              - text: If you don't choose a SIM with a roaming package, you'll pay a daily fee to use our network abroad, or you can
+              - link "buy a bundle to keep costs low" [ref=f42e4147] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/extras
+        - generic [ref=f42e4151]:
+          - heading [level=2]
+          - generic [ref=f42e4153]:
+            - heading "SIMs with 5G" [level=3] [ref=f42e4154]
+            - paragraph [ref=f42e4155]: All our Pay monthly SIM only plans come with 5G as standard. On 5G, you can expect fast speeds across the UK as well as abroad if you roam with us.
+            - paragraph [ref=f42e4156]:
+              - text: Some SIMs come with 5G+. This is an even faster 5G experience, which is 10 times faster than 4G. Plus, it offers greater coverage across the UK, with a better connection in busy places. It also helps improve your battery life, with up to three hours of improved performance.
+              - link "Learn more about 5G+" [ref=f42e4157] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/network/5g
+        - generic [ref=f42e4161]:
+          - heading [level=2]
+          - generic [ref=f42e4163]:
+            - heading "eSIM" [level=3] [ref=f42e4164]
+            - paragraph [ref=f42e4165]: When ordering your SIM, you can choose between a physical SIM card or an eSIM which is digital. If you choose an eSIM, you'll need to make sure you have a compatible phone.
+            - paragraph [ref=f42e4166]:
+              - text: With an eSIM, you'll be able to instantly activate your plan - no need to wait for a physical card to arrive. They also offer built-in security (it can't be stolen or lost) and produce less plastic waste as there's no SIM card or packaging.
+              - link "Learn more about eSIMs" [ref=f42e4167] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sim-only/esim
+        - generic [ref=f42e4171]:
+          - heading [level=2]
+          - generic [ref=f42e4173]:
+            - heading "What's the best SIM plan for me?" [level=3] [ref=f42e4174]
+            - paragraph
+            - table [ref=f42e4175]:
+              - rowgroup [ref=f42e4176]:
+                - row [ref=f42e4177]:
+                  - columnheader [ref=f42e4178]:
+                    - paragraph [ref=f42e4180]: You're the type of person who...
+                  - columnheader [ref=f42e4181]:
+                    - paragraph [ref=f42e4183]: What you need
+                  - columnheader [ref=f42e4184]:
+                    - paragraph [ref=f42e4186]: The best plans for you
+              - rowgroup [ref=f42e4187]:
+                - row [ref=f42e4188]:
+                  - cell [ref=f42e4189]:
+                    - paragraph [ref=f42e4191]: Wants a budget-friendly option
+                  - cell [ref=f42e4192]:
+                    - paragraph [ref=f42e4194]: Unlimited calls and texts, with some data
+                  - cell [ref=f42e4195]:
+                    - paragraph [ref=f42e4197]: 1GB, 5GB, or 30GB plans
+                - row [ref=f42e4198]:
+                  - cell [ref=f42e4199]:
+                    - paragraph [ref=f42e4201]: Is always on social media and watching videos
+                  - cell [ref=f42e4202]:
+                    - paragraph [ref=f42e4204]: To use your data worry-free, without any extras
+                  - cell [ref=f42e4205]:
+                    - paragraph [ref=f42e4207]: 30GB, 100GB, or 120GB plans
+                - row [ref=f42e4208]:
+                  - cell [ref=f42e4209]:
+                    - paragraph [ref=f42e4211]: Travels a lot for work and leisure
+                  - cell [ref=f42e4212]:
+                    - paragraph [ref=f42e4214]: Lots of data, with the ability to roam at no extra cost
+                  - cell [ref=f42e4215]:
+                    - paragraph [ref=f42e4217]: Vodafone SuperMobile™ 30GB Plus or 120GB Premier
+                - row [ref=f42e4218]:
+                  - cell [ref=f42e4219]:
+                    - paragraph [ref=f42e4221]: Streams a lot of TV and downloads movies
+                  - cell [ref=f42e4222]:
+                    - paragraph [ref=f42e4224]: Lots or unlimited data, plus a streaming service included
+                  - cell [ref=f42e4225]:
+                    - paragraph [ref=f42e4227]: Unlimited Vodafone SuperMobile™ Plans
+                - row [ref=f42e4228]:
+                  - cell [ref=f42e4229]:
+                    - paragraph [ref=f42e4231]: Wants everything included in their plan
+                  - cell [ref=f42e4232]:
+                    - paragraph [ref=f42e4234]: Unlimited data, worldwide roaming, plus entertainment
+                  - cell [ref=f42e4235]:
+                    - paragraph [ref=f42e4237]: Unlimited Vodafone SuperMobile™ Premier with Entertainment
+            - paragraph
+        - generic [ref=f42e4242]:
+          - heading "Frequently asked questions" [level=2] [ref=f42e4243]
+          - generic [ref=f42e4245]:
+            - button "Who is eligible for the £100 bill credit offer?" [ref=f42e4249] [cursor=pointer]
+            - button "What is a SIM only deal?" [ref=f42e4260] [cursor=pointer]
+            - button "What's the best place to find cheap SIM only deals?" [ref=f42e4271] [cursor=pointer]
+            - button "How much data do I need on a SIM only deal?" [ref=f42e4282] [cursor=pointer]
+            - button "Can I keep my phone number on a SIM only plan?" [ref=f42e4293] [cursor=pointer]
+            - button "What's the difference between a SIM only and a Pay monthly phone contract?" [ref=f42e4304] [cursor=pointer]
+            - button "What's the difference between a Pay monthly SIM only plan and a Pay as you go SIM only plan?" [ref=f42e4315] [cursor=pointer]
+            - button "Can I cancel my SIM only contract?" [ref=f42e4326] [cursor=pointer]
+            - button "What happens when a SIM only contract ends?" [ref=f42e4337] [cursor=pointer]
+            - button "Can I change from a Pay monthly plan to SIM only?" [ref=f42e4348] [cursor=pointer]
+            - button "Do SIM only contracts affect credit?" [ref=f42e4359] [cursor=pointer]
+            - button "Can I buy a SIM only plan in store?" [ref=f42e4370] [cursor=pointer]
+            - button "Can I insure my phone on a SIM only plan?" [ref=f42e4381] [cursor=pointer]
+            - button "What's the difference between a Vodafone SuperMobile™ and Vodafone Mobile plan?" [ref=f42e4392] [cursor=pointer]
+        - generic [ref=f42e4404]:
+          - heading "Legal terms" [level=3] [ref=f42e4405]
+          - button "Legal small print" [ref=f42e4411] [cursor=pointer]
+  - generic [ref=f42e4420]:
+    - list [ref=f42e4425]:
+      - listitem [ref=f42e4426]:
+        - link "Vodafone UK on Facebook" [ref=f42e4427] [cursor=pointer]:
+          - /url: https://www.facebook.com/vodafoneUK
+      - listitem [ref=f42e4433]:
+        - link "Vodafone UK on Instagram" [ref=f42e4434] [cursor=pointer]:
+          - /url: https://www.instagram.com/VodafoneUK/
+      - listitem [ref=f42e4440]:
+        - link "Vodafone UK on YouTube" [ref=f42e4441] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/VODAFONEUK
+      - listitem [ref=f42e4447]:
+        - link "Vodafone UK on X (formerly Twitter)" [ref=f42e4448] [cursor=pointer]:
+          - /url: https://x.com/vodafoneuk
+      - listitem [ref=f42e4454]:
+        - link "Vodafone on LinkedIn" [ref=f42e4455] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/vodafone/
+      - listitem [ref=f42e4461]:
+        - link "Vodafone UK on TikTok" [ref=f42e4462] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@vodafoneuk
+    - separator [aria-hidden] [ref=f42e4469]
+    - generic [ref=f42e4470]:
+      - generic [ref=f42e4472]:
+        - heading "Buying online" [level=2] [ref=f42e4473]
+        - list [ref=f42e4474]:
+          - listitem [ref=f42e4475]:
+            - link "Pay monthly deals" [ref=f42e4476] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts
+          - listitem [ref=f42e4477]:
+            - link "Pay as you go deals" [ref=f42e4478] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-as-you-go
+          - listitem [ref=f42e4479]:
+            - link "SIM only deals" [ref=f42e4480] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/sim-only/best-sim-only-deals
+          - listitem [ref=f42e4481]:
+            - link "iPad" [ref=f42e4482] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/ipad
+          - listitem [ref=f42e4483]:
+            - link "Tablets" [ref=f42e4484] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/ipads-and-tablets
+          - listitem [ref=f42e4485]:
+            - link "Mobile Broadband" [ref=f42e4486] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile-broadband
+          - listitem [ref=f42e4487]:
+            - link "Home Broadband" [ref=f42e4488] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband
+          - listitem [ref=f42e4489]:
+            - link "Laptops" [ref=f42e4490] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/laptops
+          - listitem [ref=f42e4491]:
+            - link "Vodafone TV" [ref=f42e4492] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/tv
+          - listitem [ref=f42e4493]:
+            - link "Compare phones" [ref=f42e4494] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/compare
+          - listitem [ref=f42e4495]:
+            - link "Deals and offers" [ref=f42e4496] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/deals-and-offers
+          - listitem [ref=f42e4497]:
+            - link "Vodafone SuperMobile™" [ref=f42e4498] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/vodafone-supermobile
+          - listitem [ref=f42e4499]:
+            - link "Vodafone Xchange" [ref=f42e4500] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/xchange
+      - generic [ref=f42e4502]:
+        - heading "Latest phones" [level=2] [ref=f42e4503]
+        - list [ref=f42e4504]:
+          - listitem [ref=f42e4505]:
+            - link "iPhone 18 Pro Max" [ref=f42e4506] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro-max
+          - listitem [ref=f42e4507]:
+            - link "iPhone 18 Pro" [ref=f42e4508] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro
+          - listitem [ref=f42e4509]:
+            - link "iPhone Duo" [ref=f42e4510] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-duo
+          - listitem [ref=f42e4511]:
+            - link "iPhone Air" [ref=f42e4512] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+          - listitem [ref=f42e4513]:
+            - link "Samsung Galaxy S26 Ultra" [ref=f42e4514] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-ultra
+          - listitem [ref=f42e4515]:
+            - link "Samsung Galaxy S26" [ref=f42e4516] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26
+          - listitem [ref=f42e4517]:
+            - link "Samsung Galaxy S26+" [ref=f42e4518] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-plus
+          - listitem [ref=f42e4519]:
+            - link "Samsung Galaxy Z Fold8" [ref=f42e4520] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-z-fold8
+          - listitem [ref=f42e4521]:
+            - link "Google Pixel 11 Pro Fold" [ref=f42e4522] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-fold
+          - listitem [ref=f42e4523]:
+            - link "Google Pixel 11 Pro" [ref=f42e4524] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro
+          - listitem [ref=f42e4525]:
+            - link "Google Pixel 11" [ref=f42e4526] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11
+          - listitem [ref=f42e4527]:
+            - link "Google Pixel 11 Pro XL" [ref=f42e4528] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-xl
+          - listitem [ref=f42e4529]:
+            - link "New phones" [ref=f42e4530] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/new-phones
+      - generic [ref=f42e4532]:
+        - heading "Help and support" [level=2] [ref=f42e4533]
+        - list [ref=f42e4534]:
+          - listitem [ref=f42e4535]:
+            - link "All help topics" [ref=f42e4536] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help
+          - listitem [ref=f42e4537]:
+            - link "Help with your device" [ref=f42e4538] [cursor=pointer]:
+              - /url: https://deviceguides.vodafone.co.uk/
+          - listitem [ref=f42e4539]:
+            - link "Lost or stolen devices" [ref=f42e4540] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/mobile/lost-and-stolen
+          - listitem [ref=f42e4541]:
+            - link "Find a store" [ref=f42e4542] [cursor=pointer]:
+              - /url: https://stores.vodafone.co.uk/search
+          - listitem [ref=f42e4543]:
+            - link "Contact us" [ref=f42e4544] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/contact-us
+          - listitem [ref=f42e4545]:
+            - link "Make a complaint" [ref=f42e4546] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/account/how-to-complain
+          - listitem [ref=f42e4547]:
+            - link "Help and advice on fraud" [ref=f42e4548] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/privacy/protecting-you
+          - listitem [ref=f42e4549]:
+            - link "Return a product" [ref=f42e4550] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/orders/returns
+          - listitem [ref=f42e4551]:
+            - link "TOBi" [ref=f42e4552] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/contact-us#p2pchat
+          - listitem [ref=f42e4553]:
+            - link "UK Charge Checker" [ref=f42e4554] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/billing/charge-checker
+          - listitem [ref=f42e4555]:
+            - link "Social broadband" [ref=f42e4556] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+          - listitem [ref=f42e4557]:
+            - link "Broadband speed test" [ref=f42e4558] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband/speed-test
+          - listitem [ref=f42e4559]:
+            - link "Accessibility" [ref=f42e4560] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/account/accessibility
+      - generic [ref=f42e4562]:
+        - heading "Vodafone UK" [level=2] [ref=f42e4563]
+        - list [ref=f42e4564]:
+          - listitem [ref=f42e4565]:
+            - link "About us" [ref=f42e4566] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/about-us
+          - listitem [ref=f42e4567]:
+            - link "For investors" [ref=f42e4568] [cursor=pointer]:
+              - /url: https://www.vodafone.com/investors
+          - listitem [ref=f42e4569]:
+            - link "Blog" [ref=f42e4570] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/blog
+          - listitem [ref=f42e4571]:
+            - link "News Centre" [ref=f42e4572] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/newscentre/
+          - listitem [ref=f42e4573]:
+            - link "Modern Slavery Statement" [ref=f42e4574] [cursor=pointer]:
+              - /url: https://www.vodafone.com/our-impact/esg-reporting-centre?section=slavery-and-human-trafficking-statement
+          - listitem [ref=f42e4575]:
+            - link "Careers" [ref=f42e4576] [cursor=pointer]:
+              - /url: https://careers.vodafone.com/uk/
+          - listitem [ref=f42e4577]:
+            - link "Switch to Vodafone" [ref=f42e4578] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1
+          - listitem [ref=f42e4579]:
+            - link "Our partnerships" [ref=f42e4580] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/mobile/partnerships
+          - listitem [ref=f42e4581]:
+            - link "VOXI" [ref=f42e4582] [cursor=pointer]:
+              - /url: https://www.voxi.co.uk/
+          - listitem [ref=f42e4583]:
+            - link "Talkmobile" [ref=f42e4584] [cursor=pointer]:
+              - /url: https://talkmobile.co.uk/
+          - listitem [ref=f42e4585]:
+            - link "VodafoneThree" [ref=f42e4586] [cursor=pointer]:
+              - /url: https://www.vodafonethree.com/
+          - listitem [ref=f42e4587]:
+            - link "Three UK" [ref=f42e4588] [cursor=pointer]:
+              - /url: https://www.three.co.uk/
+          - listitem [ref=f42e4589]:
+            - link "SMARTY" [ref=f42e4590] [cursor=pointer]:
+              - /url: https://smarty.co.uk/
+    - list [ref=f42e4591]:
+      - listitem [ref=f42e4592]:
+        - list [ref=f42e4593]:
+          - listitem [ref=f42e4594]:
+            - link "Terms and conditions" [ref=f42e4595] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/terms-and-conditions
+            - separator [aria-hidden] [ref=f42e4596]
+          - listitem [ref=f42e4597]:
+            - link "Site map" [ref=f42e4598] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/sitemap
+            - separator [aria-hidden] [ref=f42e4599]
+          - listitem [ref=f42e4600]:
+            - link "Privacy policy" [ref=f42e4601] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/privacy
+            - separator [aria-hidden] [ref=f42e4602]
+          - listitem [ref=f42e4603]:
+            - link "Cookie policy" [ref=f42e4604] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/privacy?tabDeepLinkId=cookie-policy#policies
+            - separator [aria-hidden] [ref=f42e4605]
+          - listitem [ref=f42e4606]:
+            - link "PSTI Act" [ref=f42e4607] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/account/product-security
+            - separator [aria-hidden] [ref=f42e4608]
+          - listitem [ref=f42e4609]:
+            - link "Device security support" [ref=f42e4610] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+    - generic [ref=f42e4611]:
+      - paragraph [ref=f42e4612]: "Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN."
+      - paragraph [ref=f42e4613]: "*Annual Price Increase: The monthly cost will increase each year on 1 April by £2.50 for Pay monthly plans with Airtime/Data, and £3.50 for Home Broadband plans. This doesn't affect Device Plans. More information: vodafone.co.uk/pricechanges"
+      - paragraph [ref=f42e4614]: © 2026 Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)

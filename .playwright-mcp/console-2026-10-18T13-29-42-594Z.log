@@ -1,0 +1,486 @@
+[    1130ms] [LOG] Request succeeded {type: at-request-succeeded, tracking: Object, redirect: false} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.sync.js:22
+[    2443ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2443ms] [ERROR] c {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2454ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2455ms] [ERROR] c {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2460ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2460ms] [ERROR] c {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[    2629ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2629ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2629ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2629ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2632ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2632ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2632ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2632ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at sa (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:48310)
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120998)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103516)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    2633ms] Uncaught Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Ei (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:120684)
+    at ks (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108560)
+    at ys (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108488)
+    at vs (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:108351)
+    at us (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:105186)
+    at as (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/react-303e5153.b3d96a5e11f34428bf31.js:1:103742)
+    at _ (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:4967)
+    at H (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-27545368.1c178bfe34aaa84157c0.js:1:5499)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19558)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19287)
+    at S (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:0:19346)
+[    3161ms] TypeError: Cannot read properties of undefined (reading 'constructor')
+    at https://cdn.vodafone.co.uk/basket/federated/shared/systemjs/6.12.1/extras/named-exports.min.js:1:31
+    at https://cdn.vodafone.co.uk/basket/federated/shared/systemjs/6.12.1/extras/named-exports.min.js:1:581
+[    4479ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4479ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4480ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:252:444)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Qf (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:187:439)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:400)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4552ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4552ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4552ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:252:444)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Qf (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:187:439)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:400)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[    4806ms] [ERROR] idm cookie not found or invalid, returning legacy attributes null @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[    4807ms] [ERROR] Invalid number string provided @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[    5445ms] [WARNING] SHOW_UPGRADES_JOURNEY env var does not exist @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1387
+[    5451ms] [WARNING] react-i18next:: useTranslation: You will need to pass in an i18next instance by using initReactI18next {code: NO_I18NEXT_INSTANCE} @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:729
+[    5468ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[    5469ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[    5470ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[    5476ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    5477ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    5491ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[    5543ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[    6884ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    7084ms] [LOG] NUANCE DECOUPLING FEATURE FLAG --->>>>>  true URLSearchParams @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:16
+[    7689ms] [LOG] [Tracking] fallback @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/1626.0fbe02d74c1b8f887b13.js:0
+[    7702ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    7702ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    7715ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[    7719ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[    7784ms] [LOG] [15G] Logging level is set to error @ https://vodafoneukmedia.15gifts.com/leap/web/v2.138.11-40011a3-vodafoneukmedia/partner.js:0
+[    8306ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[    8306ms] [LOG] isNowBetween result: true @ :0
+[    8308ms] [LOG] ***Displaying Blocking Node @ :9
+[    8487ms] [LOG] NUANCE DECOUPLING FEATURE FLAG --->>>>>  false URLSearchParams @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:940
+[    8488ms] [LOG] NUANCE DECOUPLING FEATURE FLAG --->>>>>  false URLSearchParams @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:940
+[    8493ms] [LOG] NUANCE DECOUPLING FEATURE FLAG --->>>>>  true URLSearchParams @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:966
+[    8526ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    8527ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[    8530ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   10724ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   10724ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   10727ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   51033ms] [LOG] [HeaderNavigation] OneTrust consent changed @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/HeaderNavigationMap-ce4ad866.ae14093c3a784cbf94fc.js:0
+[   51034ms] [LOG] [OneTrust] Consent changed @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-41d3fa7a.988fbf99e538f1528746.js:0
+[   51209ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   51210ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   51225ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   51225ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   51228ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   51228ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   51346ms] [LOG] [ConditionalNinetailedProvider] consentChanged triggered remount: true @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-41d3fa7a.988fbf99e538f1528746.js:0
+[   51605ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51606ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51610ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:252:444)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Qf (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:187:439)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:400)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51793ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51794ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Xe (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:82:103)
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:253:283)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:186)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51798ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Rk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:252:444)
+    at Si (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:185)
+    at Pk (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:195:116)
+    at Nd (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:194:492)
+    at Qf (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:187:439)
+    at Oi (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react-dom/18.2.0/umd/react-dom.production.min.js:185:400)
+    at S (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:217:21)
+    at U (https://www.vodafone.co.uk/broadband/deals/assets/federated/shared/react/18.2.0/umd/react.production.min.js:328:17)
+    at w.<computed> (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19559)
+    at E (https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-777dc6a6.e976c8ef4295e33980ef.js:1:19288)
+[   51823ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   51823ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   51824ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   51831ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   51831ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   51906ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   51911ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   51911ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   51927ms] [LOG] Request succeeded {type: at-request-succeeded, tracking: Object, redirect: false} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.sync.js:22
+[   51948ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   51948ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   51962ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   51964ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[   52025ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[   52025ms] [LOG] isNowBetween result: true @ :0
+[   52025ms] [LOG] ***Displaying Blocking Node @ :9
+[   52067ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52067ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52082ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   52155ms] [WARNING] SHOW_UPGRADES_JOURNEY env var does not exist @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1387
+[   52163ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   52163ms] [LOG] %c Event name found. %c postcodeChecker.view background: #2B9160;color:white;font-size:14px;padding:5px;margin-right:5px padding:7px;background: #fff;color:#232f3e;font-weight:bold; @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   52178ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52178ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52182ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   52193ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>business bb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   52193ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>business bb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   52200ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52201ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52224ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   52243ms] [LOG] [AAT] Region explicitly set to EU @ https://c.amazon-adsystem.com/aat/amzn.js:1
+[   52277ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   52289ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   52310ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   52321ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   52332ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[   52346ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52346ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   52349ms] [LOG] {page_platform: contentful, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   52537ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   52538ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   52546ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   52547ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   52562ms] [WARNING] {hasError: true} {label: getComponent} @ https://cdn.vodafone.co.uk/web-marketing/consumer-marketing/assets/1.6.3/modern/app-1caf0cf9.5fb957f95763c3ce2e5c.js:0
+[   52562ms] [ERROR] c {label: getComponent} @ https://www.vodafone.co.uk/webchat-ui/assets/index.js:6
+[   53006ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://c.amazon-adsystem.com/aat/amzn.js:1
+[   53010ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://c.amazon-adsystem.com/aat/amzn.js:1
+[   53021ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>business bb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   53021ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>business bb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   53029ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53029ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53038ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   53281ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53332ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53332ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359154388899299285774, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53338ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359154388899299285774, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53351ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53351ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359333465958767725384, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53356ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359333465958767725384, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53370ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53370ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359525219071208293589, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53376ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302359525219071208293589, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53389ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53389ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 179233023597111671330719908110, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53398ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 179233023597111671330719908110, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53405ms] [LOG] █ Analytics: postTrack ready [✅] @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[   53614ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[   53620ms] [LOG] █ Analytics: postTrack ready [✅] @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[   53647ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[   53647ms] [LOG] isNowBetween result: true @ :0
+[   53648ms] [LOG] ***Displaying Blocking Node @ :9
+[   53683ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[   53683ms] [LOG] isNowBetween result: true @ :0
+[   53683ms] [LOG] ***Displaying Blocking Node @ :9
+[   53742ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   53743ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   53750ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53750ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53762ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   53808ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   53905ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53905ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302364871406863312864507, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   53915ms] [LOG] {adform_id: 7207806517359522190, tci.event_id: 17923302364871406863312864507, cp.utag_main_v_id: 01a14f34454b00034ed48998f59c0506f004d0670093c, cp.utag_main_dc_visit: 2, cp.utag_main__sn: 1} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   54045ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:205
+[   54249ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[   54495ms] [LOG] analytics: utag: postTrack: resolve() @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[   54495ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   54496ms] [TABLE] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk, page_subdomain: www.vodafone.co.uk, page_url: https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_path: /broadband, page_path_query: /broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026, page_title: Our best broadband deals | Award winning | October 2026 | Vodafone UK, page_analytics_library_version: unknown, three_referrer: unknown, visitor_login_status: n/a, visitor_accounts_number: NaN, visitor_subscriptions_number: NaN, visitor_account_category: null, visitor_account_subcategory: null, visitor_phone_number: null, visitor_id_asset_primary: null, visitor_id_asset_active: null, visitor_subscription_id: null, visitor_subscription_type: null, page_section: shop, app_service: web-shop-broadband, app_environment: prod1-green, app_version: 20261009.4, site: undefined, page_subsection: undefined, page_sub_subsection: , purchase_type: acquisition, visitor_customer_category: null, visitor_upgrade_eligibility: logged out, visitor_customer_type: consumer, page_name: uk>shop>hbb>check availability, page_type: check availability, event_name: hbb_check_availability, page_overlay: , page_error: , page_filters: , page_tab: } @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1347
+[   54507ms] [LOG] Tealium debugging. Now visualizing b:  @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   54507ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:134
+[   54521ms] [LOG] EXT 1178 > Error Webview Type - UserAgent: TypeError: Cannot set properties of undefined (setting 'isWebView') @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.3.js?utv=ut4.49.202610061127:94
+[   54587ms] [LOG] {page_platform: react, page_currency: gbp, page_locale: en gb, page_channel: desktop web, page_domain: www.vodafone.co.uk} @ https://tags.tiqcdn.com/utag/vodafone/uk-reinvent/prod/utag.js:252
+[   54747ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://www.dwin1.com/1257.js:0
+[   54752ms] [LOG] analytics: utag: postTrack: resolve() @ https://www.vodafone.co.uk/broadband/deals/assets/federated/AvailabilityChecker/AvailabilityChecker-mv0w2zie.umd.js:1379
+[   55141ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55142ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55145ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55146ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55148ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55150ms] [LOG] Tracker already exists. @ https://c5.adalyser.com/adalyser.js?cid=vodafone:0
+[   55288ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:205
+[   55683ms] [INFO] Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'. 2612606446415 2612606446415 @ https://s.pinimg.com/ct/lib/main.f1fea82a.js:0
+[   55684ms] [INFO] Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'. 2612606446415 2612606446415 @ https://s.pinimg.com/ct/lib/main.f1fea82a.js:0
+[   55685ms] [INFO] Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'. 2612606446415 2612606446415 @ https://s.pinimg.com/ct/lib/main.f1fea82a.js:0
+[   55685ms] [INFO] Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'. 2612606446415 2612606446415 @ https://s.pinimg.com/ct/lib/main.f1fea82a.js:0
+[   55769ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[   55769ms] [LOG] isNowBetween result: true @ :0
+[   55769ms] [LOG] ***Displaying Blocking Node @ :9
+[   55804ms] [LOG] Running isNowBetween with params: 08:00 and 21:00 @ :0
+[   55805ms] [LOG] isNowBetween result: true @ :0
+[   55805ms] [LOG] ***Displaying Blocking Node @ :9
+[   56395ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:205

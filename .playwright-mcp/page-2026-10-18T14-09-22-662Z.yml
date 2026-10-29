@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9] [cursor=pointer]:
+            - link "Personal" [ref=e10]:
+              - /url: https://www.vodafone.co.uk/?icmp=CBU_Header_Personal
+          - listitem [ref=e18] [cursor=pointer]:
+            - link "Business" [ref=e19]:
+              - /url: https://www.vodafone.co.uk/business?icmp=CBU_Header_Business
+        - list [ref=e27]:
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Find a store" [ref=e29]:
+              - /url: https://stores.vodafone.co.uk/search
+          - listitem [ref=e37] [cursor=pointer]:
+            - link "Network Status Checker" [ref=e38]:
+              - /url: https://www.vodafone.co.uk/network/status-checker
+      - generic [ref=e48]:
+        - link "Navigates to https://vodafone.co.uk" [ref=e49] [cursor=pointer]:
+          - /url: https://vodafone.co.uk
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "Phones and devices" [ref=e56]
+          - listitem [ref=e59]:
+            - button "SIM Only" [ref=e60]
+          - listitem [ref=e63]:
+            - button "Broadband" [ref=e64]
+          - listitem [ref=e67]:
+            - button "TV" [ref=e68]
+          - listitem [ref=e71]:
+            - button "Why Vodafone" [ref=e72]
+          - listitem [ref=e75]:
+            - button "Support" [ref=e76]
+          - listitem [ref=e79]:
+            - button "New - Apple" [ref=e80]
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - button "Basket" [ref=e86] [cursor=pointer]
+          - listitem [ref=e92]:
+            - button "Search" [ref=e94] [cursor=pointer]
+          - listitem [ref=e100]:
+            - button "Your account options" [ref=e101]
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - navigation [ref=e117]:
+          - menu [ref=e118]:
+            - menuitem [ref=e119]:
+              - link "Home" [ref=e120] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/
+            - menuitem [ref=e126]:
+              - button "..." [ref=e127] [cursor=pointer]
+            - menuitem [ref=e133]:
+              - link "Apple iPhone 17" [ref=e134] [cursor=pointer]:
+                - /url: /mobile/pay-monthly-contracts/apple/iphone-17#deviceselected
+            - menuitem [ref=e140]:
+              - link "Phone Plan" [ref=e141] [cursor=pointer]:
+                - /url: /mobile/pay-monthly-contracts/apple/iphone-17#phoneplan
+            - menuitem [ref=e147]:
+              - link "Airtime Plans" [ref=e148] [cursor=pointer]:
+                - /url: /mobile/pay-monthly-contracts/apple/iphone-17#airtimeplans
+            - menuitem "Add-ons" [ref=e154]
+        - generic [ref=e160]:
+          - generic [ref=e162]:
+            - paragraph [ref=e163]: Great value deals when you connect your family
+            - link "Login" [ref=e165] [cursor=pointer]:
+              - /url: /web-shop/login?ACR_Value=journeyType:SIMO_HANDSET&successReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17&errorReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17
+          - button [ref=e167] [cursor=pointer]
+        - status "Insurance loading" [ref=e173]
+        - button "Continue to basket" [ref=e204] [cursor=pointer]
+      - button "Get in touch" [ref=e205] [cursor=pointer]
+    - generic [ref=e212]:
+      - list [ref=e217]:
+        - listitem [ref=e218]:
+          - link "Vodafone UK on Facebook" [ref=e219] [cursor=pointer]:
+            - /url: https://www.facebook.com/vodafoneUK
+        - listitem [ref=e225]:
+          - link "Vodafone UK on Instagram" [ref=e226] [cursor=pointer]:
+            - /url: https://www.instagram.com/VodafoneUK/
+        - listitem [ref=e232]:
+          - link "Vodafone UK on YouTube" [ref=e233] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/VODAFONEUK
+        - listitem [ref=e239]:
+          - link "Vodafone UK on X (formerly Twitter)" [ref=e240] [cursor=pointer]:
+            - /url: https://x.com/vodafoneuk
+        - listitem [ref=e246]:
+          - link "Vodafone on LinkedIn" [ref=e247] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/vodafone/
+        - listitem [ref=e253]:
+          - link "Vodafone UK on TikTok" [ref=e254] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@vodafoneuk
+      - separator [aria-hidden] [ref=e261]
+      - generic [ref=e262]:
+        - generic [ref=e264]:
+          - heading "Buying online" [level=2] [ref=e265]
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Pay monthly deals" [ref=e268] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts
+            - listitem [ref=e269]:
+              - link "Pay as you go deals" [ref=e270] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-as-you-go
+            - listitem [ref=e271]:
+              - link "SIM only deals" [ref=e272] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sim-only/best-sim-only-deals
+            - listitem [ref=e273]:
+              - link "iPad" [ref=e274] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/ipad
+            - listitem [ref=e275]:
+              - link "Tablets" [ref=e276] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/ipads-and-tablets
+            - listitem [ref=e277]:
+              - link "Mobile Broadband" [ref=e278] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile-broadband
+            - listitem [ref=e279]:
+              - link "Home Broadband" [ref=e280] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband
+            - listitem [ref=e281]:
+              - link "Laptops" [ref=e282] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/laptops
+            - listitem [ref=e283]:
+              - link "Vodafone TV" [ref=e284] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/tv
+            - listitem [ref=e285]:
+              - link "Compare phones" [ref=e286] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/compare
+            - listitem [ref=e287]:
+              - link "Deals and offers" [ref=e288] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/deals-and-offers
+            - listitem [ref=e289]:
+              - link "Vodafone SuperMobile™" [ref=e290] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/vodafone-supermobile
+            - listitem [ref=e291]:
+              - link "Vodafone Xchange" [ref=e292] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/xchange
+        - generic [ref=e294]:
+          - heading "Latest phones" [level=2] [ref=e295]
+          - list [ref=e296]:
+            - listitem [ref=e297]:
+              - link "iPhone 18 Pro Max" [ref=e298] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro-max
+            - listitem [ref=e299]:
+              - link "iPhone 18 Pro" [ref=e300] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro
+            - listitem [ref=e301]:
+              - link "iPhone Duo" [ref=e302] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-duo
+            - listitem [ref=e303]:
+              - link "iPhone Air" [ref=e304] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+            - listitem [ref=e305]:
+              - link "Samsung Galaxy S26 Ultra" [ref=e306] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-ultra
+            - listitem [ref=e307]:
+              - link "Samsung Galaxy S26" [ref=e308] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26
+            - listitem [ref=e309]:
+              - link "Samsung Galaxy S26+" [ref=e310] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-plus
+            - listitem [ref=e311]:
+              - link "Samsung Galaxy Z Fold8" [ref=e312] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-z-fold8
+            - listitem [ref=e313]:
+              - link "Google Pixel 11 Pro Fold" [ref=e314] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-fold
+            - listitem [ref=e315]:
+              - link "Google Pixel 11 Pro" [ref=e316] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro
+            - listitem [ref=e317]:
+              - link "Google Pixel 11" [ref=e318] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11
+            - listitem [ref=e319]:
+              - link "Google Pixel 11 Pro XL" [ref=e320] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-xl
+            - listitem [ref=e321]:
+              - link "New phones" [ref=e322] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/new-phones
+        - generic [ref=e324]:
+          - heading "Help and support" [level=2] [ref=e325]
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - link "All help topics" [ref=e328] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help
+            - listitem [ref=e329]:
+              - link "Help with your device" [ref=e330] [cursor=pointer]:
+                - /url: https://deviceguides.vodafone.co.uk/
+            - listitem [ref=e331]:
+              - link "Lost or stolen devices" [ref=e332] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/mobile/lost-and-stolen
+            - listitem [ref=e333]:
+              - link "Find a store" [ref=e334] [cursor=pointer]:
+                - /url: https://stores.vodafone.co.uk/search
+            - listitem [ref=e335]:
+              - link "Contact us" [ref=e336] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us
+            - listitem [ref=e337]:
+              - link "Make a complaint" [ref=e338] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/how-to-complain
+            - listitem [ref=e339]:
+              - link "Help and advice on fraud" [ref=e340] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy/protecting-you
+            - listitem [ref=e341]:
+              - link "Return a product" [ref=e342] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/orders/returns
+            - listitem [ref=e343]:
+              - link "TOBi" [ref=e344] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us#p2pchat
+            - listitem [ref=e345]:
+              - link "UK Charge Checker" [ref=e346] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/billing/charge-checker
+            - listitem [ref=e347]:
+              - link "Social broadband" [ref=e348] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+            - listitem [ref=e349]:
+              - link "Broadband speed test" [ref=e350] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/speed-test
+            - listitem [ref=e351]:
+              - link "Accessibility" [ref=e352] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/accessibility
+        - generic [ref=e354]:
+          - heading "Vodafone UK" [level=2] [ref=e355]
+          - list [ref=e356]:
+            - listitem [ref=e357]:
+              - link "About us" [ref=e358] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/about-us
+            - listitem [ref=e359]:
+              - link "For investors" [ref=e360] [cursor=pointer]:
+                - /url: https://www.vodafone.com/investors
+            - listitem [ref=e361]:
+              - link "Blog" [ref=e362] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/blog
+            - listitem [ref=e363]:
+              - link "News Centre" [ref=e364] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/newscentre/
+            - listitem [ref=e365]:
+              - link "Modern Slavery Statement" [ref=e366] [cursor=pointer]:
+                - /url: https://www.vodafone.com/our-impact/esg-reporting-centre?section=slavery-and-human-trafficking-statement
+            - listitem [ref=e367]:
+              - link "Careers" [ref=e368] [cursor=pointer]:
+                - /url: https://careers.vodafone.com/uk/
+            - listitem [ref=e369]:
+              - link "Switch to Vodafone" [ref=e370] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1
+            - listitem [ref=e371]:
+              - link "Our partnerships" [ref=e372] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/partnerships
+            - listitem [ref=e373]:
+              - link "VOXI" [ref=e374] [cursor=pointer]:
+                - /url: https://www.voxi.co.uk/
+            - listitem [ref=e375]:
+              - link "Talkmobile" [ref=e376] [cursor=pointer]:
+                - /url: https://talkmobile.co.uk/
+            - listitem [ref=e377]:
+              - link "VodafoneThree" [ref=e378] [cursor=pointer]:
+                - /url: https://www.vodafonethree.com/
+            - listitem [ref=e379]:
+              - link "Three UK" [ref=e380] [cursor=pointer]:
+                - /url: https://www.three.co.uk/
+            - listitem [ref=e381]:
+              - link "SMARTY" [ref=e382] [cursor=pointer]:
+                - /url: https://smarty.co.uk/
+      - list [ref=e383]:
+        - listitem [ref=e384]:
+          - list [ref=e385]:
+            - listitem [ref=e386]:
+              - link "Terms and conditions" [ref=e387] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/terms-and-conditions
+              - separator [aria-hidden] [ref=e388]
+            - listitem [ref=e389]:
+              - link "Site map" [ref=e390] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sitemap
+              - separator [aria-hidden] [ref=e391]
+            - listitem [ref=e392]:
+              - link "Privacy policy" [ref=e393] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy
+              - separator [aria-hidden] [ref=e394]
+            - listitem [ref=e395]:
+              - link "Cookie policy" [ref=e396] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy?tabDeepLinkId=cookie-policy#policies
+              - separator [aria-hidden] [ref=e397]
+            - listitem [ref=e398]:
+              - link "PSTI Act" [ref=e399] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security
+              - separator [aria-hidden] [ref=e400]
+            - listitem [ref=e401]:
+              - link "Device security support" [ref=e402] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+      - generic [ref=e403]:
+        - paragraph [ref=e404]: "Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN."
+        - paragraph [ref=e405]: "*Annual Price Increase: The monthly cost will increase each year on 1 April by £2.50 for Pay monthly plans with Airtime/Data, and £3.50 for Home Broadband plans. This doesn't affect Device Plans. More information: vodafone.co.uk/pricechanges"
+        - paragraph [ref=e406]: © 2026 Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)
+  - generic [ref=e408]:
+    - banner [ref=e409]
+    - generic [ref=e412]:
+      - generic [ref=e413]:
+        - generic [ref=e414]:
+          - heading "Total cost" [level=2] [ref=e415]
+          - button "Summary" [ref=e416] [cursor=pointer]
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e426]: Upfront
+            - generic [ref=e428]:
+              - generic [ref=e429]: £
+              - generic [ref=e430]: "30"
+          - generic [ref=e431]:
+            - generic [ref=e432]: Monthly
+            - generic [ref=e434]:
+              - generic [ref=e435]: £
+              - generic [ref=e436]: "50"
+      - button "Continue" [ref=e438] [cursor=pointer]

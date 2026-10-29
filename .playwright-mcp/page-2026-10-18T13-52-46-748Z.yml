@@ -1,0 +1,36 @@
+- generic [ref=f92e3]:
+  - generic [ref=f92e7]:
+    - link "Navigates to https://vodafone.co.uk" [ref=f92e8] [cursor=pointer]:
+      - /url: https://vodafone.co.uk
+    - list
+    - list
+  - generic [ref=f92e14]:
+    - navigation [ref=f92e18]:
+      - menu [ref=f92e19]:
+        - menuitem [ref=f92e20]:
+          - link "Home" [ref=f92e21] [cursor=pointer]:
+            - /url: https://www.vodafone.co.uk/
+        - menuitem [ref=f92e27]:
+          - link "Mobile Phones" [ref=f92e28] [cursor=pointer]:
+            - /url: https://www.vodafone.co.uk/mobile/
+        - menuitem "Pay Monthly Phones" [ref=f92e34]
+    - generic [ref=f92e40]:
+      - generic [ref=f92e42]:
+        - paragraph [ref=f92e43]: Existing customer? To upgrade or buy an additional plan
+        - link "Login" [ref=f92e45] [cursor=pointer]:
+          - /url: /web-shop/login?ACR_Value=journeyType:SIMO_HANDSET&successReturnUrl=/mobile/pay-monthly-contracts&errorReturnUrl=/mobile/pay-monthly-contracts
+      - button "close" [ref=f92e47] [cursor=pointer]
+    - heading "Browse our range of pay monthly phones" [level=1] [ref=f92e59]
+    - generic [ref=f92e64]:
+      - button "Filters" [ref=f92e66] [cursor=pointer]
+      - generic [ref=f92e73]:
+        - generic [ref=f92e74]: 0 items
+        - generic [ref=f92e78]:
+          - generic: Sort devices by
+          - combobox [ref=f92e83]:
+            - option "Sort by" [disabled] [selected]
+  - generic [ref=f92e101]:
+    - separator [aria-hidden] [ref=f92e107]
+    - list
+    - generic:
+      - paragraph

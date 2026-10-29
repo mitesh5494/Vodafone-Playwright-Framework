@@ -1,0 +1,482 @@
+- generic [ref=f108e1]:
+  - link [aria-hidden] [ref=f108e2] [cursor=pointer]:
+    - /url: "#"
+    - text: ___
+  - generic [ref=f108e5]:
+    - link "Skip to main content" [ref=f108e6] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f108e7]:
+      - generic [ref=f108e9]:
+        - list [ref=f108e10]:
+          - listitem [ref=f108e11] [cursor=pointer]:
+            - link "Personal" [ref=f108e12]:
+              - /url: https://www.vodafone.co.uk/?icmp=CBU_Header_Personal
+          - listitem [ref=f108e20] [cursor=pointer]:
+            - link "Business" [ref=f108e21]:
+              - /url: https://www.vodafone.co.uk/business?icmp=CBU_Header_Business
+        - list [ref=f108e29]:
+          - listitem [ref=f108e30] [cursor=pointer]:
+            - link "Find a store" [ref=f108e31]:
+              - /url: https://stores.vodafone.co.uk/search
+          - listitem [ref=f108e39] [cursor=pointer]:
+            - link "Network Status Checker" [ref=f108e40]:
+              - /url: https://www.vodafone.co.uk/network/status-checker
+      - generic [ref=f108e50]:
+        - link "Navigates to https://vodafone.co.uk" [ref=f108e51] [cursor=pointer]:
+          - /url: https://vodafone.co.uk
+        - list [ref=f108e56]:
+          - listitem [ref=f108e57]:
+            - button "Phones and devices" [ref=f108e58]
+          - listitem [ref=f108e61]:
+            - button "SIM Only" [ref=f108e62]
+          - listitem [ref=f108e65]:
+            - button "Broadband" [ref=f108e66]
+          - listitem [ref=f108e69]:
+            - button "TV" [ref=f108e70]
+          - listitem [ref=f108e73]:
+            - button "Why Vodafone" [ref=f108e74]
+          - listitem [ref=f108e77]:
+            - button "Support" [ref=f108e78]
+          - listitem [ref=f108e81]:
+            - button "New - Apple" [ref=f108e82]
+        - list [ref=f108e85]:
+          - listitem [ref=f108e86]:
+            - button "Basket" [ref=f108e88] [cursor=pointer]
+          - listitem [ref=f108e94]:
+            - button "Search" [ref=f108e96] [cursor=pointer]
+          - listitem [ref=f108e102]:
+            - button "Your account options" [ref=f108e103]
+    - generic [ref=f108e113]:
+      - generic [ref=f108e114]:
+        - generic [ref=f108e116]:
+          - navigation [ref=f108e119]:
+            - menu [ref=f108e120]:
+              - menuitem [ref=f108e121]:
+                - link "Home" [ref=f108e122] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/
+              - menuitem [ref=f108e1826]:
+                - button "..." [ref=f108e1827] [cursor=pointer]
+              - menuitem [ref=f108e135]:
+                - link "Pay Monthly Phones" [ref=f108e136] [cursor=pointer]:
+                  - /url: /mobile/pay-monthly-contracts
+              - menuitem [ref=f108e142]:
+                - link "Apple" [ref=f108e143] [cursor=pointer]:
+                  - /url: /mobile/pay-monthly-contracts/apple
+              - menuitem [ref=f108e149]:
+                - link "Apple iPhone 17" [ref=f108e1828] [cursor=pointer]:
+                  - /url: /mobile/pay-monthly-contracts/apple/iphone-17#deviceselected
+              - menuitem "Phone Plan" [ref=f108e1834]
+          - group [ref=f108e157]:
+            - list [ref=f108e159]:
+              - listitem [ref=f108e160]:
+                - generic [ref=f108e161]:
+                  - generic [ref=f108e162] [cursor=pointer]: Buying as a business?
+                  - checkbox "Buying as a business?" [ref=f108e172] [cursor=pointer]
+        - generic [ref=f108e177]:
+          - generic [ref=f108e179]:
+            - paragraph [ref=f108e180]: Great value deals when you connect your family
+            - link "Login" [ref=f108e182] [cursor=pointer]:
+              - /url: /web-shop/login?ACR_Value=journeyType:SIMO_HANDSET&successReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17&errorReturnUrl=/mobile/pay-monthly-contracts/apple/iphone-17
+          - button [ref=f108e184] [cursor=pointer]
+        - generic [ref=f108e1836]:
+          - button [ref=f108e1843] [cursor=pointer]:
+            - paragraph [ref=f108e1853]: Vodafone Together discounts activated. Continue to redeem.
+          - generic [ref=f108e1862]:
+            - generic [ref=f108e1863]: Phone Plan
+            - generic [ref=f108e1867]: Airtime Plans
+            - generic [ref=f108e1871]: Add-ons
+        - generic [ref=f108e1877]:
+          - heading "Build your Phone Plan" [level=1] [ref=f108e1879]
+          - paragraph [ref=f108e1881]: Total device cost stays the same at £966.
+          - generic [ref=f108e1884]:
+            - paragraph [ref=f108e1887]: How much do you want to pay upfront?
+            - generic [ref=f108e1892]:
+              - generic [ref=f108e1893]:
+                - button "minus upfront cost" [disabled] [ref=f108e1895]:
+                  - button [disabled] [ref=f108e1896]
+                - paragraph [ref=f108e1902]: Min £30
+              - listbox [ref=f108e1903]:
+                - option [selected] [ref=f108e1904]:
+                  - heading "£30" [level=2] [ref=f108e1906]
+                - option "£40" [ref=f108e1907]
+                - option "£50" [ref=f108e1908]
+                - option "£60" [ref=f108e1909]
+                - option "£70" [ref=f108e1910]
+                - option "£80" [ref=f108e1911]
+                - option "£90" [ref=f108e1912]
+                - option "£100" [ref=f108e1913]
+                - option "£110" [ref=f108e1914]
+                - option "£120" [ref=f108e1915]
+                - option "£130" [ref=f108e1916]
+                - option "£140" [ref=f108e1917]
+                - option "£150" [ref=f108e1918]
+                - option "£160" [ref=f108e1919]
+                - option "£170" [ref=f108e1920]
+                - option "£180" [ref=f108e1921]
+                - option "£190" [ref=f108e1922]
+                - option "£200" [ref=f108e1923]
+                - option "£210" [ref=f108e1924]
+                - option "£220" [ref=f108e1925]
+                - option "£230" [ref=f108e1926]
+                - option "£240" [ref=f108e1927]
+                - option "£250" [ref=f108e1928]
+                - option "£260" [ref=f108e1929]
+                - option "£270" [ref=f108e1930]
+                - option "£280" [ref=f108e1931]
+                - option "£290" [ref=f108e1932]
+                - option "£300" [ref=f108e1933]
+                - option "£310" [ref=f108e1934]
+                - option "£320" [ref=f108e1935]
+                - option "£330" [ref=f108e1936]
+                - option "£340" [ref=f108e1937]
+                - option "£350" [ref=f108e1938]
+                - option "£360" [ref=f108e1939]
+                - option "£370" [ref=f108e1940]
+                - option "£380" [ref=f108e1941]
+                - option "£390" [ref=f108e1942]
+                - option "£400" [ref=f108e1943]
+                - option "£410" [ref=f108e1944]
+                - option "£420" [ref=f108e1945]
+                - option "£430" [ref=f108e1946]
+                - option "£440" [ref=f108e1947]
+                - option "£450" [ref=f108e1948]
+                - option "£460" [ref=f108e1949]
+                - option "£470" [ref=f108e1950]
+                - option "£480" [ref=f108e1951]
+                - option "£490" [ref=f108e1952]
+                - option "£500" [ref=f108e1953]
+                - option "£510" [ref=f108e1954]
+                - option "£520" [ref=f108e1955]
+                - option "£530" [ref=f108e1956]
+                - option "£540" [ref=f108e1957]
+                - option "£550" [ref=f108e1958]
+                - option "£560" [ref=f108e1959]
+                - option "£570" [ref=f108e1960]
+                - option "£580" [ref=f108e1961]
+                - option "£590" [ref=f108e1962]
+                - option "£600" [ref=f108e1963]
+                - option "£610" [ref=f108e1964]
+                - option "£620" [ref=f108e1965]
+                - option "£630" [ref=f108e1966]
+                - option "£640" [ref=f108e1967]
+                - option "£650" [ref=f108e1968]
+                - option "£660" [ref=f108e1969]
+                - option "£670" [ref=f108e1970]
+                - option "£680" [ref=f108e1971]
+                - option "£690" [ref=f108e1972]
+                - option "£700" [ref=f108e1973]
+                - option "£710" [ref=f108e1974]
+                - option "£720" [ref=f108e1975]
+                - option "£730" [ref=f108e1976]
+                - option "£740" [ref=f108e1977]
+                - option "£750" [ref=f108e1978]
+                - option "£760" [ref=f108e1979]
+                - option "£770" [ref=f108e1980]
+                - option "£780" [ref=f108e1981]
+                - option "£790" [ref=f108e1982]
+                - option "£800" [ref=f108e1983]
+                - option "£810" [ref=f108e1984]
+                - option "£820" [ref=f108e1985]
+                - option "£830" [ref=f108e1986]
+                - option "£840" [ref=f108e1987]
+                - option "£850" [ref=f108e1988]
+                - option "£860" [ref=f108e1989]
+              - generic [ref=f108e1990]:
+                - button "plus upfront cost" [ref=f108e1992] [cursor=pointer]
+                - paragraph [ref=f108e1999]: Max £860
+            - separator [aria-hidden] [ref=f108e2002]
+            - paragraph [ref=f108e2005]: Choose your contract length
+            - generic [ref=f108e2006]:
+              - group [ref=f108e2008]:
+                - generic [ref=f108e2010]:
+                  - generic [ref=f108e2013] [cursor=pointer]:
+                    - radio "Min 24 months" [ref=f108e2014]
+                    - generic [ref=f108e2015]: Min 24 months
+                  - generic [ref=f108e2019] [cursor=pointer]:
+                    - radio "Max 36 months" [checked] [ref=f108e2020]
+                    - generic [ref=f108e2021]: Max 36 months
+              - generic [ref=f108e2024]:
+                - generic [ref=f108e2026]:
+                  - generic [ref=f108e2027]:
+                    - button "minus contract length" [ref=f108e2029] [cursor=pointer]
+                    - paragraph [ref=f108e2035]: Min 24
+                  - listbox [ref=f108e2036]:
+                    - option "24Months" [ref=f108e2037]
+                    - option "25Months" [ref=f108e2038]
+                    - option "26Months" [ref=f108e2039]
+                    - option "27Months" [ref=f108e2040]
+                    - option "28Months" [ref=f108e2041]
+                    - option "29Months" [ref=f108e2042]
+                    - option "30Months" [ref=f108e2043]
+                    - option "31Months" [ref=f108e2044]
+                    - option "32Months" [ref=f108e2045]
+                    - option "33Months" [ref=f108e2046]
+                    - option "34Months" [ref=f108e2047]
+                    - option "35Months" [ref=f108e2048]
+                    - option [selected] [ref=f108e2049]:
+                      - heading "36 months" [level=2] [ref=f108e2051]
+                  - generic [ref=f108e2052]:
+                    - button "plus contract length" [disabled] [ref=f108e2054]:
+                      - button [disabled] [ref=f108e2055]
+                    - paragraph [ref=f108e2062]: Max 36
+                - button [ref=f108e2064] [cursor=pointer]:
+                  - generic [ref=f108e2065]:
+                    - separator [aria-hidden] [ref=f108e2067]
+                    - paragraph [ref=f108e2075]: Get a new phone after 24 months with Vodafone Xchange
+            - paragraph [ref=f108e2084]:
+              - strong [ref=f108e2085]: Interest-free credit (0% APR).
+              - text: Subject to credit check.
+            - generic [ref=f108e2089]:
+              - paragraph [ref=f108e2090]: Monthly
+              - heading "£26" [level=2] [ref=f108e2091]
+              - paragraph [ref=f108e2094]: This is your Phone Plan cost. You’ll add your Airtime Plan to this in later steps.
+          - generic [ref=f108e2096]:
+            - button "How it works" [ref=f108e2099] [cursor=pointer]
+            - button "Continue" [active] [ref=f108e2108] [cursor=pointer]
+      - button "Get in touch" [ref=f108e1459] [cursor=pointer]
+    - generic [ref=f108e1466]:
+      - list [ref=f108e1471]:
+        - listitem [ref=f108e1472]:
+          - link "Vodafone UK on Facebook" [ref=f108e1473] [cursor=pointer]:
+            - /url: https://www.facebook.com/vodafoneUK
+        - listitem [ref=f108e1479]:
+          - link "Vodafone UK on Instagram" [ref=f108e1480] [cursor=pointer]:
+            - /url: https://www.instagram.com/VodafoneUK/
+        - listitem [ref=f108e1486]:
+          - link "Vodafone UK on YouTube" [ref=f108e1487] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/VODAFONEUK
+        - listitem [ref=f108e1493]:
+          - link "Vodafone UK on X (formerly Twitter)" [ref=f108e1494] [cursor=pointer]:
+            - /url: https://x.com/vodafoneuk
+        - listitem [ref=f108e1500]:
+          - link "Vodafone on LinkedIn" [ref=f108e1501] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/vodafone/
+        - listitem [ref=f108e1507]:
+          - link "Vodafone UK on TikTok" [ref=f108e1508] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@vodafoneuk
+      - separator [aria-hidden] [ref=f108e1515]
+      - generic [ref=f108e1516]:
+        - generic [ref=f108e2229]:
+          - heading "Buying online" [level=2] [ref=f108e2230]
+          - list [ref=f108e2231]:
+            - listitem [ref=f108e2232]:
+              - link "Pay monthly deals" [ref=f108e2233] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts
+            - listitem [ref=f108e2234]:
+              - link "Pay as you go deals" [ref=f108e2235] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-as-you-go
+            - listitem [ref=f108e2236]:
+              - link "SIM only deals" [ref=f108e2237] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sim-only/best-sim-only-deals
+            - listitem [ref=f108e2238]:
+              - link "iPad" [ref=f108e2239] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/ipad
+            - listitem [ref=f108e2240]:
+              - link "Tablets" [ref=f108e2241] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/ipads-and-tablets
+            - listitem [ref=f108e2242]:
+              - link "Mobile Broadband" [ref=f108e2243] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile-broadband
+            - listitem [ref=f108e2244]:
+              - link "Home Broadband" [ref=f108e2245] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband
+            - listitem [ref=f108e2246]:
+              - link "Laptops" [ref=f108e2247] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/laptops
+            - listitem [ref=f108e2248]:
+              - link "Vodafone TV" [ref=f108e2249] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/tv
+            - listitem [ref=f108e2250]:
+              - link "Compare phones" [ref=f108e2251] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/compare
+            - listitem [ref=f108e2252]:
+              - link "Deals and offers" [ref=f108e2253] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/deals-and-offers
+            - listitem [ref=f108e2254]:
+              - link "Vodafone SuperMobile™" [ref=f108e2255] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/vodafone-supermobile
+            - listitem [ref=f108e2256]:
+              - link "Vodafone Xchange" [ref=f108e2257] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/xchange
+        - generic [ref=f108e2258]:
+          - heading "Latest phones" [level=2] [ref=f108e2259]
+          - list [ref=f108e2260]:
+            - listitem [ref=f108e2261]:
+              - link "iPhone 18 Pro Max" [ref=f108e2262] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro-max
+            - listitem [ref=f108e2263]:
+              - link "iPhone 18 Pro" [ref=f108e2264] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro
+            - listitem [ref=f108e2265]:
+              - link "iPhone Duo" [ref=f108e2266] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-duo
+            - listitem [ref=f108e2267]:
+              - link "iPhone Air" [ref=f108e2268] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+            - listitem [ref=f108e2269]:
+              - link "Samsung Galaxy S26 Ultra" [ref=f108e2270] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-ultra
+            - listitem [ref=f108e2271]:
+              - link "Samsung Galaxy S26" [ref=f108e2272] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26
+            - listitem [ref=f108e2273]:
+              - link "Samsung Galaxy S26+" [ref=f108e2274] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-plus
+            - listitem [ref=f108e2275]:
+              - link "Samsung Galaxy Z Fold8" [ref=f108e2276] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-z-fold8
+            - listitem [ref=f108e2277]:
+              - link "Google Pixel 11 Pro Fold" [ref=f108e2278] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-fold
+            - listitem [ref=f108e2279]:
+              - link "Google Pixel 11 Pro" [ref=f108e2280] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro
+            - listitem [ref=f108e2281]:
+              - link "Google Pixel 11" [ref=f108e2282] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11
+            - listitem [ref=f108e2283]:
+              - link "Google Pixel 11 Pro XL" [ref=f108e2284] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-xl
+            - listitem [ref=f108e2285]:
+              - link "New phones" [ref=f108e2286] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/new-phones
+        - generic [ref=f108e2287]:
+          - heading "Help and support" [level=2] [ref=f108e2288]
+          - list [ref=f108e2289]:
+            - listitem [ref=f108e2290]:
+              - link "All help topics" [ref=f108e2291] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help
+            - listitem [ref=f108e2292]:
+              - link "Help with your device" [ref=f108e2293] [cursor=pointer]:
+                - /url: https://deviceguides.vodafone.co.uk/
+            - listitem [ref=f108e2294]:
+              - link "Lost or stolen devices" [ref=f108e2295] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/mobile/lost-and-stolen
+            - listitem [ref=f108e2296]:
+              - link "Find a store" [ref=f108e2297] [cursor=pointer]:
+                - /url: https://stores.vodafone.co.uk/search
+            - listitem [ref=f108e2298]:
+              - link "Contact us" [ref=f108e2299] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us
+            - listitem [ref=f108e2300]:
+              - link "Make a complaint" [ref=f108e2301] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/how-to-complain
+            - listitem [ref=f108e2302]:
+              - link "Help and advice on fraud" [ref=f108e2303] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy/protecting-you
+            - listitem [ref=f108e2304]:
+              - link "Return a product" [ref=f108e2305] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/orders/returns
+            - listitem [ref=f108e2306]:
+              - link "TOBi" [ref=f108e2307] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us#p2pchat
+            - listitem [ref=f108e2308]:
+              - link "UK Charge Checker" [ref=f108e2309] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/billing/charge-checker
+            - listitem [ref=f108e2310]:
+              - link "Social broadband" [ref=f108e2311] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+            - listitem [ref=f108e2312]:
+              - link "Broadband speed test" [ref=f108e2313] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/speed-test
+            - listitem [ref=f108e2314]:
+              - link "Accessibility" [ref=f108e2315] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/accessibility
+        - generic [ref=f108e2316]:
+          - heading "Vodafone UK" [level=2] [ref=f108e2317]
+          - list [ref=f108e2318]:
+            - listitem [ref=f108e2319]:
+              - link "About us" [ref=f108e2320] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/about-us
+            - listitem [ref=f108e2321]:
+              - link "For investors" [ref=f108e2322] [cursor=pointer]:
+                - /url: https://www.vodafone.com/investors
+            - listitem [ref=f108e2323]:
+              - link "Blog" [ref=f108e2324] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/blog
+            - listitem [ref=f108e2325]:
+              - link "News Centre" [ref=f108e2326] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/newscentre/
+            - listitem [ref=f108e2327]:
+              - link "Modern Slavery Statement" [ref=f108e2328] [cursor=pointer]:
+                - /url: https://www.vodafone.com/our-impact/esg-reporting-centre?section=slavery-and-human-trafficking-statement
+            - listitem [ref=f108e2329]:
+              - link "Careers" [ref=f108e2330] [cursor=pointer]:
+                - /url: https://careers.vodafone.com/uk/
+            - listitem [ref=f108e2331]:
+              - link "Switch to Vodafone" [ref=f108e2332] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1
+            - listitem [ref=f108e2333]:
+              - link "Our partnerships" [ref=f108e2334] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/partnerships
+            - listitem [ref=f108e2335]:
+              - link "VOXI" [ref=f108e2336] [cursor=pointer]:
+                - /url: https://www.voxi.co.uk/
+            - listitem [ref=f108e2337]:
+              - link "Talkmobile" [ref=f108e2338] [cursor=pointer]:
+                - /url: https://talkmobile.co.uk/
+            - listitem [ref=f108e2339]:
+              - link "VodafoneThree" [ref=f108e2340] [cursor=pointer]:
+                - /url: https://www.vodafonethree.com/
+            - listitem [ref=f108e2341]:
+              - link "Three UK" [ref=f108e2342] [cursor=pointer]:
+                - /url: https://www.three.co.uk/
+            - listitem [ref=f108e2343]:
+              - link "SMARTY" [ref=f108e2344] [cursor=pointer]:
+                - /url: https://smarty.co.uk/
+      - list [ref=f108e1637]:
+        - listitem [ref=f108e1638]:
+          - list [ref=f108e1639]:
+            - listitem [ref=f108e1640]:
+              - link "Terms and conditions" [ref=f108e1641] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/terms-and-conditions
+              - separator [aria-hidden] [ref=f108e1642]
+            - listitem [ref=f108e1643]:
+              - link "Site map" [ref=f108e1644] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sitemap
+              - separator [aria-hidden] [ref=f108e1645]
+            - listitem [ref=f108e1646]:
+              - link "Privacy policy" [ref=f108e1647] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy
+              - separator [aria-hidden] [ref=f108e1648]
+            - listitem [ref=f108e1649]:
+              - link "Cookie policy" [ref=f108e1650] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy?tabDeepLinkId=cookie-policy#policies
+              - separator [aria-hidden] [ref=f108e1651]
+            - listitem [ref=f108e1652]:
+              - link "PSTI Act" [ref=f108e1653] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security
+              - separator [aria-hidden] [ref=f108e1654]
+            - listitem [ref=f108e1655]:
+              - link "Device security support" [ref=f108e1656] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+      - generic [ref=f108e1657]:
+        - paragraph [ref=f108e1658]: "Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN."
+        - paragraph [ref=f108e1659]: "*Annual Price Increase: The monthly cost will increase each year on 1 April by £2.50 for Pay monthly plans with Airtime/Data, and £3.50 for Home Broadband plans. This doesn't affect Device Plans. More information: vodafone.co.uk/pricechanges"
+        - paragraph [ref=f108e1660]: © 2026 Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)
+  - alert [ref=f108e1763]
+  - generic:
+    - generic:
+      - generic:
+        - dialog "Find a phone & plan" [ref=f108e2225]
+        - button "Find a phone & plan" [ref=f108e2226] [cursor=pointer]
+  - generic [ref=f108e2346]:
+    - banner [ref=f108e2347]
+    - generic [ref=f108e2350]:
+      - generic [ref=f108e2351]:
+        - generic [ref=f108e2352]:
+          - heading "Total cost" [level=2] [ref=f108e2353]
+          - button "Summary" [ref=f108e2354] [cursor=pointer]
+        - generic [ref=f108e2362]:
+          - generic [ref=f108e2363]:
+            - generic [ref=f108e2364]: Upfront
+            - generic [ref=f108e2366]:
+              - generic [ref=f108e2367]: £
+              - generic [ref=f108e2368]: "30"
+          - generic [ref=f108e2369]:
+            - generic [ref=f108e2370]: Monthly
+            - generic [ref=f108e2372]:
+              - generic [ref=f108e2373]: £
+              - generic [ref=f108e2374]: "26"
+      - button "Continue" [disabled] [ref=f108e2376]:
+        - button "Continue" [disabled] [ref=f108e2377]

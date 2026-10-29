@@ -16,6 +16,7 @@
     "speed_card": "div[class='sc-kUuIQH euVcxp']",
     "plan_card": "div[class='PlanCardstyle__CardWrapper-sc-eluone-0 bRWTOD]",
     "broadband_plan_card": "//button[@aria-label='Choose Plan']/ancestor::div[@data-component-name='SingleColumnCard']",
+    "fwa_plan_card": "//p[normalize-space()='{tenure}']/ancestor::div[@data-component-name='ContainerWithLabel']",
     "TV_plan_card": "//button[@aria-label='Choose TV package']/ancestor::div[@data-component-name='SingleColumnCard']",
     "prebuilt_plan_card": "div[class='PrebuiltPlanCardstyle__CardWrapper-sc-inlerj-0 eLgYes']",
     "broadband_tv": "span[data-title='Broadband + TV']",

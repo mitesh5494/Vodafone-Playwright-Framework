@@ -1,0 +1,685 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8] [cursor=pointer]:
+            - link "Personal" [ref=e9]:
+              - /url: https://www.vodafone.co.uk/?icmp=CBU_Header_Personal
+          - listitem [ref=e17] [cursor=pointer]:
+            - link "Business" [ref=e18]:
+              - /url: https://www.vodafone.co.uk/business?icmp=CBU_Header_Business
+        - list [ref=e26]:
+          - listitem [ref=e27] [cursor=pointer]:
+            - link "Find a store" [ref=e28]:
+              - /url: https://stores.vodafone.co.uk/search
+          - listitem [ref=e36] [cursor=pointer]:
+            - link "Network Status Checker" [ref=e37]:
+              - /url: https://www.vodafone.co.uk/network/status-checker
+      - generic [ref=e47]:
+        - link "Navigates to https://www.vodafone.co.uk" [ref=e48] [cursor=pointer]:
+          - /url: https://www.vodafone.co.uk
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - button "Phones and devices" [ref=e55]
+          - listitem [ref=e58]:
+            - button "SIM Only" [ref=e59]
+          - listitem [ref=e62]:
+            - button "Broadband" [ref=e63]
+          - listitem [ref=e66]:
+            - button "TV" [ref=e67]
+          - listitem [ref=e70]:
+            - button "Why Vodafone" [ref=e71]
+          - listitem [ref=e74]:
+            - button "Support" [ref=e75]
+          - listitem [ref=e78]:
+            - button "New - Apple" [ref=e79]
+        - list [ref=e82]:
+          - listitem [ref=e83]:
+            - button "Basket" [ref=e85] [cursor=pointer]
+          - listitem [ref=e91]:
+            - button "Search" [ref=e93] [cursor=pointer]
+          - listitem [ref=e99]:
+            - button "Your account options" [ref=e100]
+    - main [ref=e109]:
+      - navigation [ref=e112]:
+        - menu [ref=e113]:
+          - menuitem [ref=e114]:
+            - link "Home" [ref=e115] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk
+          - menuitem "Broadband" [ref=e121]
+      - generic [ref=e127]:
+        - heading "Our best broadband deals" [level=1] [ref=e129]
+        - paragraph [ref=e131]: Enjoy reliable full fibre broadband from £24 a month on a 24-month plan.
+        - paragraph [ref=e132]: Increases to £27.50 on 1 April 2027 and £31 on 1 April 2028.
+      - heading "Loading" [level=2] [ref=e149]
+      - generic [ref=e153]:
+        - heading "Switching to Vodafone is easy" [level=2] [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e159]:
+            - link [ref=e160] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+              - img "Help with leaving fees" [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - heading "Help with leaving fees" [level=3] [ref=e165]
+                - paragraph [ref=e166]: Switch to Vodafone broadband and we’ll credit your Vodafone account with up to £300 when you pay early termination fees. Terms apply.
+              - link "Learn more about switching" [ref=e167] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+          - generic [ref=e178]:
+            - link [ref=e179] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+              - img "Hassle-free switching" [ref=e181]
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - heading "Hassle-free switching" [level=3] [ref=e184]
+                - paragraph [ref=e185]: Switching is easy. We'll sort everything out for you, and even contact your current provider.
+              - link "Find out more" [ref=e186] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+          - generic [ref=e197]:
+            - link [ref=e198] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+              - img "Guaranteed install date" [ref=e200]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - heading "Guaranteed install date" [level=3] [ref=e203]
+                - paragraph [ref=e204]: If we’re late to activate, you’ll be automatically compensated until you’re online.
+              - link "Learn more" [ref=e205] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/switch-and-save
+      - generic [ref=e216]:
+        - heading "Our broadband speeds" [level=2] [ref=e217]
+        - generic [ref=e218]:
+          - generic [ref=e222]:
+            - generic [ref=e223]: Everyday speed
+            - generic [ref=e229]:
+              - generic [ref=e230]: 74Mbps
+              - generic [ref=e231]: Great for email, browsing, and everyday tasks
+          - generic [ref=e237]:
+            - generic [ref=e238]: Moderate speed
+            - generic [ref=e244]:
+              - generic [ref=e245]: 150Mbps
+              - generic [ref=e246]: Suitable for a 2-4-person household
+          - generic [ref=e252]:
+            - generic [ref=e253]: Most popular
+            - generic [ref=e259]:
+              - generic [ref=e260]: 500Mbps
+              - generic [ref=e261]: Perfect for families with many devices
+          - generic [ref=e267]:
+            - generic [ref=e268]: Fast
+            - generic [ref=e274]:
+              - generic [ref=e275]: 910Mbps
+              - generic [ref=e276]: Ideal for gamers or large downloads
+          - generic [ref=e282]:
+            - generic [ref=e283]: Super-fast
+            - generic [ref=e289]:
+              - generic [ref=e290]: 1.8Gbps
+              - generic [ref=e291]: High-demand use – available with Pro
+          - generic [ref=e297]:
+            - generic [ref=e298]: Fastest available
+            - generic [ref=e304]:
+              - generic [ref=e305]: 2.2Gbps
+              - generic [ref=e306]: Our fastest speed – available with Pro
+      - link "Check what speeds you can get in your area" [ref=e314] [cursor=pointer]:
+        - /url: https://www.vodafone.co.uk/broadband/deals/select-plan
+      - generic [ref=e318]:
+        - heading "Vodafone Broadband benefits" [level=2] [ref=e319]
+        - generic [ref=e320]:
+          - generic [ref=e329]:
+            - heading "Full fibre broadband" [level=3] [ref=e330]
+            - paragraph [ref=e331]: We're bringing the UK's most reliable broadband technology to more homes than anyone else.
+          - generic [ref=e340]:
+            - heading "Speeds of up to 2.2 Gbps" [level=3] [ref=e341]
+            - paragraph [ref=e342]: Our fastest full fibre speeds - up to 60x faster than our standard broadband.
+          - generic [ref=e351]:
+            - heading "Award-winning broadband" [level=3] [ref=e352]
+            - paragraph [ref=e353]: We’re the Uswitch Winner for Most Popular Broadband Provider 2026.
+          - generic [ref=e365]:
+            - heading "Save on additional plans" [level=3] [ref=e366]
+            - paragraph [ref=e367]: Get exclusive discounts on each additional Pay monthly mobile or broadband plan you add to your account.
+      - generic [ref=e371]:
+        - heading "Compare our broadband plans" [level=2] [ref=e372]
+        - paragraph [ref=e375]: Our plans are tailored to fit your needs, with speeds up to 2.2 Gbps across multiple devices depending on your address.
+        - table [ref=e377]:
+          - rowgroup [ref=e378]:
+            - row [ref=e379]:
+              - columnheader [ref=e380]:
+                - generic:
+                  - paragraph
+              - columnheader [ref=e381]:
+                - img "Vodafone Broadband Router" [ref=e383]
+                - paragraph [ref=e385]: Vodafone Broadband
+              - columnheader [ref=e386]:
+                - img "Pro 3 Ultra Hub 7 router, booster and 4G back-up" [ref=e388]
+                - paragraph [ref=e390]: Vodafone Pro 3 Broadband
+          - rowgroup [ref=e391]:
+            - row [ref=e392]:
+              - cell [ref=e393]:
+                - paragraph [ref=e395]: Download speed
+              - cell [ref=e396]:
+                - paragraph [ref=e398]: Up to 910 Mbps
+              - cell [ref=e399]:
+                - paragraph [ref=e401]: Up to 2.2 Gbps
+            - row [ref=e402]:
+              - cell [ref=e403]:
+                - paragraph [ref=e405]: Upload speed
+              - cell [ref=e406]:
+                - paragraph [ref=e408]: Up to 910 Mbps
+              - cell [ref=e409]:
+                - paragraph [ref=e411]: Up to 2.2 Gbps
+            - row [ref=e412]:
+              - cell [ref=e413]:
+                - paragraph [ref=e415]: Monthly price
+              - cell [ref=e416]:
+                - generic [ref=e417]:
+                  - paragraph [ref=e418]: From £24
+                  - paragraph [ref=e419]: Increases to £27.50 on 1 April 2027 and £31 on 1 April 2028.
+              - cell [ref=e420]:
+                - generic [ref=e421]:
+                  - paragraph [ref=e422]: From £39
+                  - paragraph [ref=e423]: Increases to £42.50 on 1 April 2027 and £46 on 1 April 2028.
+            - row [ref=e424]:
+              - cell [ref=e425]:
+                - paragraph [ref=e427]: Router type
+              - cell [ref=e428]:
+                - paragraph [ref=e430]:
+                  - text: Power Hub
+                  - link "Device security support" [ref=e431] [cursor=pointer]:
+                    - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+              - cell [ref=e432]:
+                - paragraph [ref=e434]:
+                  - text: Ultra Hub 7
+                  - link "Device security support" [ref=e435] [cursor=pointer]:
+                    - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+            - row [ref=e436]:
+              - cell [ref=e437]:
+                - paragraph [ref=e439]: WiFi technology
+              - cell [ref=e440]:
+                - paragraph [ref=e442]: WiFi 6
+              - cell [ref=e443]:
+                - paragraph [ref=e445]: WiFi 7
+            - row [ref=e446]:
+              - cell [ref=e447]:
+                - paragraph [ref=e449]: Broadband technology
+              - cell [ref=e450]:
+                - paragraph [ref=e452]: Part or full fibre
+              - cell [ref=e453]:
+                - paragraph [ref=e455]: Full fibre only
+            - row [ref=e456]:
+              - cell [ref=e457]:
+                - paragraph [ref=e459]: Super WiFi Booster
+              - cell [ref=e460]:
+                - paragraph [ref=e462]: Add for £7 a month
+              - cell [ref=e463]:
+                - paragraph [ref=e465]: ✓
+            - row [ref=e466]:
+              - cell [ref=e467]:
+                - paragraph [ref=e469]: 4G Broadband Back-up
+              - cell [ref=e470]:
+                - paragraph [ref=e472]: Not included
+              - cell [ref=e473]:
+                - paragraph [ref=e475]: ✓
+            - row [ref=e476]:
+              - cell [ref=e477]:
+                - paragraph [ref=e479]: Dedicated support
+              - cell [ref=e480]:
+                - paragraph [ref=e482]: Broadband Xperts
+              - cell [ref=e483]:
+                - paragraph [ref=e485]: Call prioritisation and 90-day monitoring with Broadband Xperts
+            - row [ref=e486]:
+              - cell [ref=e487]:
+                - paragraph [ref=e489]: Secure Net Home
+              - cell [ref=e490]:
+                - paragraph [ref=e492]: Three-month free trial, then £2 a month*
+              - cell [ref=e493]:
+                - paragraph [ref=e495]: ✓
+            - row [ref=e496]:
+              - cell [ref=e497]:
+                - paragraph [ref=e499]: Landline included
+              - cell [ref=e500]:
+                - paragraph [ref=e502]: Optional
+              - cell [ref=e503]:
+                - paragraph [ref=e505]: Optional
+      - link "Check what speed you can get" [ref=e511] [cursor=pointer]:
+        - /url: https://www.vodafone.co.uk/broadband
+      - generic [ref=e515]:
+        - heading "Explore broadband" [level=2] [ref=e516]
+        - generic [ref=e517]:
+          - generic [ref=e518]:
+            - generic [ref=e522]:
+              - link [ref=e523] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/forms/static/broadband-contract-end-date
+                - img "Register your interest" [ref=e525]
+              - generic [ref=e526]:
+                - generic [ref=e527]:
+                  - heading "Let us know when your broadband contract ends" [level=3] [ref=e528]
+                  - paragraph [ref=e529]: Switch to Vodafone broadband and we’ll credit your account with up to £300 when you pay early termination fees. Terms apply.
+                - link "Register your interest" [ref=e530] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/forms/static/broadband-contract-end-date
+            - generic [ref=e541]:
+              - link [ref=e542] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/pro
+                - img "Pro 3 Ultra Hub 7 router" [ref=e544]
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - heading "Speeds of up to 2.2 Gbps on Pro 3 Broadband" [level=3] [ref=e547]
+                  - paragraph [ref=e548]: Ultra-reliable, ultra-fast full fibre broadband for less – that’s up to 60x faster than our standard broadband.
+                - link "Learn about Pro Broadband" [ref=e549] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband/pro
+            - generic [ref=e560]:
+              - link [ref=e561] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/broadband-and-tv?icmp=explore-our-deals_Broadband-and-TV
+                - img "Gloved hand holding a TV remote" [ref=e563]
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - heading "Broadband and TV" [level=3] [ref=e566]
+                  - paragraph [ref=e567]: Award-winning broadband built for uninterrupted streaming – powering all the TV you love from Netflix and HBO Max, plus 200+ channels, gaming and your favourite apps.
+                - link "Broadband and TV plans" [ref=e568] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband/broadband-and-tv?icmp=explore-our-deals_Broadband-and-TV
+          - button "Show more" [ref=e577] [cursor=pointer]
+      - generic [ref=e582]:
+        - generic:
+          - paragraph
+      - generic [ref=e586]:
+        - heading "Award-winning broadband and reviews" [level=2] [ref=e587]
+        - generic [ref=e588]:
+          - generic [ref=e592]:
+            - img "USwitch Best Value for Money Broadband Provider Winner 2026" [ref=e595]
+            - generic [ref=e597]:
+              - heading "Best Value for Money Broadband Provider Winner" [level=3] [ref=e598]
+              - paragraph [ref=e599]: Uswitch, 2026
+          - generic [ref=e603]:
+            - img "USwitch Most Popular Broadband Provider Winner 2026" [ref=e606]
+            - generic [ref=e608]:
+              - heading "Most Popular Broadband Provider Winner" [level=3] [ref=e609]
+              - paragraph [ref=e610]: Uswitch, 2026
+          - generic [ref=e614]:
+            - img "Trustpilot award, 4.4 out of maximum 5 star rating" [ref=e617]
+            - generic [ref=e619]:
+              - heading "Vodafone UK is rated ‘Excellent’ with 4.7 stars" [level=3] [ref=e620]
+              - paragraph [ref=e621]: Trustpilot 2026
+          - generic [ref=e625]:
+            - img "‘Best Value for Money’ Winner" [ref=e628]
+            - generic [ref=e630]:
+              - heading "‘Best Value for Money’ Winner" [level=3] [ref=e631]
+              - paragraph [ref=e632]: Broadband Genie, 2025
+          - generic [ref=e636]:
+            - img "‘Best Social Tariff’ Winner" [ref=e639]
+            - generic [ref=e641]:
+              - heading "‘Best Social Tariff’ Winner" [level=3] [ref=e642]
+              - paragraph [ref=e643]: Broadband Genie, 2025
+          - generic [ref=e651]:
+            - heading "Best Broadband Provider" [level=3] [ref=e652]
+            - paragraph [ref=e653]: Expert Reviews, 2026
+      - generic [ref=e658]:
+        - generic:
+          - paragraph
+      - generic [ref=e663]:
+        - heading "Broadband and more" [level=2] [ref=e664]
+        - generic [ref=e666]:
+          - generic [ref=e669]:
+            - generic [ref=e673]:
+              - link [ref=e674] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband-sim-only-deals
+                - img "Always together with Vodafone Together" [ref=e676]
+              - generic [ref=e677]:
+                - generic [ref=e678]:
+                  - heading "Broadband and mobile" [level=3] [ref=e679]
+                  - paragraph [ref=e680]: Get exclusive discounts on broadband and additional mobile plans when they're together on one account.
+                - link "Discover Vodafone Together" [ref=e681] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband-sim-only-deals
+            - generic [ref=e692]:
+              - link [ref=e693] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/my-vodafone-account/my-vodafone-app#downloadapp
+                - img "Just Ask Once" [ref=e695]
+              - generic [ref=e696]:
+                - generic [ref=e697]:
+                  - heading "Just Ask Once" [level=3] [ref=e698]
+                  - paragraph [ref=e699]: One person handles your query from start to finish, with updates until it’s sorted. Convenient messaging anytime, all in the My Vodafone app.
+                - link "Download the My Vodafone app" [ref=e700] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/my-vodafone-account/my-vodafone-app#downloadapp
+            - generic [ref=e711]:
+              - link [ref=e712] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/full-fibre
+                - img "Lady gaming with the word BOOM" [ref=e714]
+              - generic [ref=e715]:
+                - generic [ref=e716]:
+                  - heading "Vodafone Full Fibre Broadband" [level=3] [ref=e717]
+                  - paragraph [ref=e718]: Enjoy faster speeds and a more reliable connection with our full fibre broadband, powered by the latest technology.
+                - link "Discover Vodafone Full Fibre Broadband" [ref=e719] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband/full-fibre
+            - generic [ref=e730]:
+              - link [ref=e731] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+                - img "Vodafone Essentials Broadband logo" [ref=e733]
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - heading "Vodafone Essentials Broadband" [level=3] [ref=e736]
+                  - paragraph [ref=e737]: Stay connected with Vodafone Essentials Broadband, now available for all customers receiving government benefits.
+                - link "Learn more about Essentials Broadband" [ref=e738] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+            - generic [ref=e749]:
+              - link [ref=e750] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help
+                - img "Mother and daughter, woman and child, in tent looking at tablet" [ref=e752]
+              - generic [ref=e753]:
+                - generic [ref=e754]:
+                  - heading "Confused about broadband?" [level=3] [ref=e755]
+                  - paragraph [ref=e756]: Learn more about our broadband products and find the right information you need in our knowledge centres.
+                - link "Go to Advice Hub" [ref=e757] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/help
+            - generic [ref=e768]:
+              - link [ref=e769] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/5g-home-broadband
+                - img "5G Broadband" [ref=e771]
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - heading "5G Broadband" [level=3] [ref=e774]
+                  - paragraph [ref=e775]: Experience superfast reliable broadband powered by our 5G network. It’s easy to set up with no engineer visit needed.
+                - link "Discover 5G Broadband" [ref=e776] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/broadband/5g-home-broadband
+            - generic [ref=e787]:
+              - link [ref=e788] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile-broadband
+                - img "Mobile Broadband devices" [ref=e790]
+              - generic [ref=e791]:
+                - generic [ref=e792]:
+                  - heading "Mobile Broadband on the go" [level=3] [ref=e793]
+                  - paragraph [ref=e794]: From data dongles and SIMs to our 45 and 5G WiFi Hotspots, we’ve got the tech to keep you connected on the move.
+                - link "Discover Mobile Broadband" [ref=e795] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile-broadband
+            - generic [ref=e806]:
+              - link [ref=e807] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/laptops/samsung?icmp=broadband-and-more_Samsung-laptops
+                - img "Samsung laptop" [ref=e809]
+              - generic [ref=e810]:
+                - generic [ref=e811]:
+                  - heading "Samsung laptops" [level=3] [ref=e812]
+                  - paragraph [ref=e813]: Discover the latest range of incredible Samsung Galaxy laptops, including Galaxy Book Go and Chromebook Go.
+                - link "Find your perfect laptop" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.vodafone.co.uk/mobile/laptops/samsung?icmp=broadband-and-more_Samsung-laptops
+          - button "Next" [ref=e824] [cursor=pointer]
+          - generic [ref=e832]:
+            - button "Current group of slides" [ref=e833] [cursor=pointer]
+            - button "Go to group of slides 2" [ref=e834] [cursor=pointer]
+            - button "Go to group of slides 3" [ref=e835] [cursor=pointer]
+      - generic [ref=e840]:
+        - generic:
+          - paragraph
+      - generic [ref=e844]:
+        - heading "Frequently asked questions" [level=2] [ref=e845]
+        - generic:
+          - generic:
+            - paragraph
+        - generic [ref=e846]:
+          - button [ref=e850] [cursor=pointer]:
+            - heading "What is broadband?" [level=3] [ref=e852]
+          - button [ref=e862] [cursor=pointer]:
+            - heading "How do I get Vodafone Home Broadband?" [level=3] [ref=e864]
+          - button [ref=e874] [cursor=pointer]:
+            - heading "How is Vodafone Broadband installed?" [level=3] [ref=e876]
+          - button [ref=e886] [cursor=pointer]:
+            - heading "How do I set up my broadband router?" [level=3] [ref=e888]
+          - button [ref=e898] [cursor=pointer]:
+            - heading "Moved home or changed premises?" [level=3] [ref=e900]
+      - generic [ref=e910]:
+        - heading "Legal terms" [level=2] [ref=e911]
+        - generic [ref=e912]:
+          - generic:
+            - paragraph
+            - paragraph
+        - generic [ref=e913]:
+          - button [ref=e917] [cursor=pointer]:
+            - heading "Broadband and Home Phone" [level=3] [ref=e919]
+          - button [ref=e929] [cursor=pointer]:
+            - heading "Verification" [level=3] [ref=e931]
+          - button [ref=e941] [cursor=pointer]:
+            - heading "TalkTalk discount offer" [level=3] [ref=e943]
+          - button [ref=e953] [cursor=pointer]:
+            - heading "Who’s Home Substantiation" [level=3] [ref=e955]
+          - button [ref=e965] [cursor=pointer]:
+            - heading "Vodafone Pro Broadband Substantiation" [level=3] [ref=e967]
+          - button [ref=e977] [cursor=pointer]:
+            - heading "The Nation's Network" [level=3] [ref=e979]
+          - button [ref=e989] [cursor=pointer]:
+            - heading "2.2Gbps Speeds Substantiation" [level=3] [ref=e991]
+          - button [ref=e1001] [cursor=pointer]:
+            - heading "Just Ask Once terms and conditions" [level=3] [ref=e1003]
+          - button [ref=e1013] [cursor=pointer]:
+            - heading "*3-month free trial of Secure Net Home" [level=3] [ref=e1015]
+    - generic [ref=e1023]:
+      - list [ref=e1028]:
+        - listitem [ref=e1029]:
+          - link "Vodafone UK on Facebook" [ref=e1030] [cursor=pointer]:
+            - /url: https://www.facebook.com/vodafoneUK
+        - listitem [ref=e1036]:
+          - link "Vodafone UK on Instagram" [ref=e1037] [cursor=pointer]:
+            - /url: https://www.instagram.com/VodafoneUK/
+        - listitem [ref=e1043]:
+          - link "Vodafone UK on YouTube" [ref=e1044] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/VODAFONEUK
+        - listitem [ref=e1050]:
+          - link "Vodafone UK on X (formerly Twitter)" [ref=e1051] [cursor=pointer]:
+            - /url: https://x.com/vodafoneuk
+        - listitem [ref=e1057]:
+          - link "Vodafone on LinkedIn" [ref=e1058] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/vodafone/
+        - listitem [ref=e1064]:
+          - link "Vodafone UK on TikTok" [ref=e1065] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@vodafoneuk
+      - separator [aria-hidden] [ref=e1072]
+      - generic [ref=e1073]:
+        - generic [ref=e1075]:
+          - heading "Buying online" [level=2] [ref=e1076]
+          - list [ref=e1077]:
+            - listitem [ref=e1078]:
+              - link "Pay monthly deals" [ref=e1079] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts
+            - listitem [ref=e1080]:
+              - link "Pay as you go deals" [ref=e1081] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-as-you-go
+            - listitem [ref=e1082]:
+              - link "SIM only deals" [ref=e1083] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sim-only/best-sim-only-deals
+            - listitem [ref=e1084]:
+              - link "iPad" [ref=e1085] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/ipad
+            - listitem [ref=e1086]:
+              - link "Tablets" [ref=e1087] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/ipads-and-tablets
+            - listitem [ref=e1088]:
+              - link "Mobile Broadband" [ref=e1089] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile-broadband
+            - listitem [ref=e1090]:
+              - link "Home Broadband" [ref=e1091] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband
+            - listitem [ref=e1092]:
+              - link "Laptops" [ref=e1093] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/laptops
+            - listitem [ref=e1094]:
+              - link "Vodafone TV" [ref=e1095] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/tv
+            - listitem [ref=e1096]:
+              - link "Compare phones" [ref=e1097] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/compare
+            - listitem [ref=e1098]:
+              - link "Deals and offers" [ref=e1099] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/deals-and-offers
+            - listitem [ref=e1100]:
+              - link "Vodafone SuperMobile™" [ref=e1101] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/vodafone-supermobile
+            - listitem [ref=e1102]:
+              - link "Vodafone Xchange" [ref=e1103] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/xchange
+        - generic [ref=e1105]:
+          - heading "Latest phones" [level=2] [ref=e1106]
+          - list [ref=e1107]:
+            - listitem [ref=e1108]:
+              - link "iPhone 18 Pro Max" [ref=e1109] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro-max
+            - listitem [ref=e1110]:
+              - link "iPhone 18 Pro" [ref=e1111] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-18-pro
+            - listitem [ref=e1112]:
+              - link "iPhone Duo" [ref=e1113] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-duo
+            - listitem [ref=e1114]:
+              - link "iPhone Air" [ref=e1115] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/apple/iphone-air
+            - listitem [ref=e1116]:
+              - link "Samsung Galaxy S26 Ultra" [ref=e1117] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-ultra
+            - listitem [ref=e1118]:
+              - link "Samsung Galaxy S26" [ref=e1119] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26
+            - listitem [ref=e1120]:
+              - link "Samsung Galaxy S26+" [ref=e1121] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-s26-plus
+            - listitem [ref=e1122]:
+              - link "Samsung Galaxy Z Fold8" [ref=e1123] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/samsung/galaxy-z-fold8
+            - listitem [ref=e1124]:
+              - link "Google Pixel 11 Pro Fold" [ref=e1125] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-fold
+            - listitem [ref=e1126]:
+              - link "Google Pixel 11 Pro" [ref=e1127] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro
+            - listitem [ref=e1128]:
+              - link "Google Pixel 11" [ref=e1129] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11
+            - listitem [ref=e1130]:
+              - link "Google Pixel 11 Pro XL" [ref=e1131] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/pay-monthly-contracts/google/pixel-11-pro-xl
+            - listitem [ref=e1132]:
+              - link "New phones" [ref=e1133] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/new-phones
+        - generic [ref=e1135]:
+          - heading "Help and support" [level=2] [ref=e1136]
+          - list [ref=e1137]:
+            - listitem [ref=e1138]:
+              - link "All help topics" [ref=e1139] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help
+            - listitem [ref=e1140]:
+              - link "Help with your device" [ref=e1141] [cursor=pointer]:
+                - /url: https://deviceguides.vodafone.co.uk/
+            - listitem [ref=e1142]:
+              - link "Lost or stolen devices" [ref=e1143] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/mobile/lost-and-stolen
+            - listitem [ref=e1144]:
+              - link "Find a store" [ref=e1145] [cursor=pointer]:
+                - /url: https://stores.vodafone.co.uk/search
+            - listitem [ref=e1146]:
+              - link "Contact us" [ref=e1147] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us
+            - listitem [ref=e1148]:
+              - link "Make a complaint" [ref=e1149] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/how-to-complain
+            - listitem [ref=e1150]:
+              - link "Help and advice on fraud" [ref=e1151] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy/protecting-you
+            - listitem [ref=e1152]:
+              - link "Return a product" [ref=e1153] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/orders/returns
+            - listitem [ref=e1154]:
+              - link "TOBi" [ref=e1155] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/contact-us#p2pchat
+            - listitem [ref=e1156]:
+              - link "UK Charge Checker" [ref=e1157] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/billing/charge-checker
+            - listitem [ref=e1158]:
+              - link "Social broadband" [ref=e1159] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/essentials-broadband
+            - listitem [ref=e1160]:
+              - link "Broadband speed test" [ref=e1161] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/broadband/speed-test
+            - listitem [ref=e1162]:
+              - link "Accessibility" [ref=e1163] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/accessibility
+        - generic [ref=e1165]:
+          - heading "Vodafone UK" [level=2] [ref=e1166]
+          - list [ref=e1167]:
+            - listitem [ref=e1168]:
+              - link "About us" [ref=e1169] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/about-us
+            - listitem [ref=e1170]:
+              - link "For investors" [ref=e1171] [cursor=pointer]:
+                - /url: https://www.vodafone.com/investors
+            - listitem [ref=e1172]:
+              - link "Blog" [ref=e1173] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/blog
+            - listitem [ref=e1174]:
+              - link "News Centre" [ref=e1175] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/newscentre/
+            - listitem [ref=e1176]:
+              - link "Modern Slavery Statement" [ref=e1177] [cursor=pointer]:
+                - /url: https://www.vodafone.com/our-impact/esg-reporting-centre?section=slavery-and-human-trafficking-statement
+            - listitem [ref=e1178]:
+              - link "Careers" [ref=e1179] [cursor=pointer]:
+                - /url: https://careers.vodafone.com/uk/
+            - listitem [ref=e1180]:
+              - link "Switch to Vodafone" [ref=e1181] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1
+            - listitem [ref=e1182]:
+              - link "Our partnerships" [ref=e1183] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/mobile/partnerships
+            - listitem [ref=e1184]:
+              - link "VOXI" [ref=e1185] [cursor=pointer]:
+                - /url: https://www.voxi.co.uk/
+            - listitem [ref=e1186]:
+              - link "Talkmobile" [ref=e1187] [cursor=pointer]:
+                - /url: https://talkmobile.co.uk/
+            - listitem [ref=e1188]:
+              - link "VodafoneThree" [ref=e1189] [cursor=pointer]:
+                - /url: https://www.vodafonethree.com/
+            - listitem [ref=e1190]:
+              - link "Three UK" [ref=e1191] [cursor=pointer]:
+                - /url: https://www.three.co.uk/
+            - listitem [ref=e1192]:
+              - link "SMARTY" [ref=e1193] [cursor=pointer]:
+                - /url: https://smarty.co.uk/
+      - list [ref=e1194]:
+        - listitem [ref=e1195]:
+          - list [ref=e1196]:
+            - listitem [ref=e1197]:
+              - link "Terms and conditions" [ref=e1198] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/terms-and-conditions
+              - separator [aria-hidden] [ref=e1199]
+            - listitem [ref=e1200]:
+              - link "Site map" [ref=e1201] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/sitemap
+              - separator [aria-hidden] [ref=e1202]
+            - listitem [ref=e1203]:
+              - link "Privacy policy" [ref=e1204] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy
+              - separator [aria-hidden] [ref=e1205]
+            - listitem [ref=e1206]:
+              - link "Cookie policy" [ref=e1207] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/privacy?tabDeepLinkId=cookie-policy#policies
+              - separator [aria-hidden] [ref=e1208]
+            - listitem [ref=e1209]:
+              - link "PSTI Act" [ref=e1210] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security
+              - separator [aria-hidden] [ref=e1211]
+            - listitem [ref=e1212]:
+              - link "Device security support" [ref=e1213] [cursor=pointer]:
+                - /url: https://www.vodafone.co.uk/help/account/product-security#devices
+      - generic [ref=e1214]:
+        - paragraph [ref=e1215]: "Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN."
+        - paragraph [ref=e1216]: "*Annual Price Increase The monthly cost will increase each year on 1 April by £2.50 for Pay monthly plans with Airtime/Data, and £3.50 for Home Broadband plans. This doesn't affect Device Plans. More information: vodafone.co.uk/pricechanges"
+        - paragraph [ref=e1217]: © 2026 Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)
+  - dialog "Your cookies" [ref=e1220]:
+    - generic [ref=e1221]:
+      - generic [ref=e1222]:
+        - generic:
+          - heading "Your cookies" [level=2] [ref=e1223]
+          - generic [ref=e1224]:
+            - text: We use cookies, including from our partners, to enhance and personalise your experience. You can choose to "Accept all cookies", "Accept essential cookies only", or select “Manage Cookies” to view our Cookie Policy and manage any non-essential cookies.
+            - link "More information about your privacy, opens in a new tab" [ref=e1225] [cursor=pointer]:
+              - /url: https://www.vodafone.co.uk/privacy#cookie-policy
+              - text: Cookie policy
+      - generic [ref=e1227]:
+        - button "Manage cookies, Opens the preference center dialog" [ref=e1228] [cursor=pointer]: Manage cookies
+        - generic [ref=e1229]:
+          - button "Accept essential cookies only" [ref=e1230] [cursor=pointer]
+          - button "Accept all cookies" [ref=e1231] [cursor=pointer]

@@ -7,16 +7,15 @@ from utils.screenshot_manager import ScreenshotManager
 from utils.test_data_loader import get_test_data
 
 PRODUCT_URLS = {
-
     "broadband": "https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026",
-
+    "fwa": "https://www.vodafone.co.uk/broadband?icmp=CBU_Home_QLBanner_P3_HBB_26/03/2026",
     "simo": "https://www.vodafone.co.uk/sim-only/best-sim-only-deals?icmp=CBU_Home_QLBanner_P2_SIMO_26/03/2026",
-
-    "handset": "https://www.vodafone.co.uk/mobile/pay-monthly-contracts?icmp=CBU_Home_QLBanner_P1_PAYM_26/03/2026"}
+    "handset": "https://www.vodafone.co.uk/mobile/pay-monthly-contracts?icmp=CBU_Home_QLBanner_P1_PAYM_26/03/2026",
+}
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browsername", action="store", default="chrom")
+    parser.addoption("--browsername", action="store", default="chrome")
 
 
 @pytest.fixture(scope="session")
@@ -29,7 +28,7 @@ def browser_instance(request):
 
     headless = True if is_ci else False
 
-    if browser_name == "chrom":
+    if browser_name == "chrome":
 
         browser = playwright.chromium.launch(headless=headless)
 
